@@ -1,0 +1,11 @@
+{
+  "id": "AKG_C411_PP",
+  "label": "AKG C411",
+  "product_number": "C411 PP",
+  "description": "Condenser contact microphone",
+  "binding_config": {
+    "openhab_binding_config": {},
+    "miele_at_home_binding_config": {}
+  },
+  "company": "AKG"
+}

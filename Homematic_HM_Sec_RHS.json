@@ -1,0 +1,29 @@
+{
+  "id": "Homematic_HM_Sec_RHS",
+  "label": "Homematic_Sec_RHS",
+  "product_number": "HM_Sec_RHS",
+  "description": "Wireless rotary handle sensor by homematic.",
+  "binding_config": {
+    "type": "OPENHAB",
+    "openhab_binding_config": {
+      "openhab_config": "Homematic_Sec_RHS"
+    },
+    "miele_at_home_binding_config": {},
+    "floor_base_binding_config": {}
+  },
+  "company": "Homematic",
+  "unit_template": [
+    {
+      "type": "HANDLE_SENSOR",
+      "service_type": [
+        "HANDLE_PROVIDER"
+      ]
+    },
+    {
+      "type": "BATTERY",
+      "service_type": [
+        "BATTERY_PROVIDER"
+      ]
+    }
+  ]
+}

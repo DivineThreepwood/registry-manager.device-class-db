@@ -1,0 +1,63 @@
+{
+  "id": "Fibaro_FGS-221",
+  "label": "Double Relay Switch",
+  "product_number": "FGS-221",
+  "description": "Relay Switch 2×1.5kW 1.4 by Fibaro",
+  "binding_config": {
+    "type": "OPENHAB",
+    "openhab_binding_config": {},
+    "miele_at_home_binding_config": {},
+    "floor_base_binding_config": {}
+  },
+  "company": "Fibaro",
+  "unit_template": [
+    {
+      "type": "BUTTON",
+      "service_type": [
+        "BUTTON_PROVIDER"
+      ],
+      "service_template": [
+        {
+          "service_type": "BUTTON_PROVIDER",
+          "meta_config": {}
+        }
+      ]
+    },
+    {
+      "type": "LIGHT",
+      "service_type": [
+        "POWER_SERVICE"
+      ],
+      "service_template": [
+        {
+          "service_type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ]
+    },
+    {
+      "type": "BUTTON",
+      "service_type": [
+        "BUTTON_PROVIDER"
+      ],
+      "service_template": [
+        {
+          "service_type": "BUTTON_PROVIDER",
+          "meta_config": {}
+        }
+      ]
+    },
+    {
+      "type": "LIGHT",
+      "service_type": [
+        "POWER_SERVICE"
+      ],
+      "service_template": [
+        {
+          "service_type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ]
+    }
+  ]
+}

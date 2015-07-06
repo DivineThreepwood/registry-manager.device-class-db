@@ -1,0 +1,12 @@
+{
+  "id": "Samsung_SM-P9000ZWADBT",
+  "label": "Galaxy NotePRO",
+  "product_number": "SM-P9000ZWADBT",
+  "description": "12\" Tablet",
+  "binding_config": {
+    "openhab_binding_config": {},
+    "miele_at_home_binding_config": {},
+    "floor_base_binding_config": {}
+  },
+  "company": "Samsung"
+}

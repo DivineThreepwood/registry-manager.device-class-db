@@ -1,0 +1,72 @@
+{
+  "id": "Hager_TYA628C",
+  "label": "Hager_TYA628C",
+  "product_number": "TYA628C",
+  "description": "Hager rollershutter actuator with up to 8 rollershuters.",
+  "binding_config": {
+    "type": "OPENHAB",
+    "openhab_binding_config": {
+      "openhab_config": "Hager_TYA628C"
+    },
+    "miele_at_home_binding_config": {}
+  },
+  "company": "Hager",
+  "unit_template": [
+    {
+      "type": "ROLLERSHUTTER",
+      "service_type": [
+        "SHUTTER_SERVICE",
+        "OPENING_RATIO_PROVIDER"
+      ]
+    },
+    {
+      "type": "ROLLERSHUTTER",
+      "service_type": [
+        "SHUTTER_SERVICE",
+        "OPENING_RATIO_PROVIDER"
+      ]
+    },
+    {
+      "type": "ROLLERSHUTTER",
+      "service_type": [
+        "SHUTTER_SERVICE",
+        "OPENING_RATIO_PROVIDER"
+      ]
+    },
+    {
+      "type": "ROLLERSHUTTER",
+      "service_type": [
+        "SHUTTER_SERVICE",
+        "OPENING_RATIO_PROVIDER"
+      ]
+    },
+    {
+      "type": "ROLLERSHUTTER",
+      "service_type": [
+        "SHUTTER_SERVICE",
+        "OPENING_RATIO_PROVIDER"
+      ]
+    },
+    {
+      "type": "ROLLERSHUTTER",
+      "service_type": [
+        "SHUTTER_SERVICE",
+        "OPENING_RATIO_PROVIDER"
+      ]
+    },
+    {
+      "type": "ROLLERSHUTTER",
+      "service_type": [
+        "SHUTTER_SERVICE",
+        "OPENING_RATIO_PROVIDER"
+      ]
+    },
+    {
+      "type": "ROLLERSHUTTER",
+      "service_type": [
+        "SHUTTER_SERVICE",
+        "OPENING_RATIO_PROVIDER"
+      ]
+    }
+  ]
+}

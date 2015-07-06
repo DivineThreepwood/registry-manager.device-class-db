@@ -1,0 +1,46 @@
+{
+  "id": "Gira_429496730250000",
+  "label": "Gira_5142",
+  "product_number": "429496730250000",
+  "description": "4 knx buttons and a temperature controller by Gira.",
+  "binding_config": {
+    "type": "OPENHAB",
+    "openhab_binding_config": {
+      "openhab_config": "Gira_5142"
+    },
+    "miele_at_home_binding_config": {}
+  },
+  "company": "Gira",
+  "unit_template": [
+    {
+      "type": "BUTTON",
+      "service_type": [
+        "BUTTON_PROVIDER"
+      ]
+    },
+    {
+      "type": "BUTTON",
+      "service_type": [
+        "BUTTON_PROVIDER"
+      ]
+    },
+    {
+      "type": "BUTTON",
+      "service_type": [
+        "BUTTON_PROVIDER"
+      ]
+    },
+    {
+      "type": "BUTTON",
+      "service_type": [
+        "BUTTON_PROVIDER"
+      ]
+    },
+    {
+      "type": "TEMPERATURE_CONTROLLER",
+      "service_type": [
+        "TEMPERATURE_PROVIDER"
+      ]
+    }
+  ]
+}

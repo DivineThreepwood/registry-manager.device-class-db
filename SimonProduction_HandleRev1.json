@@ -1,0 +1,21 @@
+{
+  "id": "SimonProduction_HandleRev1",
+  "label": "Handle",
+  "product_number": "HandleRev1",
+  "description": "Colorful Kitchen Handles",
+  "binding_config": {
+    "type": "HANDLES",
+    "openhab_binding_config": {},
+    "miele_at_home_binding_config": {}
+  },
+  "company": "SimonProduction",
+  "unit_template": [
+    {
+      "type": "AMBIENT_LIGHT",
+      "service_type": [
+        "COLOR_SERVICE",
+        "POWER_SERVICE"
+      ]
+    }
+  ]
+}

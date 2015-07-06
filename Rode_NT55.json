@@ -1,0 +1,11 @@
+{
+  "id": "Rode_NT55",
+  "label": "Rode NT55",
+  "product_number": "NT55",
+  "description": "Condenser omnidirectional microphone",
+  "binding_config": {
+    "openhab_binding_config": {},
+    "miele_at_home_binding_config": {}
+  },
+  "company": "Røde"
+}

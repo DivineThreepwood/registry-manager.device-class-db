@@ -1,0 +1,52 @@
+{
+  "id": "Gira_429496730210000",
+  "label": "Gira_5133",
+  "product_number": "429496730210000",
+  "description": "6 knx buttons by Gira.",
+  "binding_config": {
+    "type": "OPENHAB",
+    "openhab_binding_config": {
+      "openhab_config": "Gira_5133"
+    },
+    "miele_at_home_binding_config": {}
+  },
+  "company": "Gira",
+  "unit_template": [
+    {
+      "type": "BUTTON",
+      "service_type": [
+        "BUTTON_PROVIDER"
+      ]
+    },
+    {
+      "type": "BUTTON",
+      "service_type": [
+        "BUTTON_PROVIDER"
+      ]
+    },
+    {
+      "type": "BUTTON",
+      "service_type": [
+        "BUTTON_PROVIDER"
+      ]
+    },
+    {
+      "type": "BUTTON",
+      "service_type": [
+        "BUTTON_PROVIDER"
+      ]
+    },
+    {
+      "type": "BUTTON",
+      "service_type": [
+        "BUTTON_PROVIDER"
+      ]
+    },
+    {
+      "type": "BUTTON",
+      "service_type": [
+        "BUTTON_PROVIDER"
+      ]
+    }
+  ]
+}
