@@ -88,6 +88,14 @@
               {
                 "key": "OPENHAB_BINDING_CONFIG",
                 "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dbattery"
+              },
+              {
+                "key": "OPENHAB_SERVICE_LABEL_DESCRIPTOR",
+                "value": "Temp [%.1f °C]"
+              },
+              {
+                "key": "OPENHAB_BINDING_ICON",
+                "value": "temperature"
               }
             ]
           }
@@ -113,5 +121,6 @@
         }
       ]
     }
-  ]
+  ],
+  "meta_config": {}
 }
