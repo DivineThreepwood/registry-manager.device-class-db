@@ -28,11 +28,19 @@
               },
               {
                 "key": "OPENHAB_BINDING_CONFIG",
-                "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_alarm"
+                "value": "${OPENHAB_BINDING_DEVICE_ID}:1:command\u003dsensor_alarm,alarm_type\u003d1"
               },
               {
                 "key": "OPENHAB_BINDING_ICON",
                 "value": "fire"
+              },
+              {
+                "key": "OPENHAB_BINDING_COMMAND",
+                "value": "Contact"
+              },
+              {
+                "key": "OPENHAB_SERVICE_LABEL_DESCRIPTOR",
+                "value": "Smoke detection [%s]"
               }
             ]
           }
@@ -65,6 +73,14 @@
               {
                 "key": "OPENHAB_BINDING_CONFIG",
                 "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_multilevel"
+              },
+              {
+                "key": "OPENHAB_SERVICE_LABEL_DESCRIPTOR",
+                "value": "Temp [%.1f °C]"
+              },
+              {
+                "key": "OPENHAB_BINDING_ICON",
+                "value": "temperature"
               }
             ]
           }
@@ -91,11 +107,11 @@
               },
               {
                 "key": "OPENHAB_SERVICE_LABEL_DESCRIPTOR",
-                "value": "Temp [%.1f °C]"
+                "value": "${LABEL} Battery [%.0f %%]"
               },
               {
                 "key": "OPENHAB_BINDING_ICON",
-                "value": "temperature"
+                "value": "battery"
               }
             ]
           }
