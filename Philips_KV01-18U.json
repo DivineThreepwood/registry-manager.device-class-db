@@ -31,7 +31,7 @@
               },
               {
                 "key": "OPENHAB_BINDING_CONFIG",
-                "value": "${DEVICE_ID}"
+                "value": "${OPENHAB_BINDING_DEVICE_ID}"
               }
             ]
           }
@@ -46,7 +46,7 @@
               },
               {
                 "key": "OPENHAB_BINDING_CONFIG",
-                "value": "${DEVICE_ID}"
+                "value": "${OPENHAB_BINDING_DEVICE_ID}"
               }
             ]
           }
@@ -61,7 +61,7 @@
               },
               {
                 "key": "OPENHAB_BINDING_CONFIG",
-                "value": "${DEVICE_ID}"
+                "value": "${OPENHAB_BINDING_DEVICE_ID}"
               }
             ]
           }

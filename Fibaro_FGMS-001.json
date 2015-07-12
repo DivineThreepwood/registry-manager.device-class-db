@@ -29,7 +29,7 @@
               },
               {
                 "key": "OPENHAB_BINDING_CONFIG",
-                "value": "${DEVICE_ID}:command\u003dsensor_binary"
+                "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_binary"
               }
             ]
           }
@@ -52,7 +52,7 @@
               },
               {
                 "key": "OPENHAB_BINDING_CONFIG",
-                "value": "${DEVICE_ID}:command\u003dbattery"
+                "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dbattery"
               }
             ]
           }
@@ -75,7 +75,7 @@
               },
               {
                 "key": "OPENHAB_BINDING_CONFIG",
-                "value": "${DEVICE_ID}:command\u003dsensor_alarm"
+                "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_alarm"
               }
             ]
           }
@@ -98,7 +98,7 @@
               },
               {
                 "key": "OPENHAB_BINDING_CONFIG",
-                "value": "${DEVICE_ID}:command\u003dsensor_multilevel,sensor_type\u003d1"
+                "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_multilevel,sensor_type\u003d1"
               }
             ]
           }
@@ -121,7 +121,7 @@
               },
               {
                 "key": "OPENHAB_BINDING_CONFIG",
-                "value": "${DEVICE_ID}:command\u003dsensor_multilevel,sensor_type\u003d3"
+                "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_multilevel,sensor_type\u003d3"
               }
             ]
           }
