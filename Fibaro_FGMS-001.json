@@ -106,11 +106,11 @@
               },
               {
                 "key": "OPENHAB_BINDING_CONFIG",
-                "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_multilevel,sensor_type\u003d1"
+                "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_multilevel,sensor_type\u003d1,refresh_interval\u003d900"
               },
               {
                 "key": "OPENHAB_SERVICE_LABEL_DESCRIPTOR",
-                "value": "Temp [%.1f ������C]"
+                "value": "Temp [%.1°C]"
               },
               {
                 "key": "OPENHAB_BINDING_ICON",
@@ -137,7 +137,15 @@
               },
               {
                 "key": "OPENHAB_BINDING_CONFIG",
-                "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_multilevel,sensor_type\u003d3"
+                "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_multilevel,sensor_type\u003d3,refresh_interval\u003d900"
+              },
+              {
+                "key": "OPENHAB_SERVICE_LABEL_DESCRIPTOR",
+                "value": "[%.0f Lux]"
+              },
+              {
+                "key": "OPENHAB_BINDING_ICON",
+                "value": "sun"
               }
             ]
           }
