@@ -2,7 +2,7 @@
   "id": "Fibaro_FGS-221",
   "label": "Double Relay Switch",
   "product_number": "FGS-221",
-  "description": "Relay Switch 2��1.5kW 1.4 by Fibaro",
+  "description": "Relay Switch 2������1.5kW 1.4 by Fibaro",
   "binding_config": {
     "type": "OPENHAB",
     "openhab_binding_config": {},
