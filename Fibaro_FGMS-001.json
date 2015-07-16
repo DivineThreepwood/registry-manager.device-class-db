@@ -110,7 +110,7 @@
               },
               {
                 "key": "OPENHAB_SERVICE_LABEL_DESCRIPTOR",
-                "value": "Temp [%.1°C]"
+                "value": "Temp [%.1 °C]"
               },
               {
                 "key": "OPENHAB_BINDING_ICON",
