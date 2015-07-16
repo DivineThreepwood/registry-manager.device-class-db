@@ -30,6 +30,14 @@
               {
                 "key": "OPENHAB_BINDING_CONFIG",
                 "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_binary"
+              },
+              {
+                "key": "OPENHAB_BINDING_LABEL_DESCRIPTOR",
+                "value": "${LABEL} [%s]"
+              },
+              {
+                "key": "OPENHAB_BINDING_ICON",
+                "value": "pir"
               }
             ]
           }
