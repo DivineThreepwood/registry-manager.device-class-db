@@ -149,7 +149,7 @@
               },
               {
                 "key": "OPENHAB_SERVICE_LABEL_DESCRIPTOR",
-                "value": "[%.0f Lux]"
+                "value": "${LABEL} [%.0f Lux]"
               },
               {
                 "key": "OPENHAB_BINDING_ICON",
