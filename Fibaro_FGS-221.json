@@ -31,7 +31,18 @@
       "service_template": [
         {
           "service_type": "POWER_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_TYPE",
+                "value": "zwave"
+              },
+              {
+                "key": "OPENHAB_BINDING_CONFIG",
+                "value": "${OPENHAB_BINDING_DEVICE_ID}"
+              }
+            ]
+          }
         }
       ]
     },
@@ -55,7 +66,18 @@
       "service_template": [
         {
           "service_type": "POWER_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_TYPE",
+                "value": "zwave"
+              },
+              {
+                "key": "OPENHAB_BINDING_CONFIG",
+                "value": "${OPENHAB_BINDING_DEVICE_ID}:2:command\u003dswitch_binary"
+              }
+            ]
+          }
         }
       ]
     }
