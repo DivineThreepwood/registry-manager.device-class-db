@@ -25,5 +25,6 @@
         "BATTERY_PROVIDER"
       ]
     }
-  ]
+  ],
+  "meta_config": {}
 }
