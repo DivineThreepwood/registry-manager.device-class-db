@@ -37,7 +37,7 @@
               },
               {
                 "key": "OPENHAB_BINDING_ICON",
-                "value": "pir"
+                "value": "present"
               }
             ]
           }
