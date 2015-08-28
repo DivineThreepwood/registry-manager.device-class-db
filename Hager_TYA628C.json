@@ -5,68 +5,121 @@
   "description": "Hager rollershutter actuator with up to 8 rollershuters.",
   "binding_config": {
     "type": "OPENHAB",
-    "openhab_binding_config": {
-      "openhab_config": "Hager_TYA628C"
-    },
-    "miele_at_home_binding_config": {}
-  },
-  "company": "Hager",
-  "unit_template": [
-    {
-      "type": "ROLLERSHUTTER",
-      "service_type": [
-        "SHUTTER_SERVICE",
-        "OPENING_RATIO_PROVIDER"
-      ]
-    },
-    {
-      "type": "ROLLERSHUTTER",
-      "service_type": [
-        "SHUTTER_SERVICE",
-        "OPENING_RATIO_PROVIDER"
-      ]
-    },
-    {
-      "type": "ROLLERSHUTTER",
-      "service_type": [
-        "SHUTTER_SERVICE",
-        "OPENING_RATIO_PROVIDER"
-      ]
-    },
-    {
-      "type": "ROLLERSHUTTER",
-      "service_type": [
-        "SHUTTER_SERVICE",
-        "OPENING_RATIO_PROVIDER"
-      ]
-    },
-    {
-      "type": "ROLLERSHUTTER",
-      "service_type": [
-        "SHUTTER_SERVICE",
-        "OPENING_RATIO_PROVIDER"
-      ]
-    },
-    {
-      "type": "ROLLERSHUTTER",
-      "service_type": [
-        "SHUTTER_SERVICE",
-        "OPENING_RATIO_PROVIDER"
-      ]
-    },
-    {
-      "type": "ROLLERSHUTTER",
-      "service_type": [
-        "SHUTTER_SERVICE",
-        "OPENING_RATIO_PROVIDER"
-      ]
-    },
-    {
-      "type": "ROLLERSHUTTER",
-      "service_type": [
-        "SHUTTER_SERVICE",
-        "OPENING_RATIO_PROVIDER"
+    "meta_config": {
+      "entry": [
+        {
+          "key": "OPENHAB_BINDING_TYPE",
+          "value": "knx"
+        }
       ]
     }
-  ]
+  },
+  "company": "Hager",
+  "unit_template_config": [
+    {
+      "type": "ROLLERSHUTTER",
+      "service_template": [
+        {
+          "service_type": "OPENING_RATIO_PROVIDER",
+          "meta_config": {}
+        },
+        {
+          "service_type": "SHUTTER_SERVICE",
+          "meta_config": {}
+        }
+      ]
+    },
+    {
+      "type": "ROLLERSHUTTER",
+      "service_template": [
+        {
+          "service_type": "OPENING_RATIO_PROVIDER",
+          "meta_config": {}
+        },
+        {
+          "service_type": "SHUTTER_SERVICE",
+          "meta_config": {}
+        }
+      ]
+    },
+    {
+      "type": "ROLLERSHUTTER",
+      "service_template": [
+        {
+          "service_type": "OPENING_RATIO_PROVIDER",
+          "meta_config": {}
+        },
+        {
+          "service_type": "SHUTTER_SERVICE",
+          "meta_config": {}
+        }
+      ]
+    },
+    {
+      "type": "ROLLERSHUTTER",
+      "service_template": [
+        {
+          "service_type": "OPENING_RATIO_PROVIDER",
+          "meta_config": {}
+        },
+        {
+          "service_type": "SHUTTER_SERVICE",
+          "meta_config": {}
+        }
+      ]
+    },
+    {
+      "type": "ROLLERSHUTTER",
+      "service_template": [
+        {
+          "service_type": "OPENING_RATIO_PROVIDER",
+          "meta_config": {}
+        },
+        {
+          "service_type": "SHUTTER_SERVICE",
+          "meta_config": {}
+        }
+      ]
+    },
+    {
+      "type": "ROLLERSHUTTER",
+      "service_template": [
+        {
+          "service_type": "OPENING_RATIO_PROVIDER",
+          "meta_config": {}
+        },
+        {
+          "service_type": "SHUTTER_SERVICE",
+          "meta_config": {}
+        }
+      ]
+    },
+    {
+      "type": "ROLLERSHUTTER",
+      "service_template": [
+        {
+          "service_type": "OPENING_RATIO_PROVIDER",
+          "meta_config": {}
+        },
+        {
+          "service_type": "SHUTTER_SERVICE",
+          "meta_config": {}
+        }
+      ]
+    },
+    {
+      "type": "ROLLERSHUTTER",
+      "service_template": [
+        {
+          "service_type": "OPENING_RATIO_PROVIDER",
+          "meta_config": {}
+        },
+        {
+          "service_type": "SHUTTER_SERVICE",
+          "meta_config": {}
+        }
+      ]
+    }
+  ],
+  "meta_config": {}
 }

@@ -5,24 +5,49 @@
   "description": "Reed switch by Homematic.",
   "binding_config": {
     "type": "OPENHAB",
-    "openhab_binding_config": {
-      "openhab_config": "Homematic_HM_Sec_SC_2"
-    },
-    "miele_at_home_binding_config": {}
-  },
-  "company": "Homematic",
-  "unit_template": [
-    {
-      "type": "REED_SWITCH",
-      "service_type": [
-        "REED_SWITCH_PROVIDER"
-      ]
-    },
-    {
-      "type": "BATTERY",
-      "service_type": [
-        "BATTERY_PROVIDER"
+    "meta_config": {
+      "entry": [
+        {
+          "key": "OPENHAB_BINDING_TYPE",
+          "value": "homematic"
+        }
       ]
     }
-  ]
+  },
+  "company": "Homematic",
+  "unit_template_config": [
+    {
+      "type": "BATTERY",
+      "service_template": [
+        {
+          "service_type": "BATTERY_PROVIDER",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_CONFIG",
+                "value": "address\u003d${SERIAL_NUMBER}, channel\u003d0, parameter\u003dBATTERY_TYPE"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "REED_SWITCH",
+      "service_template": [
+        {
+          "service_type": "REED_SWITCH_PROVIDER",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_CONFIG",
+                "value": "address\u003d${SERIAL_NUMBER}, channel\u003d1, parameter\u003dSTATE"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "meta_config": {}
 }

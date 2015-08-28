@@ -2,33 +2,27 @@
   "id": "Philips_KV01-18U",
   "label": "Philps_Hue_E27",
   "product_number": "KV01-18U",
-  "description": "Hue ambient light with the socket E27.",
+  "description": "Ambient light with the socket E27.",
   "binding_config": {
     "type": "OPENHAB",
-    "openhab_binding_config": {
-      "openhab_config": "PH_Hue_E27"
-    },
-    "miele_at_home_binding_config": {},
-    "floor_base_binding_config": {}
+    "meta_config": {
+      "entry": [
+        {
+          "key": "OPENHAB_BINDING_TYPE",
+          "value": "hue"
+        }
+      ]
+    }
   },
   "company": "Philips",
-  "unit_template": [
+  "unit_template_config": [
     {
       "type": "AMBIENT_LIGHT",
-      "service_type": [
-        "COLOR_SERVICE",
-        "BRIGHTNESS_SERVICE",
-        "POWER_SERVICE"
-      ],
       "service_template": [
         {
-          "service_type": "COLOR_SERVICE",
+          "service_type": "BRIGHTNESS_SERVICE",
           "meta_config": {
             "entry": [
-              {
-                "key": "OPENHAB_BINDING_TYPE",
-                "value": "hue"
-              },
               {
                 "key": "OPENHAB_BINDING_CONFIG",
                 "value": "${OPENHAB_BINDING_DEVICE_ID}"
@@ -37,13 +31,9 @@
           }
         },
         {
-          "service_type": "BRIGHTNESS_SERVICE",
+          "service_type": "COLOR_SERVICE",
           "meta_config": {
             "entry": [
-              {
-                "key": "OPENHAB_BINDING_TYPE",
-                "value": "hue"
-              },
               {
                 "key": "OPENHAB_BINDING_CONFIG",
                 "value": "${OPENHAB_BINDING_DEVICE_ID}"
@@ -56,10 +46,6 @@
           "meta_config": {
             "entry": [
               {
-                "key": "OPENHAB_BINDING_TYPE",
-                "value": "hue"
-              },
-              {
                 "key": "OPENHAB_BINDING_CONFIG",
                 "value": "${OPENHAB_BINDING_DEVICE_ID}"
               }
@@ -68,5 +54,6 @@
         }
       ]
     }
-  ]
+  ],
+  "meta_config": {}
 }

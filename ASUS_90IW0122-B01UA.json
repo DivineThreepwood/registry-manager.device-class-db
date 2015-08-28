@@ -3,9 +3,6 @@
   "label": "Xtion Pro Live",
   "product_number": "90IW0122-B01UA",
   "description": "USB 2.0 3D/RGB Sensor",
-  "binding_config": {
-    "openhab_binding_config": {},
-    "miele_at_home_binding_config": {}
-  },
+  "binding_config": {},
   "company": "ASUS"
 }

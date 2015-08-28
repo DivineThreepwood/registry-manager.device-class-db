@@ -5,24 +5,47 @@
   "description": "Wireless rotary handle sensor by homematic.",
   "binding_config": {
     "type": "OPENHAB",
-    "openhab_binding_config": {
-      "openhab_config": "Homematic_Sec_RHS"
-    },
-    "miele_at_home_binding_config": {},
-    "floor_base_binding_config": {}
+    "meta_config": {
+      "entry": [
+        {
+          "key": "OPENHAB_BINDING_TYPE",
+          "value": "homematic"
+        }
+      ]
+    }
   },
   "company": "Homematic",
-  "unit_template": [
+  "unit_template_config": [
     {
-      "type": "HANDLE_SENSOR",
-      "service_type": [
-        "HANDLE_PROVIDER"
+      "type": "BATTERY",
+      "service_template": [
+        {
+          "service_type": "BATTERY_PROVIDER",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_CONFIG",
+                "value": "address\u003d${SERIAL_NUMBER}, channel\u003d0, parameter\u003dBATTERY_TYPE"
+              }
+            ]
+          }
+        }
       ]
     },
     {
-      "type": "BATTERY",
-      "service_type": [
-        "BATTERY_PROVIDER"
+      "type": "HANDLE_SENSOR",
+      "service_template": [
+        {
+          "service_type": "HANDLE_PROVIDER",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_CONFIG",
+                "value": "address\u003d${SERIAL_NUMBER}, channel\u003d1, parameter\u003dSTATE"
+              }
+            ]
+          }
+        }
       ]
     }
   ],

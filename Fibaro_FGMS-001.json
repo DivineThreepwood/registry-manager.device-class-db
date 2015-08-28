@@ -5,59 +5,24 @@
   "description": "Wireless sensor for motion, temperature, brightness and tamper with a battery by Fibaro.",
   "binding_config": {
     "type": "OPENHAB",
-    "openhab_binding_config": {
-      "openhab_config": "F_MotionSensor"
-    },
-    "miele_at_home_binding_config": {},
-    "floor_base_binding_config": {}
-  },
-  "company": "Fibaro",
-  "unit_template": [
-    {
-      "type": "MOTION_SENSOR",
-      "service_type": [
-        "MOTION_PROVIDER"
-      ],
-      "service_template": [
+    "meta_config": {
+      "entry": [
         {
-          "service_type": "MOTION_PROVIDER",
-          "meta_config": {
-            "entry": [
-              {
-                "key": "OPENHAB_BINDING_TYPE",
-                "value": "zwave"
-              },
-              {
-                "key": "OPENHAB_BINDING_CONFIG",
-                "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_binary"
-              },
-              {
-                "key": "OPENHAB_BINDING_LABEL_DESCRIPTOR",
-                "value": "${LABEL} [%s]"
-              },
-              {
-                "key": "OPENHAB_BINDING_ICON",
-                "value": "present"
-              }
-            ]
-          }
+          "key": "OPENHAB_BINDING_TYPE",
+          "value": "zwave"
         }
       ]
-    },
+    }
+  },
+  "company": "Fibaro",
+  "unit_template_config": [
     {
       "type": "BATTERY",
-      "service_type": [
-        "BATTERY_PROVIDER"
-      ],
       "service_template": [
         {
           "service_type": "BATTERY_PROVIDER",
           "meta_config": {
             "entry": [
-              {
-                "key": "OPENHAB_BINDING_TYPE",
-                "value": "zwave"
-              },
               {
                 "key": "OPENHAB_BINDING_CONFIG",
                 "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dbattery"
@@ -76,73 +41,12 @@
       ]
     },
     {
-      "type": "TAMPER_SWITCH",
-      "service_type": [
-        "TAMPER_PROVIDER"
-      ],
-      "service_template": [
-        {
-          "service_type": "TAMPER_PROVIDER",
-          "meta_config": {
-            "entry": [
-              {
-                "key": "OPENHAB_BINDING_TYPE",
-                "value": "zwave"
-              },
-              {
-                "key": "OPENHAB_BINDING_CONFIG",
-                "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_alarm"
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "type": "TEMPERATURE_SENSOR",
-      "service_type": [
-        "TEMPERATURE_PROVIDER"
-      ],
-      "service_template": [
-        {
-          "service_type": "TEMPERATURE_PROVIDER",
-          "meta_config": {
-            "entry": [
-              {
-                "key": "OPENHAB_BINDING_TYPE",
-                "value": "zwave"
-              },
-              {
-                "key": "OPENHAB_BINDING_CONFIG",
-                "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_multilevel,sensor_type\u003d1,refresh_interval\u003d900"
-              },
-              {
-                "key": "OPENHAB_SERVICE_LABEL_DESCRIPTOR",
-                "value": "Temp [%.1f °C]"
-              },
-              {
-                "key": "OPENHAB_BINDING_ICON",
-                "value": "temperature"
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
       "type": "BRIGHTNESS_SENSOR",
-      "service_type": [
-        "BRIGHTNESS_PROVIDER"
-      ],
       "service_template": [
         {
           "service_type": "BRIGHTNESS_PROVIDER",
           "meta_config": {
             "entry": [
-              {
-                "key": "OPENHAB_BINDING_TYPE",
-                "value": "zwave"
-              },
               {
                 "key": "OPENHAB_BINDING_CONFIG",
                 "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_multilevel,sensor_type\u003d3,refresh_interval\u003d900"
@@ -154,6 +58,70 @@
               {
                 "key": "OPENHAB_BINDING_ICON",
                 "value": "sun"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "MOTION_SENSOR",
+      "service_template": [
+        {
+          "service_type": "MOTION_PROVIDER",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_CONFIG",
+                "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_binary"
+              },
+              {
+                "key": "OPENHAB_SERVICE_LABEL_DESCRIPTOR",
+                "value": "${LABEL} [%s]"
+              },
+              {
+                "key": "OPENHAB_BINDING_ICON",
+                "value": "present"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "TAMPER_SWITCH",
+      "service_template": [
+        {
+          "service_type": "TAMPER_PROVIDER",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_CONFIG",
+                "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_alarm"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "type": "TEMPERATURE_SENSOR",
+      "service_template": [
+        {
+          "service_type": "TEMPERATURE_PROVIDER",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_CONFIG",
+                "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_multilevel,sensor_type\u003d1,refresh_interval\u003d900"
+              },
+              {
+                "key": "OPENHAB_SERVICE_LABEL_DESCRIPTOR",
+                "value": "Temp [%.1f °C]"
+              },
+              {
+                "key": "OPENHAB_BINDING_ICON",
+                "value": "temperature"
               }
             ]
           }

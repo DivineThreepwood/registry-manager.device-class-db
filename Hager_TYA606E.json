@@ -5,84 +5,125 @@
   "description": "Hager power plug actuator with 6 power switches and related power consumption sensors.",
   "binding_config": {
     "type": "OPENHAB",
-    "openhab_binding_config": {
-      "openhab_config": "Hager_TYA606E"
-    },
-    "miele_at_home_binding_config": {}
-  },
-  "company": "Hager",
-  "unit_template": [
-    {
-      "type": "POWER_PLUG",
-      "service_type": [
-        "POWER_SERVICE"
-      ]
-    },
-    {
-      "type": "POWER_CONSUMPTION_SENSOR",
-      "service_type": [
-        "POWER_CONSUMPTION_PROVIDER"
-      ]
-    },
-    {
-      "type": "POWER_PLUG",
-      "service_type": [
-        "POWER_SERVICE"
-      ]
-    },
-    {
-      "type": "POWER_CONSUMPTION_SENSOR",
-      "service_type": [
-        "POWER_CONSUMPTION_PROVIDER"
-      ]
-    },
-    {
-      "type": "POWER_PLUG",
-      "service_type": [
-        "POWER_SERVICE"
-      ]
-    },
-    {
-      "type": "POWER_CONSUMPTION_SENSOR",
-      "service_type": [
-        "POWER_CONSUMPTION_PROVIDER"
-      ]
-    },
-    {
-      "type": "POWER_PLUG",
-      "service_type": [
-        "POWER_SERVICE"
-      ]
-    },
-    {
-      "type": "POWER_CONSUMPTION_SENSOR",
-      "service_type": [
-        "POWER_CONSUMPTION_PROVIDER"
-      ]
-    },
-    {
-      "type": "POWER_PLUG",
-      "service_type": [
-        "POWER_SERVICE"
-      ]
-    },
-    {
-      "type": "POWER_CONSUMPTION_SENSOR",
-      "service_type": [
-        "POWER_CONSUMPTION_PROVIDER"
-      ]
-    },
-    {
-      "type": "POWER_PLUG",
-      "service_type": [
-        "POWER_SERVICE"
-      ]
-    },
-    {
-      "type": "POWER_CONSUMPTION_SENSOR",
-      "service_type": [
-        "POWER_CONSUMPTION_PROVIDER"
+    "meta_config": {
+      "entry": [
+        {
+          "key": "OPENHAB_BINDING_TYPE",
+          "value": "knx"
+        }
       ]
     }
-  ]
+  },
+  "company": "Hager",
+  "unit_template_config": [
+    {
+      "type": "POWER_PLUG",
+      "service_template": [
+        {
+          "service_type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ]
+    },
+    {
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "service_template": [
+        {
+          "service_type": "POWER_CONSUMPTION_PROVIDER",
+          "meta_config": {}
+        }
+      ]
+    },
+    {
+      "type": "POWER_PLUG",
+      "service_template": [
+        {
+          "service_type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ]
+    },
+    {
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "service_template": [
+        {
+          "service_type": "POWER_CONSUMPTION_PROVIDER",
+          "meta_config": {}
+        }
+      ]
+    },
+    {
+      "type": "POWER_PLUG",
+      "service_template": [
+        {
+          "service_type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ]
+    },
+    {
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "service_template": [
+        {
+          "service_type": "POWER_CONSUMPTION_PROVIDER",
+          "meta_config": {}
+        }
+      ]
+    },
+    {
+      "type": "POWER_PLUG",
+      "service_template": [
+        {
+          "service_type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ]
+    },
+    {
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "service_template": [
+        {
+          "service_type": "POWER_CONSUMPTION_PROVIDER",
+          "meta_config": {}
+        }
+      ]
+    },
+    {
+      "type": "POWER_PLUG",
+      "service_template": [
+        {
+          "service_type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ]
+    },
+    {
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "service_template": [
+        {
+          "service_type": "POWER_CONSUMPTION_PROVIDER",
+          "meta_config": {}
+        }
+      ]
+    },
+    {
+      "type": "POWER_PLUG",
+      "service_template": [
+        {
+          "service_type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ]
+    },
+    {
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "service_template": [
+        {
+          "service_type": "POWER_CONSUMPTION_PROVIDER",
+          "meta_config": {}
+        }
+      ]
+    }
+  ],
+  "meta_config": {}
 }

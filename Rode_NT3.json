@@ -3,9 +3,6 @@
   "label": "Rode NT3",
   "product_number": "NT3",
   "description": "Condenser cardoid microphone",
-  "binding_config": {
-    "openhab_binding_config": {},
-    "miele_at_home_binding_config": {}
-  },
-  "company": "Rode"
+  "binding_config": {},
+  "company": "Røde"
 }

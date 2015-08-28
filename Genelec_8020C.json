@@ -3,9 +3,6 @@
   "label": "Genelec 8020",
   "product_number": "8020C",
   "description": "Two-way monitor loudspeaker",
-  "binding_config": {
-    "openhab_binding_config": {},
-    "miele_at_home_binding_config": {}
-  },
+  "binding_config": {},
   "company": "Genelec"
 }

@@ -5,33 +5,56 @@
   "description": "Hager dimmer actuator with 3 dimmers.",
   "binding_config": {
     "type": "OPENHAB",
-    "openhab_binding_config": {
-      "openhab_config": "Hager_TYA663A"
-    },
-    "miele_at_home_binding_config": {}
-  },
-  "company": "Hager",
-  "unit_template": [
-    {
-      "type": "DIMMER",
-      "service_type": [
-        "DIM_SERVICE",
-        "POWER_SERVICE"
-      ]
-    },
-    {
-      "type": "DIMMER",
-      "service_type": [
-        "DIM_SERVICE",
-        "POWER_SERVICE"
-      ]
-    },
-    {
-      "type": "DIMMER",
-      "service_type": [
-        "DIM_SERVICE",
-        "POWER_SERVICE"
+    "meta_config": {
+      "entry": [
+        {
+          "key": "OPENHAB_BINDING_TYPE",
+          "value": "knx"
+        }
       ]
     }
-  ]
+  },
+  "company": "Hager",
+  "unit_template_config": [
+    {
+      "type": "DIMMER",
+      "service_template": [
+        {
+          "service_type": "DIM_SERVICE",
+          "meta_config": {}
+        },
+        {
+          "service_type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ]
+    },
+    {
+      "type": "DIMMER",
+      "service_template": [
+        {
+          "service_type": "DIM_SERVICE",
+          "meta_config": {}
+        },
+        {
+          "service_type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ]
+    },
+    {
+      "type": "DIMMER",
+      "service_template": [
+        {
+          "service_type": "DIM_SERVICE",
+          "meta_config": {}
+        },
+        {
+          "service_type": "POWER_SERVICE",
+          "meta_config": {}
+        }
+      ]
+    }
+  ],
+  "meta_config": {}
 }

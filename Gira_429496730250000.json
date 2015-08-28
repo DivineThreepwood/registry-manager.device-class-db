@@ -5,42 +5,68 @@
   "description": "4 knx buttons and a temperature controller by Gira.",
   "binding_config": {
     "type": "OPENHAB",
-    "openhab_binding_config": {
-      "openhab_config": "Gira_5142"
-    },
-    "miele_at_home_binding_config": {}
-  },
-  "company": "Gira",
-  "unit_template": [
-    {
-      "type": "BUTTON",
-      "service_type": [
-        "BUTTON_PROVIDER"
-      ]
-    },
-    {
-      "type": "BUTTON",
-      "service_type": [
-        "BUTTON_PROVIDER"
-      ]
-    },
-    {
-      "type": "BUTTON",
-      "service_type": [
-        "BUTTON_PROVIDER"
-      ]
-    },
-    {
-      "type": "BUTTON",
-      "service_type": [
-        "BUTTON_PROVIDER"
-      ]
-    },
-    {
-      "type": "TEMPERATURE_CONTROLLER",
-      "service_type": [
-        "TEMPERATURE_PROVIDER"
+    "meta_config": {
+      "entry": [
+        {
+          "key": "OPENHAB_BINDING_TYPE",
+          "value": "knx"
+        }
       ]
     }
-  ]
+  },
+  "company": "Gira",
+  "unit_template_config": [
+    {
+      "type": "TEMPERATURE_CONTROLLER",
+      "service_template": [
+        {
+          "service_type": "TEMPERATURE_PROVIDER",
+          "meta_config": {}
+        },
+        {
+          "meta_config": {},
+          "100": [
+            205
+          ]
+        }
+      ]
+    },
+    {
+      "type": "BUTTON",
+      "service_template": [
+        {
+          "service_type": "BUTTON_PROVIDER",
+          "meta_config": {}
+        }
+      ]
+    },
+    {
+      "type": "BUTTON",
+      "service_template": [
+        {
+          "service_type": "BUTTON_PROVIDER",
+          "meta_config": {}
+        }
+      ]
+    },
+    {
+      "type": "BUTTON",
+      "service_template": [
+        {
+          "service_type": "BUTTON_PROVIDER",
+          "meta_config": {}
+        }
+      ]
+    },
+    {
+      "type": "BUTTON",
+      "service_template": [
+        {
+          "service_type": "BUTTON_PROVIDER",
+          "meta_config": {}
+        }
+      ]
+    }
+  ],
+  "meta_config": {}
 }
