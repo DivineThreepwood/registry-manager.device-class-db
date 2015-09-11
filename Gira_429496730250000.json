@@ -24,10 +24,8 @@
           "meta_config": {}
         },
         {
-          "meta_config": {},
-          "100": [
-            205
-          ]
+          "service_type": "TARGET_TEMPERATURE_PROVIDER",
+          "meta_config": {}
         }
       ]
     },
