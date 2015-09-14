@@ -24,10 +24,7 @@
           "meta_config": {}
         },
         {
-<<<<<<< HEAD
-=======
           "service_type": "TARGET_TEMPERATURE_PROVIDER",
->>>>>>> branch 'master' of https://github.com/DivineThreepwood/registry-manager.device-class-db.git
           "meta_config": {}
         }
       ]
