@@ -1,7 +1,7 @@
 {
   "id": "Homematic_Sec_RHS",
   "label": "Homematic_Sec_RHS",
-  "product_number": "HM_Sec_RHS",
+  "product_number": "Sec_RHS",
   "description": "Wireless rotary handle sensor by homematic.",
   "binding_config": {
     "type": "OPENHAB",
