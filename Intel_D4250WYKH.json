@@ -1,0 +1,11 @@
+{
+  "id": "Intel_D4250WYKH",
+  "label": "NUC",
+  "product_number": "D4250WYKH",
+  "description": "Complete x86 PC in extremely small formfactor",
+  "binding_config": {
+    "meta_config": {}
+  },
+  "company": "Intel",
+  "meta_config": {}
+}
