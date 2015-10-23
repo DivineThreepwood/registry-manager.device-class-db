@@ -17,6 +17,7 @@
   "company": "Hager",
   "unit_template_config": [
     {
+      "id": "Hager_TYA628C_ROLLERSHUTTER_0",
       "type": "ROLLERSHUTTER",
       "service_template": [
         {
@@ -30,6 +31,7 @@
       ]
     },
     {
+      "id": "Hager_TYA628C_ROLLERSHUTTER_1",
       "type": "ROLLERSHUTTER",
       "service_template": [
         {
@@ -43,6 +45,7 @@
       ]
     },
     {
+      "id": "Hager_TYA628C_ROLLERSHUTTER_2",
       "type": "ROLLERSHUTTER",
       "service_template": [
         {
@@ -56,6 +59,7 @@
       ]
     },
     {
+      "id": "Hager_TYA628C_ROLLERSHUTTER_3",
       "type": "ROLLERSHUTTER",
       "service_template": [
         {
@@ -69,6 +73,7 @@
       ]
     },
     {
+      "id": "Hager_TYA628C_ROLLERSHUTTER_4",
       "type": "ROLLERSHUTTER",
       "service_template": [
         {
@@ -82,6 +87,7 @@
       ]
     },
     {
+      "id": "Hager_TYA628C_ROLLERSHUTTER_5",
       "type": "ROLLERSHUTTER",
       "service_template": [
         {
@@ -95,6 +101,7 @@
       ]
     },
     {
+      "id": "Hager_TYA628C_ROLLERSHUTTER_6",
       "type": "ROLLERSHUTTER",
       "service_template": [
         {
@@ -108,6 +115,7 @@
       ]
     },
     {
+      "id": "Hager_TYA628C_ROLLERSHUTTER_7",
       "type": "ROLLERSHUTTER",
       "service_template": [
         {

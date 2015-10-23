@@ -17,6 +17,7 @@
   "company": "Hager",
   "unit_template_config": [
     {
+      "id": "Hager_TYA606E_POWER_PLUG_0",
       "type": "POWER_PLUG",
       "service_template": [
         {
@@ -26,6 +27,7 @@
       ]
     },
     {
+      "id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_0",
       "type": "POWER_CONSUMPTION_SENSOR",
       "service_template": [
         {
@@ -35,6 +37,7 @@
       ]
     },
     {
+      "id": "Hager_TYA606E_POWER_PLUG_1",
       "type": "POWER_PLUG",
       "service_template": [
         {
@@ -44,6 +47,7 @@
       ]
     },
     {
+      "id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_1",
       "type": "POWER_CONSUMPTION_SENSOR",
       "service_template": [
         {
@@ -53,6 +57,7 @@
       ]
     },
     {
+      "id": "Hager_TYA606E_POWER_PLUG_2",
       "type": "POWER_PLUG",
       "service_template": [
         {
@@ -62,6 +67,7 @@
       ]
     },
     {
+      "id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_2",
       "type": "POWER_CONSUMPTION_SENSOR",
       "service_template": [
         {
@@ -71,6 +77,7 @@
       ]
     },
     {
+      "id": "Hager_TYA606E_POWER_PLUG_3",
       "type": "POWER_PLUG",
       "service_template": [
         {
@@ -80,6 +87,7 @@
       ]
     },
     {
+      "id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_3",
       "type": "POWER_CONSUMPTION_SENSOR",
       "service_template": [
         {
@@ -89,6 +97,7 @@
       ]
     },
     {
+      "id": "Hager_TYA606E_POWER_PLUG_4",
       "type": "POWER_PLUG",
       "service_template": [
         {
@@ -98,6 +107,7 @@
       ]
     },
     {
+      "id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_4",
       "type": "POWER_CONSUMPTION_SENSOR",
       "service_template": [
         {
@@ -107,6 +117,7 @@
       ]
     },
     {
+      "id": "Hager_TYA606E_POWER_PLUG_5",
       "type": "POWER_PLUG",
       "service_template": [
         {
@@ -116,6 +127,7 @@
       ]
     },
     {
+      "id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_5",
       "type": "POWER_CONSUMPTION_SENSOR",
       "service_template": [
         {

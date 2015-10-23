@@ -17,6 +17,7 @@
   "company": "Homematic",
   "unit_template_config": [
     {
+      "id": "Homematic_Sec_RHS_BATTERY_0",
       "type": "BATTERY",
       "service_template": [
         {
@@ -33,6 +34,7 @@
       ]
     },
     {
+      "id": "Homematic_Sec_RHS_HANDLE_SENSOR_0",
       "type": "HANDLE_SENSOR",
       "service_template": [
         {

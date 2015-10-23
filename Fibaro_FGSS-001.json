@@ -17,6 +17,7 @@
   "company": "Fibaro",
   "unit_template_config": [
     {
+      "id": "Fibaro_FGSS-001_SMOKE_DETECTOR_0",
       "type": "SMOKE_DETECTOR",
       "service_template": [
         {
@@ -49,6 +50,7 @@
       ]
     },
     {
+      "id": "Fibaro_FGSS-001_TEMPERATURE_SENSOR_0",
       "type": "TEMPERATURE_SENSOR",
       "service_template": [
         {
@@ -77,6 +79,7 @@
       ]
     },
     {
+      "id": "Fibaro_FGSS-001_TAMPER_SWITCH_0",
       "type": "TAMPER_SWITCH",
       "service_template": [
         {

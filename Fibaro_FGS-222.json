@@ -1,8 +1,8 @@
 {
-  "id": "Fibaro_FGS-221",
-  "label": "Double Relay Switch",
-  "product_number": "FGS-221",
-  "description": "Relay Switch 2 x 1.5kW 1.4 by Fibaro",
+  "id": "Fibaro_FGS-222",
+  "label": "Double Relay Switch 2",
+  "product_number": "FGS-222",
+  "description": "Relay Switch 2 x 1.5kW by Fibaro",
   "binding_config": {
     "type": "OPENHAB",
     "meta_config": {
@@ -17,7 +17,8 @@
   "company": "Fibaro",
   "unit_template_config": [
     {
-      "id": "Fibaro_FGS-221_BUTTON_0",
+      "id": "Fibaro_FGS-222_BUTTON_0",
+      "label": "S1",
       "type": "BUTTON",
       "service_template": [
         {
@@ -25,8 +26,8 @@
           "meta_config": {
             "entry": [
               {
-                "key": "OPENHAB_BINDING_CONFIG",
-                "value": "${OPENHAB_BINDING_DEVICE_ID}"
+                "key": "${OPENHAB_BINDING_DEVICE_ID}",
+                "value": "OPENHAB_BINDING_CONFIG"
               }
             ]
           }
@@ -34,7 +35,8 @@
       ]
     },
     {
-      "id": "Fibaro_FGS-221_LIGHT_0",
+      "id": "Fibaro_FGS-222_LIGHT_0",
+      "label": "Q1",
       "type": "LIGHT",
       "service_template": [
         {
@@ -51,7 +53,8 @@
       ]
     },
     {
-      "id": "Fibaro_FGS-221_BUTTON_1",
+      "id": "Fibaro_FGS-222_BUTTON_1",
+      "label": "S2",
       "type": "BUTTON",
       "service_template": [
         {
@@ -68,11 +71,12 @@
       ]
     },
     {
-      "id": "Fibaro_FGS-221_LIGHT_1",
-      "type": "LIGHT",
+      "id": "Fibaro_FGS-222_BUTTON_1",
+      "label": "Q2",
+      "type": "BUTTON",
       "service_template": [
         {
-          "service_type": "POWER_SERVICE",
+          "service_type": "BUTTON_PROVIDER",
           "meta_config": {
             "entry": [
               {

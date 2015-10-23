@@ -17,6 +17,7 @@
   "company": "Hager",
   "unit_template_config": [
     {
+      "id": "Hager_TYA663A_DIMMER_0",
       "type": "DIMMER",
       "service_template": [
         {
@@ -30,6 +31,7 @@
       ]
     },
     {
+      "id": "Hager_TYA663A_DIMMER_1",
       "type": "DIMMER",
       "service_template": [
         {
@@ -43,6 +45,7 @@
       ]
     },
     {
+      "id": "Hager_TYA663A_DIMMER_2",
       "type": "DIMMER",
       "service_template": [
         {
