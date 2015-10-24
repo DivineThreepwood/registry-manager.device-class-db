@@ -18,6 +18,7 @@
   "unit_template_config": [
     {
       "id": "Philips_KV01-18Y_AMBIENT_LIGHT_0",
+      "label": "Philips_KV01-18Y_AMBIENT_LIGHT_0",
       "type": "AMBIENT_LIGHT",
       "service_template": [
         {

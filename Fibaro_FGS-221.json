@@ -18,6 +18,7 @@
   "unit_template_config": [
     {
       "id": "Fibaro_FGS-221_BUTTON_0",
+      "label": "Fibaro_FGS-221_BUTTON_0",
       "type": "BUTTON",
       "service_template": [
         {
@@ -35,6 +36,7 @@
     },
     {
       "id": "Fibaro_FGS-221_LIGHT_0",
+      "label": "Fibaro_FGS-221_LIGHT_0",
       "type": "LIGHT",
       "service_template": [
         {
@@ -52,6 +54,7 @@
     },
     {
       "id": "Fibaro_FGS-221_BUTTON_1",
+      "label": "Fibaro_FGS-221_BUTTON_1",
       "type": "BUTTON",
       "service_template": [
         {
@@ -69,6 +72,7 @@
     },
     {
       "id": "Fibaro_FGS-221_LIGHT_1",
+      "label": "Fibaro_FGS-221_LIGHT_1",
       "type": "LIGHT",
       "service_template": [
         {

@@ -18,6 +18,7 @@
   "unit_template_config": [
     {
       "id": "Fibaro_FGMS-001_BATTERY_0",
+      "label": "Fibaro_FGMS-001_BATTERY_0",
       "type": "BATTERY",
       "service_template": [
         {
@@ -43,6 +44,7 @@
     },
     {
       "id": "Fibaro_FGMS-001_BRIGHTNESS_SENSOR_0",
+      "label": "Fibaro_FGMS-001_BRIGHTNESS_SENSOR_0",
       "type": "BRIGHTNESS_SENSOR",
       "service_template": [
         {
@@ -68,6 +70,7 @@
     },
     {
       "id": "Fibaro_FGMS-001_MOTION_SENSOR_0",
+      "label": "Fibaro_FGMS-001_MOTION_SENSOR_0",
       "type": "MOTION_SENSOR",
       "service_template": [
         {
@@ -93,6 +96,7 @@
     },
     {
       "id": "Fibaro_FGMS-001_TAMPER_SWITCH_0",
+      "label": "Fibaro_FGMS-001_TAMPER_SWITCH_0",
       "type": "TAMPER_SWITCH",
       "service_template": [
         {
@@ -110,6 +114,7 @@
     },
     {
       "id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
+      "label": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
       "type": "TEMPERATURE_SENSOR",
       "service_template": [
         {

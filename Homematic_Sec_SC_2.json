@@ -18,6 +18,7 @@
   "unit_template_config": [
     {
       "id": "Homematic_Sec_SC_2_BATTERY_0",
+      "label": "Homematic_Sec_SC_2_BATTERY_0",
       "type": "BATTERY",
       "service_template": [
         {
@@ -35,6 +36,7 @@
     },
     {
       "id": "Homematic_Sec_SC_2_REED_SWITCH_0",
+      "label": "Homematic_Sec_SC_2_REED_SWITCH_0",
       "type": "REED_SWITCH",
       "service_template": [
         {

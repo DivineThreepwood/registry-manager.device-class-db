@@ -18,6 +18,7 @@
   "unit_template_config": [
     {
       "id": "Fibaro_FGWPF-101_POWER_PLUG_0",
+      "label": "Fibaro_FGWPF-101_POWER_PLUG_0",
       "type": "POWER_PLUG",
       "service_template": [
         {
@@ -35,6 +36,7 @@
     },
     {
       "id": "Fibaro_FGWPF-101_POWER_CONSUMPTION_SENSOR_0",
+      "label": "Fibaro_FGWPF-101_POWER_CONSUMPTION_SENSOR_0",
       "type": "POWER_CONSUMPTION_SENSOR",
       "service_template": [
         {
