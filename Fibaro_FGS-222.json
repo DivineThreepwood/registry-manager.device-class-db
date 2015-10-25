@@ -28,6 +28,10 @@
               {
                 "key": "${OPENHAB_BINDING_DEVICE_ID}",
                 "value": "OPENHAB_BINDING_CONFIG"
+              },
+              {
+                "key": "UNIT_VISIBLE_IN_GUI",
+                "value": "false"
               }
             ]
           }
@@ -64,6 +68,10 @@
               {
                 "key": "OPENHAB_BINDING_CONFIG",
                 "value": "${OPENHAB_BINDING_DEVICE_ID}:2:command\u003dswitch_binary"
+              },
+              {
+                "key": "UNIT_VISIBLE_IN_GUI",
+                "value": "false"
               }
             ]
           }
