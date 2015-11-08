@@ -1,6 +1,6 @@
 {
   "id": "Fibaro_FGMS-001",
-  "label": "F_MotionSensor",
+  "label": "Fibaro MotionSensor",
   "product_number": "FGMS-001",
   "description": "Wireless sensor for motion, temperature, brightness and tamper with a battery by Fibaro.",
   "binding_config": {
@@ -31,7 +31,7 @@
               },
               {
                 "key": "OPENHAB_SERVICE_LABEL_DESCRIPTOR",
-                "value": "${LABEL} Battery [%.0f %%]"
+                "value": "${LABEL} Batterie [%d %%]"
               },
               {
                 "key": "OPENHAB_BINDING_ICON",
