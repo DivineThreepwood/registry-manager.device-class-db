@@ -1,6 +1,6 @@
 {
   "id": "Fibaro_FGWPF-101",
-  "label": "PowerPlug",
+  "label": "Fibaro PowerPlug",
   "product_number": "FGWPF-101",
   "description": "Power plug with power consumption color feedback by fibaro.",
   "binding_config": {
@@ -46,6 +46,10 @@
               {
                 "key": "OPENHAB_BINDING_CONFIG",
                 "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_multilevel"
+              },
+              {
+                "key": "UNIT_VISIBLE_IN_GUI",
+                "value": "false"
               }
             ]
           }
