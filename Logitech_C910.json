@@ -1,0 +1,18 @@
+{
+  "id": "Logitech_C910",
+  "label": "HD Webcam C910",
+  "product_number": "C910",
+  "description": "Desktop HD Webcam",
+  "binding_config": {
+    "meta_config": {}
+  },
+  "company": "Logitech",
+  "unit_template_config": [
+    {
+      "id": "Logitech_C910_RGB_CAMERA_0",
+      "label": "Logitech_C910_RGB_CAMERA_0",
+      "type": "RGB_CAMERA"
+    }
+  ],
+  "meta_config": {}
+}
