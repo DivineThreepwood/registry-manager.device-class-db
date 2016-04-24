@@ -1,8 +1,8 @@
 {
-  "id": "Fibaro_FGS-222",
-  "label": "Double Relay Switch 2",
-  "product_number": "FGS-222",
-  "description": "Relay Switch 2 x 1.5kW by Fibaro",
+  "id": "Devolo_MT_2652",
+  "label": "Scene Switch",
+  "product_number": "MT 2652",
+  "description": "4 Button wireless switch by Devolo",
   "binding_config": {
     "type": "OPENHAB",
     "meta_config": {
@@ -14,11 +14,11 @@
       ]
     }
   },
-  "company": "Fibaro",
+  "company": "Devolo",
   "unit_template_config": [
     {
-      "id": "Fibaro_FGS-222_BUTTON_0",
-      "label": "S1",
+      "id": "Devolo_MT_2652_BUTTON_0",
+      "label": "Button 1 [TOP - LEFT]",
       "type": "BUTTON",
       "service_template": [
         {
@@ -27,11 +27,7 @@
             "entry": [
               {
                 "key": "OPENHAB_BINDING_CONFIG",
-                "value": "${OPENHAB_BINDING_DEVICE_ID}"
-              },
-              {
-                "key": "UNIT_VISIBLE_IN_GUI",
-                "value": "false"
+                "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dSCENE_ACTIVATION,scene\u003d11,state\u003d1"
               }
             ]
           }
@@ -39,26 +35,8 @@
       ]
     },
     {
-      "id": "Fibaro_FGS-222_LIGHT_0",
-      "label": "Q1",
-      "type": "LIGHT",
-      "service_template": [
-        {
-          "service_type": "POWER_SERVICE",
-          "meta_config": {
-            "entry": [
-              {
-                "key": "OPENHAB_BINDING_CONFIG",
-                "value": "${OPENHAB_BINDING_DEVICE_ID}"
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "Fibaro_FGS-222_BUTTON_1",
-      "label": "S2",
+      "id": "Devolo_MT_2652_BUTTON_1",
+      "label": "Button 2 [TOP - RIGHT]",
       "type": "BUTTON",
       "service_template": [
         {
@@ -67,11 +45,7 @@
             "entry": [
               {
                 "key": "OPENHAB_BINDING_CONFIG",
-                "value": "${OPENHAB_BINDING_DEVICE_ID}:2:command\u003dswitch_binary"
-              },
-              {
-                "key": "UNIT_VISIBLE_IN_GUI",
-                "value": "false"
+                "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dSCENE_ACTIVATION,scene\u003d21,state\u003d1"
               }
             ]
           }
@@ -79,17 +53,35 @@
       ]
     },
     {
-      "id": "Fibaro_FGS-222_LIGHT_1",
-      "label": "Q2",
-      "type": "LIGHT",
+      "id": "Devolo_MT_2652_BUTTON_2",
+      "label": "Button 3 [BOTTOM - LEFT]",
+      "type": "BUTTON",
       "service_template": [
         {
-          "service_type": "POWER_SERVICE",
+          "service_type": "BUTTON_PROVIDER",
           "meta_config": {
             "entry": [
               {
                 "key": "OPENHAB_BINDING_CONFIG",
-                "value": "${OPENHAB_BINDING_DEVICE_ID}:2:command\u003dswitch_binary"
+                "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dSCENE_ACTIVATION,scene\u003d31,state\u003d1"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "Devolo_MT_2652_BUTTON_3",
+      "label": "Button 4 [BOTTOM - RIGHT]",
+      "type": "BUTTON",
+      "service_template": [
+        {
+          "service_type": "BUTTON_PROVIDER",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_CONFIG",
+                "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dSCENE_ACTIVATION,scene\u003d22,state\u003d1"
               }
             ]
           }
@@ -97,5 +89,12 @@
       ]
     }
   ],
-  "meta_config": {}
+  "meta_config": {
+    "entry": [
+      {
+        "key": "UNIT_VISIBLE_IN_GUI",
+        "value": "false"
+      }
+    ]
+  }
 }
