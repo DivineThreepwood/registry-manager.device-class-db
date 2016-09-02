@@ -1,2 +1,2 @@
-# registry-manager.device-class-db
+# bco.registry.device-class-db
 Global device class registry database.
