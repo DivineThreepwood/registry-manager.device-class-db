@@ -9,14 +9,14 @@
   "company": "ASUS",
   "unit_template_config": [
     {
-      "id": "ASUS_90IW0122-B01UA_RGB_CAMERA_0",
-      "label": "ASUS_90IW0122-B01UA_RGB_CAMERA_0",
-      "type": "RGB_CAMERA"
+      "id": "ASUS_90IW0122-B01UA_VIDEO_RGB_SOURCE_0",
+      "label": "ASUS_90IW0122-B01UA_VIDEO_RGB_SOURCE_0",
+      "type": "VIDEO_RGB_SOURCE"
     },
     {
-      "id": "ASUS_90IW0122-B01UA_DEPTH_CAMERA_0",
-      "label": "ASUS_90IW0122-B01UA_DEPTH_CAMERA_0",
-      "type": "DEPTH_CAMERA"
+      "id": "ASUS_90IW0122-B01UA_VIDEO_DEPTH_SOURCE_0",
+      "label": "ASUS_90IW0122-B01UA_VIDEO_DEPTH_SOURCE_0",
+      "type": "VIDEO_DEPTH_SOURCE"
     },
     {
       "id": "ASUS_90IW0122-B01UA_AUDIO_SOURCE_0",

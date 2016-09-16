@@ -4,7 +4,7 @@
   "product_number": "FGSS-001",
   "description": "Fibaro smoke detector",
   "binding_config": {
-    "type": "OPENHAB",
+    "binding_id": "OPENHAB",
     "meta_config": {
       "entry": [
         {
@@ -20,9 +20,9 @@
       "id": "Fibaro_FGSS-001_SMOKE_DETECTOR_0",
       "label": "Fibaro_FGSS-001_SMOKE_DETECTOR_0",
       "type": "SMOKE_DETECTOR",
-      "service_template": [
+      "service_template_config": [
         {
-          "service_type": "SMOKE_ALARM_STATE_PROVIDER",
+          "service_type": "SMOKE_ALARM_STATE_SERVICE",
           "meta_config": {
             "entry": [
               {
@@ -45,7 +45,7 @@
           }
         },
         {
-          "service_type": "SMOKE_STATE_PROVIDER",
+          "service_type": "SMOKE_STATE_SERVICE",
           "meta_config": {}
         }
       ]
@@ -54,9 +54,9 @@
       "id": "Fibaro_FGSS-001_TEMPERATURE_SENSOR_0",
       "label": "Fibaro_FGSS-001_TEMPERATURE_SENSOR_0",
       "type": "TEMPERATURE_SENSOR",
-      "service_template": [
+      "service_template_config": [
         {
-          "service_type": "TEMPERATURE_ALARM_STATE_PROVIDER",
+          "service_type": "TEMPERATURE_ALARM_STATE_SERVICE",
           "meta_config": {
             "entry": [
               {
@@ -75,18 +75,18 @@
           }
         },
         {
-          "service_type": "TEMPERATURE_PROVIDER",
+          "service_type": "TEMPERATURE_STATE_SERVICE",
           "meta_config": {}
         }
       ]
     },
     {
-      "id": "Fibaro_FGSS-001_TAMPER_SWITCH_0",
-      "label": "Fibaro_FGSS-001_TAMPER_SWITCH_0",
-      "type": "TAMPER_SWITCH",
-      "service_template": [
+      "id": "Fibaro_FGSS-001_TAMPER_DETECTOR_0",
+      "label": "Fibaro_FGSS-001_TAMPER_DETECTOR_0",
+      "type": "TAMPER_DETECTOR",
+      "service_template_config": [
         {
-          "service_type": "TAMPER_PROVIDER",
+          "service_type": "TAMPER_STATE_SERVICE",
           "meta_config": {
             "entry": [
               {
@@ -106,9 +106,9 @@
       "id": "Fibaro_FGSS-001_BATTERY_0",
       "label": "Fibaro_FGSS-001_BATTERY_0",
       "type": "BATTERY",
-      "service_template": [
+      "service_template_config": [
         {
-          "service_type": "BATTERY_PROVIDER",
+          "service_type": "BATTERY_STATE_SERVICE",
           "meta_config": {
             "entry": [
               {

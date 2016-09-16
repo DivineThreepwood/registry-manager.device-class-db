@@ -4,7 +4,7 @@
   "product_number": "Sec_SC_2",
   "description": "Reed switch by Homematic.",
   "binding_config": {
-    "type": "OPENHAB",
+    "binding_id": "OPENHAB",
     "meta_config": {
       "entry": [
         {
@@ -20,9 +20,9 @@
       "id": "Homematic_Sec_SC_2_BATTERY_0",
       "label": "Homematic_Sec_SC_2_BATTERY_0",
       "type": "BATTERY",
-      "service_template": [
+      "service_template_config": [
         {
-          "service_type": "BATTERY_PROVIDER",
+          "service_type": "BATTERY_STATE_SERVICE",
           "meta_config": {
             "entry": [
               {
@@ -35,12 +35,12 @@
       ]
     },
     {
-      "id": "Homematic_Sec_SC_2_REED_SWITCH_0",
-      "label": "Homematic_Sec_SC_2_REED_SWITCH_0",
-      "type": "REED_SWITCH",
-      "service_template": [
+      "id": "Homematic_Sec_SC_2_REED_CONTACT_0",
+      "label": "Homematic_Sec_SC_2_REED_CONTACT_0",
+      "type": "REED_CONTACT",
+      "service_template_config": [
         {
-          "service_type": "REED_SWITCH_PROVIDER",
+          "service_type": "CONTACT_STATE_SERVICE",
           "meta_config": {
             "entry": [
               {

@@ -3,7 +3,7 @@
   "label": "Fibaro Rollershutter 2",
   "product_number": "FGRM-222",
   "binding_config": {
-    "type": "OPENHAB",
+    "binding_id": "OPENHAB",
     "meta_config": {
       "entry": [
         {
@@ -16,16 +16,15 @@
   "company": "Fibaro",
   "unit_template_config": [
     {
-      "id": "Fibaro_FGRM-222_ROLLERSHUTTER_0",
-      "label": "Fibaro_FGRM-222_ROLLERSHUTTER_0",
-      "type": "ROLLERSHUTTER",
-      "service_template": [
+      "id": "Fibaro_FGRM-222_ROLLER_SHUTTER_0",
+      "label": "Fibaro_FGRM-222_ROLLER_SHUTTER_0",
+      "type": "ROLLER_SHUTTER",
+      "service_template_config": [
         {
-          "service_type": "OPENING_RATIO_PROVIDER",
           "meta_config": {}
         },
         {
-          "service_type": "SHUTTER_SERVICE",
+          "service_type": "BLIND_STATE_SERVICE",
           "meta_config": {
             "entry": [
               {

@@ -4,7 +4,7 @@
   "product_number": "TYA663A",
   "description": "Hager dimmer actuator with 3 dimmers.",
   "binding_config": {
-    "type": "OPENHAB",
+    "binding_id": "OPENHAB",
     "meta_config": {
       "entry": [
         {
@@ -20,13 +20,13 @@
       "id": "Hager_TYA663A_DIMMER_0",
       "label": "Hager_TYA663A_DIMMER_0",
       "type": "DIMMER",
-      "service_template": [
+      "service_template_config": [
         {
-          "service_type": "DIM_SERVICE",
+          "service_type": "INTENSITY_STATE_SERVICE",
           "meta_config": {}
         },
         {
-          "service_type": "POWER_SERVICE",
+          "service_type": "POWER_STATE_SERVICE",
           "meta_config": {}
         }
       ]
@@ -35,13 +35,13 @@
       "id": "Hager_TYA663A_DIMMER_1",
       "label": "Hager_TYA663A_DIMMER_1",
       "type": "DIMMER",
-      "service_template": [
+      "service_template_config": [
         {
-          "service_type": "DIM_SERVICE",
+          "service_type": "INTENSITY_STATE_SERVICE",
           "meta_config": {}
         },
         {
-          "service_type": "POWER_SERVICE",
+          "service_type": "POWER_STATE_SERVICE",
           "meta_config": {}
         }
       ]
@@ -50,13 +50,13 @@
       "id": "Hager_TYA663A_DIMMER_2",
       "label": "Hager_TYA663A_DIMMER_2",
       "type": "DIMMER",
-      "service_template": [
+      "service_template_config": [
         {
-          "service_type": "DIM_SERVICE",
+          "service_type": "INTENSITY_STATE_SERVICE",
           "meta_config": {}
         },
         {
-          "service_type": "POWER_SERVICE",
+          "service_type": "POWER_STATE_SERVICE",
           "meta_config": {}
         }
       ]

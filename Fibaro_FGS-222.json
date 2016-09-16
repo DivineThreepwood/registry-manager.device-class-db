@@ -4,7 +4,7 @@
   "product_number": "FGS-222",
   "description": "Relay Switch 2 x 1.5kW by Fibaro",
   "binding_config": {
-    "type": "OPENHAB",
+    "binding_id": "OPENHAB",
     "meta_config": {
       "entry": [
         {
@@ -20,9 +20,9 @@
       "id": "Fibaro_FGS-222_BUTTON_0",
       "label": "S1",
       "type": "BUTTON",
-      "service_template": [
+      "service_template_config": [
         {
-          "service_type": "BUTTON_PROVIDER",
+          "service_type": "BUTTON_STATE_SERVICE",
           "meta_config": {
             "entry": [
               {
@@ -42,9 +42,9 @@
       "id": "Fibaro_FGS-222_LIGHT_0",
       "label": "Q1",
       "type": "LIGHT",
-      "service_template": [
+      "service_template_config": [
         {
-          "service_type": "POWER_SERVICE",
+          "service_type": "POWER_STATE_SERVICE",
           "meta_config": {
             "entry": [
               {
@@ -60,9 +60,9 @@
       "id": "Fibaro_FGS-222_BUTTON_1",
       "label": "S2",
       "type": "BUTTON",
-      "service_template": [
+      "service_template_config": [
         {
-          "service_type": "BUTTON_PROVIDER",
+          "service_type": "BUTTON_STATE_SERVICE",
           "meta_config": {
             "entry": [
               {
@@ -82,9 +82,9 @@
       "id": "Fibaro_FGS-222_LIGHT_1",
       "label": "Q2",
       "type": "LIGHT",
-      "service_template": [
+      "service_template_config": [
         {
-          "service_type": "POWER_SERVICE",
+          "service_type": "POWER_STATE_SERVICE",
           "meta_config": {
             "entry": [
               {

@@ -4,7 +4,7 @@
   "product_number": "FGWPF-101",
   "description": "Power plug with power consumption measurement by AVM.",
   "binding_config": {
-    "type": "OPENHAB",
+    "binding_id": "OPENHAB",
     "meta_config": {
       "entry": [
         {
@@ -17,12 +17,12 @@
   "company": "AVM",
   "unit_template_config": [
     {
-      "id": "AVM_DECT_200_POWER_PLUG_0",
-      "label": "AVM_DECT_200_POWER_PLUG_0",
-      "type": "POWER_PLUG",
-      "service_template": [
+      "id": "AVM_DECT_200_POWER_SWITCH_0",
+      "label": "AVM_DECT_200_POWER_SWITCH_0",
+      "type": "POWER_SWITCH",
+      "service_template_config": [
         {
-          "service_type": "POWER_SERVICE",
+          "service_type": "POWER_STATE_SERVICE",
           "meta_config": {
             "entry": [
               {
@@ -38,9 +38,9 @@
       "id": "AVM_DECT_200_POWER_CONSUMPTION_SENSOR_0",
       "label": "AVM_DECT_200_POWER_CONSUMPTION_SENSOR_0",
       "type": "POWER_CONSUMPTION_SENSOR",
-      "service_template": [
+      "service_template_config": [
         {
-          "service_type": "POWER_CONSUMPTION_PROVIDER",
+          "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
           "meta_config": {
             "entry": [
               {

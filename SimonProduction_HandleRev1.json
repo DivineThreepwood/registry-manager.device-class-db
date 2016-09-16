@@ -4,26 +4,26 @@
   "product_number": "HandleRev1",
   "description": "Colorful Kitchen Handles",
   "binding_config": {
-    "type": "HANDLES",
+    "binding_id": "HANDLES",
     "meta_config": {}
   },
   "company": "SimonProduction",
   "unit_template_config": [
     {
-      "id": "SimonProduction_HandleRev1_AMBIENT_LIGHT_0",
-      "label": "SimonProduction_HandleRev1_AMBIENT_LIGHT_0",
-      "type": "AMBIENT_LIGHT",
-      "service_template": [
+      "id": "SimonProduction_HandleRev1_COLORABLE_LIGHT_0",
+      "label": "SimonProduction_HandleRev1_COLORABLE_LIGHT_0",
+      "type": "COLORABLE_LIGHT",
+      "service_template_config": [
         {
-          "service_type": "BRIGHTNESS_SERVICE",
+          "service_type": "BRIGHTNESS_STATE_SERVICE",
           "meta_config": {}
         },
         {
-          "service_type": "COLOR_SERVICE",
+          "service_type": "COLOR_STATE_SERVICE",
           "meta_config": {}
         },
         {
-          "service_type": "POWER_SERVICE",
+          "service_type": "POWER_STATE_SERVICE",
           "meta_config": {}
         }
       ]

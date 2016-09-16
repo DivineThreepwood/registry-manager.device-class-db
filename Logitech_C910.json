@@ -9,9 +9,9 @@
   "company": "Logitech",
   "unit_template_config": [
     {
-      "id": "Logitech_C910_RGB_CAMERA_0",
-      "label": "Logitech_C910_RGB_CAMERA_0",
-      "type": "RGB_CAMERA"
+      "id": "Logitech_C910_VIDEO_RGB_SOURCE_0",
+      "label": "Logitech_C910_VIDEO_RGB_SOURCE_0",
+      "type": "VIDEO_RGB_SOURCE"
     }
   ],
   "meta_config": {}

@@ -4,7 +4,7 @@
   "product_number": "Sec_RHS",
   "description": "Wireless rotary handle sensor by homematic.",
   "binding_config": {
-    "type": "OPENHAB",
+    "binding_id": "OPENHAB",
     "meta_config": {
       "entry": [
         {
@@ -20,9 +20,9 @@
       "id": "Homematic_Sec_RHS_BATTERY_0",
       "label": "Homematic_Sec_RHS_BATTERY_0",
       "type": "BATTERY",
-      "service_template": [
+      "service_template_config": [
         {
-          "service_type": "BATTERY_PROVIDER",
+          "service_type": "BATTERY_STATE_SERVICE",
           "meta_config": {
             "entry": [
               {
@@ -35,12 +35,12 @@
       ]
     },
     {
-      "id": "Homematic_Sec_RHS_HANDLE_SENSOR_0",
-      "label": "Homematic_Sec_RHS_HANDLE_SENSOR_0",
-      "type": "HANDLE_SENSOR",
-      "service_template": [
+      "id": "Homematic_Sec_RHS_HANDLE_0",
+      "label": "Homematic_Sec_RHS_HANDLE_0",
+      "type": "HANDLE",
+      "service_template_config": [
         {
-          "service_type": "HANDLE_PROVIDER",
+          "service_type": "HANDLE_STATE_SERVICE",
           "meta_config": {
             "entry": [
               {
