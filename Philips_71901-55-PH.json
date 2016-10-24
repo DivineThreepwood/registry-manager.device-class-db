@@ -1,8 +1,7 @@
 {
-  "id": "Philips_KV01-18U",
-  "label": "Philips Hue E27",
-  "product_number": "KV01-18U",
-  "description": "Ambient light with the socket E27.",
+  "id": "Philips_71901-55-PH",
+  "label": "Philips Hue Lightstrip Plus",
+  "product_number": "71901-55-PH",
   "binding_config": {
     "type": "OPENHAB",
     "meta_config": {
@@ -17,8 +16,8 @@
   "company": "Philips",
   "unit_template_config": [
     {
-      "id": "Philips_KV01-18U_AMBIENT_LIGHT_0",
-      "label": "Philips_KV01-18U_AMBIENT_LIGHT_0",
+      "id": "Philips_71901-55-PH_AMBIENT_LIGHT_0",
+      "label": "Philips_71901-55-PH_AMBIENT_LIGHT_0",
       "type": "AMBIENT_LIGHT",
       "service_template": [
         {

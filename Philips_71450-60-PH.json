@@ -1,8 +1,8 @@
 {
-  "id": "Philips_KV01-18U",
-  "label": "Philips Hue E27",
-  "product_number": "KV01-18U",
-  "description": "Ambient light with the socket E27.",
+  "id": "Philips_71450-60-PH",
+  "label": "HueGo",
+  "product_number": "71450-60-PH",
+  "description": "Portable light of Philips",
   "binding_config": {
     "type": "OPENHAB",
     "meta_config": {
@@ -17,8 +17,8 @@
   "company": "Philips",
   "unit_template_config": [
     {
-      "id": "Philips_KV01-18U_AMBIENT_LIGHT_0",
-      "label": "Philips_KV01-18U_AMBIENT_LIGHT_0",
+      "id": "Philips_71450-60-PH_AMBIENT_LIGHT_0",
+      "label": "Philips_71450-60-PH_AMBIENT_LIGHT_0",
       "type": "AMBIENT_LIGHT",
       "service_template": [
         {
