@@ -1,9 +1,10 @@
 {
-  "id": "Philips_71901-55-PH",
-  "label": "Philips Hue Lightstrip Plus",
-  "product_number": "71901-55-PH",
+  "id": "7e8a99af-a9f2-4f67-9ef7-377e085401e4",
+  "label": "HueGo",
+  "product_number": "71450-60-PH",
+  "description": "Portable light of Philips",
   "binding_config": {
-    "type": "OPENHAB",
+    "binding_id": "OPENHAB",
     "meta_config": {
       "entry": [
         {
@@ -16,12 +17,12 @@
   "company": "Philips",
   "unit_template_config": [
     {
-      "id": "Philips_71901-55-PH_AMBIENT_LIGHT_0",
-      "label": "Philips_71901-55-PH_AMBIENT_LIGHT_0",
-      "type": "AMBIENT_LIGHT",
-      "service_template": [
+      "id": "Philips_71450-60-PH_COLORABLE_LIGHT_0",
+      "label": "Philips_71450-60-PH_COLORABLE_LIGHT_0",
+      "type": "COLORABLE_LIGHT",
+      "service_template_config": [
         {
-          "service_type": "BRIGHTNESS_SERVICE",
+          "service_type": "BRIGHTNESS_STATE_SERVICE",
           "meta_config": {
             "entry": [
               {
@@ -32,7 +33,7 @@
           }
         },
         {
-          "service_type": "COLOR_SERVICE",
+          "service_type": "COLOR_STATE_SERVICE",
           "meta_config": {
             "entry": [
               {
@@ -43,7 +44,7 @@
           }
         },
         {
-          "service_type": "POWER_SERVICE",
+          "service_type": "POWER_STATE_SERVICE",
           "meta_config": {
             "entry": [
               {
