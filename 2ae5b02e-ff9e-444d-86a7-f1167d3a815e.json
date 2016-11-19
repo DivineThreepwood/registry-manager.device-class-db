@@ -1,10 +1,10 @@
 {
-  "id": "Hager_TYA606E",
+  "id": "2ae5b02e-ff9e-444d-86a7-f1167d3a815e",
   "label": "Hager_TYA606E",
   "product_number": "TYA606E",
   "description": "Hager power plug actuator with 6 power switches and related power consumption sensors.",
   "binding_config": {
-    "type": "OPENHAB",
+    "binding_id": "OPENHAB",
     "meta_config": {
       "entry": [
         {
@@ -17,12 +17,12 @@
   "company": "Hager",
   "unit_template_config": [
     {
-      "id": "Hager_TYA606E_POWER_PLUG_0",
-      "label": "Hager_TYA606E_POWER_PLUG_0",
-      "type": "POWER_PLUG",
-      "service_template": [
+      "id": "Hager_TYA606E_POWER_SWITCH_0",
+      "label": "Hager_TYA606E_POWER_SWITCH_0",
+      "type": "POWER_SWITCH",
+      "service_template_config": [
         {
-          "service_type": "POWER_SERVICE",
+          "service_type": "POWER_STATE_SERVICE",
           "meta_config": {}
         }
       ]
@@ -31,20 +31,20 @@
       "id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_0",
       "label": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_0",
       "type": "POWER_CONSUMPTION_SENSOR",
-      "service_template": [
+      "service_template_config": [
         {
-          "service_type": "POWER_CONSUMPTION_PROVIDER",
+          "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
           "meta_config": {}
         }
       ]
     },
     {
-      "id": "Hager_TYA606E_POWER_PLUG_1",
-      "label": "Hager_TYA606E_POWER_PLUG_1",
-      "type": "POWER_PLUG",
-      "service_template": [
+      "id": "Hager_TYA606E_POWER_SWITCH_1",
+      "label": "Hager_TYA606E_POWER_SWITCH_1",
+      "type": "POWER_SWITCH",
+      "service_template_config": [
         {
-          "service_type": "POWER_SERVICE",
+          "service_type": "POWER_STATE_SERVICE",
           "meta_config": {}
         }
       ]
@@ -53,20 +53,20 @@
       "id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_1",
       "label": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_1",
       "type": "POWER_CONSUMPTION_SENSOR",
-      "service_template": [
+      "service_template_config": [
         {
-          "service_type": "POWER_CONSUMPTION_PROVIDER",
+          "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
           "meta_config": {}
         }
       ]
     },
     {
-      "id": "Hager_TYA606E_POWER_PLUG_2",
-      "label": "Hager_TYA606E_POWER_PLUG_2",
-      "type": "POWER_PLUG",
-      "service_template": [
+      "id": "Hager_TYA606E_POWER_SWITCH_2",
+      "label": "Hager_TYA606E_POWER_SWITCH_2",
+      "type": "POWER_SWITCH",
+      "service_template_config": [
         {
-          "service_type": "POWER_SERVICE",
+          "service_type": "POWER_STATE_SERVICE",
           "meta_config": {}
         }
       ]
@@ -75,20 +75,20 @@
       "id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_2",
       "label": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_2",
       "type": "POWER_CONSUMPTION_SENSOR",
-      "service_template": [
+      "service_template_config": [
         {
-          "service_type": "POWER_CONSUMPTION_PROVIDER",
+          "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
           "meta_config": {}
         }
       ]
     },
     {
-      "id": "Hager_TYA606E_POWER_PLUG_3",
-      "label": "Hager_TYA606E_POWER_PLUG_3",
-      "type": "POWER_PLUG",
-      "service_template": [
+      "id": "Hager_TYA606E_POWER_SWITCH_3",
+      "label": "Hager_TYA606E_POWER_SWITCH_3",
+      "type": "POWER_SWITCH",
+      "service_template_config": [
         {
-          "service_type": "POWER_SERVICE",
+          "service_type": "POWER_STATE_SERVICE",
           "meta_config": {}
         }
       ]
@@ -97,20 +97,20 @@
       "id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_3",
       "label": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_3",
       "type": "POWER_CONSUMPTION_SENSOR",
-      "service_template": [
+      "service_template_config": [
         {
-          "service_type": "POWER_CONSUMPTION_PROVIDER",
+          "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
           "meta_config": {}
         }
       ]
     },
     {
-      "id": "Hager_TYA606E_POWER_PLUG_4",
-      "label": "Hager_TYA606E_POWER_PLUG_4",
-      "type": "POWER_PLUG",
-      "service_template": [
+      "id": "Hager_TYA606E_POWER_SWITCH_4",
+      "label": "Hager_TYA606E_POWER_SWITCH_4",
+      "type": "POWER_SWITCH",
+      "service_template_config": [
         {
-          "service_type": "POWER_SERVICE",
+          "service_type": "POWER_STATE_SERVICE",
           "meta_config": {}
         }
       ]
@@ -119,20 +119,20 @@
       "id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_4",
       "label": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_4",
       "type": "POWER_CONSUMPTION_SENSOR",
-      "service_template": [
+      "service_template_config": [
         {
-          "service_type": "POWER_CONSUMPTION_PROVIDER",
+          "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
           "meta_config": {}
         }
       ]
     },
     {
-      "id": "Hager_TYA606E_POWER_PLUG_5",
-      "label": "Hager_TYA606E_POWER_PLUG_5",
-      "type": "POWER_PLUG",
-      "service_template": [
+      "id": "Hager_TYA606E_POWER_SWITCH_5",
+      "label": "Hager_TYA606E_POWER_SWITCH_5",
+      "type": "POWER_SWITCH",
+      "service_template_config": [
         {
-          "service_type": "POWER_SERVICE",
+          "service_type": "POWER_STATE_SERVICE",
           "meta_config": {}
         }
       ]
@@ -141,9 +141,9 @@
       "id": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_5",
       "label": "Hager_TYA606E_POWER_CONSUMPTION_SENSOR_5",
       "type": "POWER_CONSUMPTION_SENSOR",
-      "service_template": [
+      "service_template_config": [
         {
-          "service_type": "POWER_CONSUMPTION_PROVIDER",
+          "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
           "meta_config": {}
         }
       ]

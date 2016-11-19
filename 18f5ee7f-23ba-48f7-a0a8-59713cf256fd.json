@@ -1,10 +1,10 @@
 {
-  "id": "Future-Shape_SF-HR32P",
+  "id": "18f5ee7f-23ba-48f7-a0a8-59713cf256fd",
   "label": "SensFloor",
   "product_number": "SF-HR32P",
   "description": "Capacitive sensor patches for person detection.",
   "binding_config": {
-    "type": "FLOOR_BASE"
+    "binding_id": "FLOOR_BASE"
   },
   "company": "Future-Shape"
 }

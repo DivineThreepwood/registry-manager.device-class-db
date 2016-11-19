@@ -1,10 +1,10 @@
 {
-  "id": "Homematic_Sec_SC_2",
-  "label": "Homematic_Sec_SC_2",
-  "product_number": "Sec_SC_2",
-  "description": "Reed switch by Homematic.",
+  "id": "afee3bdb-873c-4bd3-bbb1-c918091bef85",
+  "label": "Homematic_Sec_RHS",
+  "product_number": "Sec_RHS",
+  "description": "Wireless rotary handle sensor by homematic.",
   "binding_config": {
-    "type": "OPENHAB",
+    "binding_id": "OPENHAB",
     "meta_config": {
       "entry": [
         {
@@ -17,12 +17,12 @@
   "company": "Homematic",
   "unit_template_config": [
     {
-      "id": "Homematic_Sec_SC_2_BATTERY_0",
-      "label": "Homematic_Sec_SC_2_BATTERY_0",
+      "id": "Homematic_Sec_RHS_BATTERY_0",
+      "label": "Homematic_Sec_RHS_BATTERY_0",
       "type": "BATTERY",
-      "service_template": [
+      "service_template_config": [
         {
-          "service_type": "BATTERY_PROVIDER",
+          "service_type": "BATTERY_STATE_SERVICE",
           "meta_config": {
             "entry": [
               {
@@ -35,12 +35,12 @@
       ]
     },
     {
-      "id": "Homematic_Sec_SC_2_REED_SWITCH_0",
-      "label": "Homematic_Sec_SC_2_REED_SWITCH_0",
-      "type": "REED_SWITCH",
-      "service_template": [
+      "id": "Homematic_Sec_RHS_HANDLE_0",
+      "label": "Homematic_Sec_RHS_HANDLE_0",
+      "type": "HANDLE",
+      "service_template_config": [
         {
-          "service_type": "REED_SWITCH_PROVIDER",
+          "service_type": "HANDLE_STATE_SERVICE",
           "meta_config": {
             "entry": [
               {

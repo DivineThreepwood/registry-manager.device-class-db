@@ -1,10 +1,10 @@
 {
-  "id": "Fibaro_FGWPF-101",
+  "id": "f5e6a406-45fc-4b37-84fd-8b1ce52dd849",
   "label": "Fibaro PowerPlug",
   "product_number": "FGWPF-101",
   "description": "Power plug with power consumption color feedback by fibaro.",
   "binding_config": {
-    "type": "OPENHAB",
+    "binding_id": "OPENHAB",
     "meta_config": {
       "entry": [
         {
@@ -17,12 +17,12 @@
   "company": "Fibaro",
   "unit_template_config": [
     {
-      "id": "Fibaro_FGWPF-101_POWER_PLUG_0",
-      "label": "Fibaro_FGWPF-101_POWER_PLUG_0",
-      "type": "POWER_PLUG",
-      "service_template": [
+      "id": "Fibaro_FGWPF-101_POWER_SWITCH_0",
+      "label": "Fibaro_FGWPF-101_POWER_SWITCH_0",
+      "type": "POWER_SWITCH",
+      "service_template_config": [
         {
-          "service_type": "POWER_SERVICE",
+          "service_type": "POWER_STATE_SERVICE",
           "meta_config": {
             "entry": [
               {
@@ -38,9 +38,9 @@
       "id": "Fibaro_FGWPF-101_POWER_CONSUMPTION_SENSOR_0",
       "label": "Fibaro_FGWPF-101_POWER_CONSUMPTION_SENSOR_0",
       "type": "POWER_CONSUMPTION_SENSOR",
-      "service_template": [
+      "service_template_config": [
         {
-          "service_type": "POWER_CONSUMPTION_PROVIDER",
+          "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
           "meta_config": {
             "entry": [
               {

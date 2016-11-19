@@ -1,10 +1,10 @@
 {
-  "id": "Philips_KV01-18U",
-  "label": "Philips Hue E27",
-  "product_number": "KV01-18U",
-  "description": "Ambient light with the socket E27.",
+  "id": "a9977a4a-ef9c-4280-81a3-79bf6b8069b4",
+  "label": "Philips Hue GU10",
+  "product_number": "KV01-18Y",
+  "description": "Ambient light with the socket GU10.",
   "binding_config": {
-    "type": "OPENHAB",
+    "binding_id": "OPENHAB",
     "meta_config": {
       "entry": [
         {
@@ -17,12 +17,12 @@
   "company": "Philips",
   "unit_template_config": [
     {
-      "id": "Philips_KV01-18U_AMBIENT_LIGHT_0",
-      "label": "Philips_KV01-18U_AMBIENT_LIGHT_0",
-      "type": "AMBIENT_LIGHT",
-      "service_template": [
+      "id": "Philips_KV01-18Y_COLORABLE_LIGHT_0",
+      "label": "Philips_KV01-18Y_COLORABLE_LIGHT_0",
+      "type": "COLORABLE_LIGHT",
+      "service_template_config": [
         {
-          "service_type": "BRIGHTNESS_SERVICE",
+          "service_type": "BRIGHTNESS_STATE_SERVICE",
           "meta_config": {
             "entry": [
               {
@@ -33,7 +33,7 @@
           }
         },
         {
-          "service_type": "COLOR_SERVICE",
+          "service_type": "COLOR_STATE_SERVICE",
           "meta_config": {
             "entry": [
               {
@@ -44,7 +44,7 @@
           }
         },
         {
-          "service_type": "POWER_SERVICE",
+          "service_type": "POWER_STATE_SERVICE",
           "meta_config": {
             "entry": [
               {
