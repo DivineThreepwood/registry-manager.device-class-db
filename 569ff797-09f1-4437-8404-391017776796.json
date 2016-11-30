@@ -15,6 +15,7 @@
     }
   },
   "company": "Homematic",
+  "shape": {},
   "unit_template_config": [
     {
       "id": "Homematic_Sec_SC_2_BATTERY_0",
@@ -27,12 +28,13 @@
             "entry": [
               {
                 "key": "OPENHAB_BINDING_CONFIG",
-                "value": "address\u003d${SERIAL_NUMBER}, channel\u003d0, parameter\u003dBATTERY_TYPE"
+                "value": "address\u003d${OPENHAB_BINDING_DEVICE_ID}, channel\u003d0, parameter\u003dBATTERY_TYPE"
               }
             ]
           }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "Homematic_Sec_SC_2_REED_CONTACT_0",
@@ -45,12 +47,13 @@
             "entry": [
               {
                 "key": "OPENHAB_BINDING_CONFIG",
-                "value": "address\u003d${SERIAL_NUMBER}, channel\u003d1, parameter\u003dSTATE"
+                "value": "address\u003d${OPENHAB_BINDING_DEVICE_ID}, channel\u003d1, parameter\u003dSTATE"
               }
             ]
           }
         }
-      ]
+      ],
+      "meta_config": {}
     }
   ],
   "meta_config": {}
