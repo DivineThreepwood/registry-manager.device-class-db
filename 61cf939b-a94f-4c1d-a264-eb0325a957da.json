@@ -14,8 +14,7 @@
       "id": "61cf939b-a94f-4c1d-a264-eb0325a957da_DIMMABLE_LIGHT_0",
       "label": "Philips Hue white E27 DIMMABLE_LIGHT_0",
       "type": "DIMMABLE_LIGHT",
-      "meta_config": {}
-	  "service_template_config": [
+      "service_template_config": [
         {
           "service_type": "BRIGHTNESS_STATE_SERVICE",
           "meta_config": {
@@ -38,7 +37,8 @@
             ]
           }
         }
-      ]
+      ],
+      "meta_config": {}
     }
   ],
   "meta_config": {}
