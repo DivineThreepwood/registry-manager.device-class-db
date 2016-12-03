@@ -1,0 +1,45 @@
+{
+  "id": "61cf939b-a94f-4c1d-a264-eb0325a957da",
+  "label": "Philips Hue white E27",
+  "product_number": "LWB006",
+  "description": "Hue white",
+  "binding_config": {
+    "binding_id": "OPENHAB",
+    "meta_config": {}
+  },
+  "company": "Philips",
+  "shape": {},
+  "unit_template_config": [
+    {
+      "id": "61cf939b-a94f-4c1d-a264-eb0325a957da_DIMMABLE_LIGHT_0",
+      "label": "Philips Hue white E27 DIMMABLE_LIGHT_0",
+      "type": "DIMMABLE_LIGHT",
+      "meta_config": {}
+	  "service_template_config": [
+        {
+          "service_type": "BRIGHTNESS_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_CONFIG",
+                "value": "${OPENHAB_BINDING_DEVICE_ID}"
+              }
+            ]
+          }
+        },
+        {
+          "service_type": "POWER_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_CONFIG",
+                "value": "${OPENHAB_BINDING_DEVICE_ID}"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  ],
+  "meta_config": {}
+}
