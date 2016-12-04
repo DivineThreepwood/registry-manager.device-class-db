@@ -1,11 +1,18 @@
 {
   "id": "61cf939b-a94f-4c1d-a264-eb0325a957da",
-  "label": "Philips Hue white E27",
+  "label": "Philips Hue White E27",
   "product_number": "LWB006",
   "description": "Hue white",
   "binding_config": {
     "binding_id": "OPENHAB",
-    "meta_config": {}
+    "meta_config": {
+      "entry": [
+        {
+          "key": "OPENHAB_BINDING_TYPE",
+          "value": "hue"
+        }
+      ]
+    }
   },
   "company": "Philips",
   "shape": {},

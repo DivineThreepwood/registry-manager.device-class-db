@@ -15,10 +15,11 @@
     }
   },
   "company": "Devolo",
+  "shape": {},
   "unit_template_config": [
     {
       "id": "Devolo_MT_2652_BUTTON_0",
-      "label": "Button 1 [TOP - LEFT]",
+      "label": "Button 1 [TOP LEFT]",
       "type": "BUTTON",
       "service_template_config": [
         {
@@ -32,11 +33,12 @@
             ]
           }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "Devolo_MT_2652_BUTTON_1",
-      "label": "Button 2 [TOP - RIGHT]",
+      "label": "Button 2 [TOP RIGHT]",
       "type": "BUTTON",
       "service_template_config": [
         {
@@ -50,11 +52,12 @@
             ]
           }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "Devolo_MT_2652_BUTTON_2",
-      "label": "Button 3 [BOTTOM - LEFT]",
+      "label": "Button 3 [BOTTOM LEFT]",
       "type": "BUTTON",
       "service_template_config": [
         {
@@ -68,11 +71,12 @@
             ]
           }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "Devolo_MT_2652_BUTTON_3",
-      "label": "Button 4 [BOTTOM - RIGHT]",
+      "label": "Button 4 [BOTTOM RIGHT]",
       "type": "BUTTON",
       "service_template_config": [
         {
@@ -86,7 +90,8 @@
             ]
           }
         }
-      ]
+      ],
+      "meta_config": {}
     }
   ],
   "meta_config": {

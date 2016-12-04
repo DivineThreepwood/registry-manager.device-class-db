@@ -15,6 +15,7 @@
     }
   },
   "company": "Fibaro",
+  "shape": {},
   "unit_template_config": [
     {
       "id": "Fibaro_FGSS-001_SMOKE_DETECTOR_0",
@@ -48,7 +49,8 @@
           "service_type": "SMOKE_STATE_SERVICE",
           "meta_config": {}
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "Fibaro_FGSS-001_TEMPERATURE_SENSOR_0",
@@ -61,7 +63,26 @@
             "entry": [
               {
                 "key": "OPENHAB_BINDING_CONFIG",
-                "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_multilevel"
+                "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_alarm,alarm_type\u003d4"
+              },
+              {
+                "key": "OPENHAB_SERVICE_LABEL_DESCRIPTOR",
+                "value": "Heat detector is [%s]"
+              },
+              {
+                "key": "OPENHAB_BINDING_ICON",
+                "value": "fire"
+              }
+            ]
+          }
+        },
+        {
+          "service_type": "TEMPERATURE_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_CONFIG",
+                "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_multilevel,sensor_type\u003d1"
               },
               {
                 "key": "OPENHAB_SERVICE_LABEL_DESCRIPTOR",
@@ -73,12 +94,9 @@
               }
             ]
           }
-        },
-        {
-          "service_type": "TEMPERATURE_STATE_SERVICE",
-          "meta_config": {}
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "Fibaro_FGSS-001_TAMPER_DETECTOR_0",
@@ -91,7 +109,7 @@
             "entry": [
               {
                 "key": "OPENHAB_BINDING_CONFIG",
-                "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_alarm"
+                "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_alarm,alarm_type\u003d0"
               },
               {
                 "key": "UNIT_VISIBLE_IN_GUI",
@@ -100,7 +118,8 @@
             ]
           }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "Fibaro_FGSS-001_BATTERY_0",
@@ -130,7 +149,8 @@
             ]
           }
         }
-      ]
+      ],
+      "meta_config": {}
     }
   ],
   "meta_config": {}
