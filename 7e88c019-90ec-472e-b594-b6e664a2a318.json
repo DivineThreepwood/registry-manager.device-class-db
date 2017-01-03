@@ -1,0 +1,117 @@
+{
+  "id": "7e88c019-90ec-472e-b594-b6e664a2a318",
+  "label": "Double Switch 2",
+  "product_number": "FGS-223",
+  "description": "Double Switch 2 x 1.5kW by Fibaro",
+  "binding_config": {
+    "binding_id": "OPENHAB",
+    "meta_config": {
+      "entry": [
+        {
+          "key": "OPENHAB_BINDING_TYPE",
+          "value": "zwave"
+        }
+      ]
+    }
+  },
+  "company": "Fibaro",
+  "shape": {
+    "bounding_box": {
+      "left_front_bottom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "width": 1.0,
+      "depth": 1.0,
+      "height": 1.0
+    }
+  },
+  "unit_template_config": [
+    {
+      "id": "7e88c019-90ec-472e-b594-b6e664a2a318_LIGHT_0",
+      "label": "Q1",
+      "type": "LIGHT",
+      "service_template_config": [
+        {
+          "service_type": "POWER_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_CONFIG",
+                "value": "${OPENHAB_BINDING_DEVICE_ID}"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "7e88c019-90ec-472e-b594-b6e664a2a318_LIGHT_1",
+      "label": "Q2",
+      "type": "LIGHT",
+      "service_template_config": [
+        {
+          "service_type": "POWER_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_CONFIG",
+                "value": "${OPENHAB_BINDING_DEVICE_ID}:2:command\u003dswitch_binary"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "7e88c019-90ec-472e-b594-b6e664a2a318_BUTTON_0",
+      "label": "S1",
+      "type": "BUTTON",
+      "service_template_config": [
+        {
+          "service_type": "BUTTON_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_CONFIG",
+                "value": "${OPENHAB_BINDING_DEVICE_ID}"
+              },
+              {
+                "key": "UNIT_VISIBLE_IN_GUI",
+                "value": "false"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "7e88c019-90ec-472e-b594-b6e664a2a318_BUTTON_1",
+      "label": "S2",
+      "type": "BUTTON",
+      "service_template_config": [
+        {
+          "service_type": "BUTTON_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_CONFIG",
+                "value": "${OPENHAB_BINDING_DEVICE_ID}:2:command\u003dswitch_binary"
+              },
+              {
+                "key": "UNIT_VISIBLE_IN_GUI",
+                "value": "false"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {}
+}

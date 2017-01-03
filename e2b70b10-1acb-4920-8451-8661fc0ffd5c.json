@@ -1,0 +1,75 @@
+{
+  "id": "e2b70b10-1acb-4920-8451-8661fc0ffd5c",
+  "label": "Fibaro Door/Window Sensor",
+  "product_number": "FGK-101",
+  "description": "Reed Contact by Fibaro",
+  "binding_config": {
+    "binding_id": "OPENHAB",
+    "meta_config": {
+      "entry": [
+        {
+          "key": "OPENHAB_BINDING_TYPE",
+          "value": "zwave"
+        }
+      ]
+    }
+  },
+  "company": "Fibaro",
+  "shape": {
+    "bounding_box": {
+      "left_front_bottom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "width": 1.0,
+      "depth": 1.0,
+      "height": 1.0
+    }
+  },
+  "unit_template_config": [
+    {
+      "id": "e2b70b10-1acb-4920-8451-8661fc0ffd5c_REED_CONTACT_0",
+      "label": "e2b70b10-1acb-4920-8451-8661fc0ffd5c_REED_CONTACT_0",
+      "type": "REED_CONTACT",
+      "service_template_config": [
+        {
+          "service_type": "CONTACT_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_CONFIG",
+                "value": "${OPENHAB_BINDING_DEVICE_ID}"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "e2b70b10-1acb-4920-8451-8661fc0ffd5c_BATTERY_0",
+      "label": "e2b70b10-1acb-4920-8451-8661fc0ffd5c_BATTERY_0",
+      "type": "BATTERY",
+      "service_template_config": [
+        {
+          "service_type": "BATTERY_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "UNIT_VISIBLE_IN_GUI",
+                "value": "false"
+              },
+              {
+                "key": "OPENHAB_BINDING_CONFIG",
+                "value": "${OPENHAB_BINDING_DEVICE_ID}"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {}
+}

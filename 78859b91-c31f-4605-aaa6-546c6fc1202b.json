@@ -1,0 +1,75 @@
+{
+  "id": "78859b91-c31f-4605-aaa6-546c6fc1202b",
+  "label": "PowerPlug 2",
+  "product_number": "FGWPF-102",
+  "description": "Power plug with power consumption color feedback by Fibaro.",
+  "binding_config": {
+    "binding_id": "OPENHAB",
+    "meta_config": {
+      "entry": [
+        {
+          "key": "OPENHAB_BINDING_TYPE",
+          "value": "zwave"
+        }
+      ]
+    }
+  },
+  "company": "Fibaro",
+  "shape": {
+    "bounding_box": {
+      "left_front_bottom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "width": 1.0,
+      "depth": 1.0,
+      "height": 1.0
+    }
+  },
+  "unit_template_config": [
+    {
+      "id": "78859b91-c31f-4605-aaa6-546c6fc1202b_POWER_CONSUMPTION_SENSOR_0",
+      "label": "78859b91-c31f-4605-aaa6-546c6fc1202b_POWER_CONSUMPTION_SENSOR_0",
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "service_template_config": [
+        {
+          "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_CONFIG",
+                "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dsensor_multilevel"
+              },
+              {
+                "key": "UNIT_VISIBLE_IN_GUI",
+                "value": "false"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "78859b91-c31f-4605-aaa6-546c6fc1202b_POWER_SWITCH_0",
+      "label": "78859b91-c31f-4605-aaa6-546c6fc1202b_POWER_SWITCH_0",
+      "type": "POWER_SWITCH",
+      "service_template_config": [
+        {
+          "service_type": "POWER_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_BINDING_CONFIG",
+                "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dswitch_binary"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {}
+}
