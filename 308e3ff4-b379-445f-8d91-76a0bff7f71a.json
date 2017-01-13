@@ -79,10 +79,10 @@
     {
       "id": "308e3ff4-b379-445f-8d91-76a0bff7f71a_POWER_SWITCH_4",
       "label": "C1 Consumption",
-      "type": "POWER_SWITCH",
+      "type": "POWER_CONSUMPTION_SENSOR",
       "service_template_config": [
         {
-          "service_type": "POWER_STATE_SERVICE",
+          "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
           "meta_config": {}
         }
       ],
