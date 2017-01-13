@@ -1,0 +1,225 @@
+{
+  "id": "b129b706-5d0f-4909-a027-8338a4446f91",
+  "label": "Gira_1046",
+  "product_number": "439848847520000",
+  "description": "An actuator with 8 power switches and power consumption sensors by Gira.",
+  "binding_config": {
+    "binding_id": "OPENHAB",
+    "meta_config": {
+      "entry": [
+        {
+          "key": "OPENHAB_BINDING_TYPE",
+          "value": "knx"
+        }
+      ]
+    }
+  },
+  "company": "Gira",
+  "shape": {
+    "bounding_box": {
+      "left_front_bottom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "width": 1.0,
+      "depth": 1.0,
+      "height": 1.0
+    }
+  },
+  "unit_template_config": [
+    {
+      "id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_SWITCH_0",
+      "label": "C1",
+      "type": "POWER_SWITCH",
+      "service_template_config": [
+        {
+          "service_type": "POWER_STATE_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_SWITCH_1",
+      "label": "C2",
+      "type": "POWER_SWITCH",
+      "service_template_config": [
+        {
+          "service_type": "POWER_STATE_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_SWITCH_2",
+      "label": "C3",
+      "type": "POWER_SWITCH",
+      "service_template_config": [
+        {
+          "service_type": "POWER_STATE_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_SWITCH_3",
+      "label": "C4",
+      "type": "POWER_SWITCH",
+      "service_template_config": [
+        {
+          "service_type": "POWER_STATE_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_SWITCH_4",
+      "label": "C5",
+      "type": "POWER_SWITCH",
+      "service_template_config": [
+        {
+          "service_type": "POWER_STATE_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_SWITCH_5",
+      "label": "C6",
+      "type": "POWER_SWITCH",
+      "service_template_config": [
+        {
+          "service_type": "POWER_STATE_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_SWITCH_6",
+      "label": "C7",
+      "type": "POWER_SWITCH",
+      "service_template_config": [
+        {
+          "service_type": "POWER_STATE_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_SWITCH_7",
+      "label": "C8",
+      "type": "POWER_SWITCH",
+      "service_template_config": [
+        {
+          "service_type": "POWER_STATE_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_CONSUMPTION_SENSOR_0",
+      "label": "C1 Consumption",
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "service_template_config": [
+        {
+          "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_CONSUMPTION_SENSOR_1",
+      "label": "C2 Consumption",
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "service_template_config": [
+        {
+          "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_CONSUMPTION_SENSOR_2",
+      "label": "C3 Consumption",
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "service_template_config": [
+        {
+          "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_CONSUMPTION_SENSOR_3",
+      "label": "C4 Consumption",
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "service_template_config": [
+        {
+          "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_CONSUMPTION_SENSOR_4",
+      "label": "C5 Consumption",
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "service_template_config": [
+        {
+          "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_CONSUMPTION_SENSOR_5",
+      "label": "C6 Consumption",
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "service_template_config": [
+        {
+          "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_CONSUMPTION_SENSOR_6",
+      "label": "C7 Consumption",
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "service_template_config": [
+        {
+          "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "b129b706-5d0f-4909-a027-8338a4446f91_POWER_CONSUMPTION_SENSOR_7",
+      "label": "C8 Consumption",
+      "type": "POWER_CONSUMPTION_SENSOR",
+      "service_template_config": [
+        {
+          "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {}
+}
