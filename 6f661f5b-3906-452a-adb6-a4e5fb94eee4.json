@@ -15,6 +15,7 @@
     }
   },
   "company": "Philips",
+  "shape": {},
   "unit_template_config": [
     {
       "id": "Philips_KV01-18U_COLORABLE_LIGHT_0",
@@ -54,8 +55,16 @@
             ]
           }
         }
-      ]
+      ],
+      "meta_config": {}
     }
   ],
-  "meta_config": {}
+  "meta_config": {
+    "entry": [
+      {
+        "key": "NEUTRAL_WHITE",
+        "value": "82, 57, 100"
+      }
+    ]
+  }
 }
