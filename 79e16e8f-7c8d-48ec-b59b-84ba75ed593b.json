@@ -47,12 +47,12 @@
       ]
     },
     {
-      "id": "Fibaro_FGMS-001_BRIGHTNESS_SENSOR_0",
-      "label": "Fibaro_FGMS-001_BRIGHTNESS_SENSOR_0",
-      "type": "BRIGHTNESS_SENSOR",
+      "id": "Fibaro_FGMS-001_LIGHT_SENSOR_0",
+      "label": "Fibaro_FGMS-001_LIGHT_SENSOR_0",
+      "type": "LIGHT_SENSOR",
       "service_template_config": [
         {
-          "service_type": "BRIGHTNESS_STATE_SERVICE",
+          "service_type": "ILLUMINANCE_STATE_SERVICE",
           "meta_config": {
             "entry": [
               {
