@@ -15,6 +15,7 @@
     }
   },
   "company": "Hager",
+  "shape": {},
   "unit_template_config": [
     {
       "id": "Hager_TYA663A_DIMMER_0",
@@ -22,14 +23,15 @@
       "type": "DIMMER",
       "service_template_config": [
         {
-          "service_type": "INTENSITY_STATE_SERVICE",
+          "service_type": "BRIGHTNESS_STATE_SERVICE",
           "meta_config": {}
         },
         {
           "service_type": "POWER_STATE_SERVICE",
           "meta_config": {}
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "Hager_TYA663A_DIMMER_1",
@@ -37,14 +39,15 @@
       "type": "DIMMER",
       "service_template_config": [
         {
-          "service_type": "INTENSITY_STATE_SERVICE",
+          "service_type": "BRIGHTNESS_STATE_SERVICE",
           "meta_config": {}
         },
         {
           "service_type": "POWER_STATE_SERVICE",
           "meta_config": {}
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "Hager_TYA663A_DIMMER_2",
@@ -52,14 +55,15 @@
       "type": "DIMMER",
       "service_template_config": [
         {
-          "service_type": "INTENSITY_STATE_SERVICE",
+          "service_type": "BRIGHTNESS_STATE_SERVICE",
           "meta_config": {}
         },
         {
           "service_type": "POWER_STATE_SERVICE",
           "meta_config": {}
         }
-      ]
+      ],
+      "meta_config": {}
     }
   ],
   "meta_config": {}
