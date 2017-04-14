@@ -1,8 +1,8 @@
 {
-  "id": "6f661f5b-3906-452a-adb6-a4e5fb94eee4",
-  "label": "Philips Hue E27 Gen1",
-  "product_number": "KV01-18U",
-  "description": "Ambient light with the socket E27 of product generation 1",
+  "id": "aa309624-53b2-4d15-b25f-484864fc55e9",
+  "label": "Philips Hue E27 Gen3",
+  "product_number": "8718696592984",
+  "description": "Ambient light with the socket E27 of product generation 3 (green hue fixed)",
   "binding_config": {
     "binding_id": "OPENHAB",
     "meta_config": {
@@ -15,11 +15,22 @@
     }
   },
   "company": "Philips",
-  "shape": {},
+  "shape": {
+    "bounding_box": {
+      "left_front_bottom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "width": 1.0,
+      "depth": 1.0,
+      "height": 1.0
+    }
+  },
   "unit_template_config": [
     {
-      "id": "Philips_KV01-18U_COLORABLE_LIGHT_0",
-      "label": "Philips_KV01-18U_COLORABLE_LIGHT_0",
+      "id": "aa309624-53b2-4d15-b25f-484864fc55e9_COLORABLE_LIGHT_0",
+      "label": "COLORABLE_LIGHT_0",
       "type": "COLORABLE_LIGHT",
       "service_template_config": [
         {
@@ -34,7 +45,7 @@
           }
         },
         {
-          "service_type": "COLOR_STATE_SERVICE",
+          "service_type": "POWER_STATE_SERVICE",
           "meta_config": {
             "entry": [
               {
@@ -45,7 +56,7 @@
           }
         },
         {
-          "service_type": "POWER_STATE_SERVICE",
+          "service_type": "COLOR_STATE_SERVICE",
           "meta_config": {
             "entry": [
               {
