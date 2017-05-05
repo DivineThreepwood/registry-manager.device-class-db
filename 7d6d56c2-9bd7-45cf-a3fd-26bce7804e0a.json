@@ -8,6 +8,7 @@
     "meta_config": {}
   },
   "company": "SimonProduction",
+  "shape": {},
   "unit_template_config": [
     {
       "id": "SimonProduction_HandleRev1_COLORABLE_LIGHT_0",
@@ -26,7 +27,20 @@
           "service_type": "POWER_STATE_SERVICE",
           "meta_config": {}
         }
-      ]
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "7d6d56c2-9bd7-45cf-a3fd-26bce7804e0a_REED_CONTACT_0",
+      "label": "SimonProduction_HandleRev1_REED_CONTACT_0",
+      "type": "REED_CONTACT",
+      "service_template_config": [
+        {
+          "service_type": "CONTACT_STATE_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
     }
   ],
   "meta_config": {}
