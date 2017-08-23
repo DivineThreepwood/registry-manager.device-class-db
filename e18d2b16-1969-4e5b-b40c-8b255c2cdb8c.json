@@ -1,0 +1,32 @@
+{
+  "id": "e18d2b16-1969-4e5b-b40c-8b255c2cdb8c",
+  "label": "Kinect 2",
+  "product_number": "1520",
+  "description": "Kinect for Xbox One",
+  "binding_config": {
+    "meta_config": {}
+  },
+  "company": "Microsoft",
+  "shape": {},
+  "unit_template_config": [
+    {
+      "id": "e18d2b16-1969-4e5b-b40c-8b255c2cdb8c_AUDIO_SOURCE_0",
+      "label": "e18d2b16-1969-4e5b-b40c-8b255c2cdb8c_AUDIO_SOURCE_0",
+      "type": "AUDIO_SOURCE",
+      "meta_config": {}
+    },
+    {
+      "id": "e18d2b16-1969-4e5b-b40c-8b255c2cdb8c_VIDEO_RGB_SOURCE_0",
+      "label": "e18d2b16-1969-4e5b-b40c-8b255c2cdb8c_VIDEO_RGB_SOURCE_0",
+      "type": "VIDEO_RGB_SOURCE",
+      "meta_config": {}
+    },
+    {
+      "id": "e18d2b16-1969-4e5b-b40c-8b255c2cdb8c_VIDEO_DEPTH_SOURCE_0",
+      "label": "e18d2b16-1969-4e5b-b40c-8b255c2cdb8c_VIDEO_DEPTH_SOURCE_0",
+      "type": "VIDEO_DEPTH_SOURCE",
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {}
+}
