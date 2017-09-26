@@ -1,6 +1,6 @@
 {
   "id": "1cc1d3cf-f843-493b-9e50-9c67209e0d60",
-  "label": "Fibaro SmokeDetector",
+  "label": "Smoke Detector",
   "product_number": "FGSS-001",
   "description": "Fibaro smoke detector",
   "binding_config": {

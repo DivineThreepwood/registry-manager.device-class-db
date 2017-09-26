@@ -1,6 +1,6 @@
 {
   "id": "ffbf90e0-9cd2-4240-87ef-f64cde2030a6",
-  "label": "Fibaro Rollershutter 2",
+  "label": "Rollershutter 2",
   "product_number": "FGRM-222",
   "binding_config": {
     "binding_id": "OPENHAB",
@@ -14,6 +14,7 @@
     }
   },
   "company": "Fibaro",
+  "shape": {},
   "unit_template_config": [
     {
       "id": "Fibaro_FGRM-222_ROLLER_SHUTTER_0",
@@ -38,7 +39,8 @@
             ]
           }
         }
-      ]
+      ],
+      "meta_config": {}
     }
   ],
   "meta_config": {}
