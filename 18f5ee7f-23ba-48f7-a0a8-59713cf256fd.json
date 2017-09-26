@@ -4,7 +4,10 @@
   "product_number": "SF-HR32P",
   "description": "Capacitive sensor patches for person detection.",
   "binding_config": {
-    "binding_id": "FLOOR_BASE"
+    "binding_id": "",
+    "meta_config": {}
   },
-  "company": "Future-Shape"
+  "company": "Future-Shape",
+  "shape": {},
+  "meta_config": {}
 }

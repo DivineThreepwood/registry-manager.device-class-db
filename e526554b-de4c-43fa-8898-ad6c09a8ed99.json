@@ -4,9 +4,10 @@
   "product_number": "SE3-P",
   "description": "SenseFloor USB Receiver",
   "binding_config": {
-    "binding_id": "FLOOR_BASE",
+    "binding_id": "",
     "meta_config": {}
   },
   "company": "Future-Shape",
+  "shape": {},
   "meta_config": {}
 }
