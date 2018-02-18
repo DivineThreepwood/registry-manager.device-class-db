@@ -99,6 +99,10 @@
       {
         "key": "UNIT_VISIBLE_IN_GUI",
         "value": "false"
+      },
+      {
+        "key": "AUTO_RESET_BUTTON_STATE",
+        "value": "true"
       }
     ]
   }
