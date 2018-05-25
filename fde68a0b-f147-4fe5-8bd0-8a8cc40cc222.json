@@ -2,7 +2,7 @@
   "id": "fde68a0b-f147-4fe5-8bd0-8a8cc40cc222",
   "label": "Scene Switch",
   "product_number": "MT 2652",
-  "description": "4 Button wireless switch by Devolo",
+  "description": "4 Button wireless switch by Devolo - http://manuals-backend.z-wave.info/make.php?lang\u003dde\u0026sku\u003dMT2652\u0026cert\u003dZC10-14090021",
   "binding_config": {
     "binding_id": "OPENHAB",
     "meta_config": {
