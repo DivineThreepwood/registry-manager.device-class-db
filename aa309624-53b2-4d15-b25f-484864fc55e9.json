@@ -61,7 +61,7 @@
               },
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "hue:color"
+                "value": "color"
               }
             ]
           }
@@ -76,7 +76,7 @@
               },
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "hue:color"
+                "value": "color"
               }
             ]
           }
@@ -91,7 +91,7 @@
               },
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "hue:color"
+                "value": "color"
               }
             ]
           }

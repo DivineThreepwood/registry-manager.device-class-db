@@ -62,6 +62,10 @@
               {
                 "key": "UNIT_VISIBLE_IN_GUI",
                 "value": "false"
+              },
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "sensor_power"
               }
             ]
           }
@@ -90,6 +94,10 @@
               {
                 "key": "OPENHAB_BINDING_CONFIG",
                 "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dswitch_binary"
+              },
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "switch_binary"
               }
             ]
           }
@@ -98,5 +106,12 @@
       "meta_config": {}
     }
   ],
-  "meta_config": {}
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_THING_CLASS",
+        "value": "zwave_deviceid:4097"
+      }
+    ]
+  }
 }
