@@ -1,6 +1,15 @@
 {
   "id": "033fce01-57da-411f-8df2-eccc0b9b9bc3",
-  "label": "Galaxy NotePRO",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Galaxy NotePRO"
+        ]
+      }
+    ]
+  },
   "product_number": "SM-P9000ZWADBT",
   "description": "12\" Tablet",
   "binding_config": {},

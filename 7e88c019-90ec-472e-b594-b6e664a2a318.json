@@ -1,6 +1,15 @@
 {
   "id": "7e88c019-90ec-472e-b594-b6e664a2a318",
-  "label": "Double Switch 2",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Double Switch 2"
+        ]
+      }
+    ]
+  },
   "product_number": "FGS-223",
   "description": "Double Switch 2 x 1.5kW by Fibaro",
   "binding_config": {
@@ -30,7 +39,16 @@
   "unit_template_config": [
     {
       "id": "7e88c019-90ec-472e-b594-b6e664a2a318_LIGHT_0",
-      "label": "Q1",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Q1"
+            ]
+          }
+        ]
+      },
       "type": "LIGHT",
       "service_template_config": [
         {
@@ -49,7 +67,16 @@
     },
     {
       "id": "7e88c019-90ec-472e-b594-b6e664a2a318_LIGHT_1",
-      "label": "Q2",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Q2"
+            ]
+          }
+        ]
+      },
       "type": "LIGHT",
       "service_template_config": [
         {
@@ -68,7 +95,16 @@
     },
     {
       "id": "7e88c019-90ec-472e-b594-b6e664a2a318_BUTTON_0",
-      "label": "S1",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "S1"
+            ]
+          }
+        ]
+      },
       "type": "BUTTON",
       "service_template_config": [
         {
@@ -91,7 +127,16 @@
     },
     {
       "id": "7e88c019-90ec-472e-b594-b6e664a2a318_BUTTON_1",
-      "label": "S2",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "S2"
+            ]
+          }
+        ]
+      },
       "type": "BUTTON",
       "service_template_config": [
         {

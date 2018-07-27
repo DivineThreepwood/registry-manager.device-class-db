@@ -1,6 +1,15 @@
 {
   "id": "ffbf90e0-9cd2-4240-87ef-f64cde2030a6",
-  "label": "Rollershutter 2",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Rollershutter 2"
+        ]
+      }
+    ]
+  },
   "product_number": "FGRM-222",
   "binding_config": {
     "binding_id": "OPENHAB",
@@ -18,7 +27,16 @@
   "unit_template_config": [
     {
       "id": "Fibaro_FGRM-222_ROLLER_SHUTTER_0",
-      "label": "Fibaro_FGRM-222_ROLLER_SHUTTER_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Fibaro_FGRM-222_ROLLER_SHUTTER_0"
+            ]
+          }
+        ]
+      },
       "type": "ROLLER_SHUTTER",
       "service_template_config": [
         {

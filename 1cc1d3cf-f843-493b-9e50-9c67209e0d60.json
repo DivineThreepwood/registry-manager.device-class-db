@@ -1,6 +1,15 @@
 {
   "id": "1cc1d3cf-f843-493b-9e50-9c67209e0d60",
-  "label": "Smoke Detector",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Smoke Detector"
+        ]
+      }
+    ]
+  },
   "product_number": "FGSS-001",
   "description": "Fibaro smoke detector",
   "binding_config": {
@@ -19,7 +28,16 @@
   "unit_template_config": [
     {
       "id": "Fibaro_FGSS-001_SMOKE_DETECTOR_0",
-      "label": "Fibaro_FGSS-001_SMOKE_DETECTOR_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Fibaro_FGSS-001_SMOKE_DETECTOR_0"
+            ]
+          }
+        ]
+      },
       "type": "SMOKE_DETECTOR",
       "service_template_config": [
         {
@@ -54,7 +72,16 @@
     },
     {
       "id": "Fibaro_FGSS-001_TEMPERATURE_SENSOR_0",
-      "label": "Fibaro_FGSS-001_TEMPERATURE_SENSOR_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Fibaro_FGSS-001_TEMPERATURE_SENSOR_0"
+            ]
+          }
+        ]
+      },
       "type": "TEMPERATURE_SENSOR",
       "service_template_config": [
         {
@@ -100,7 +127,16 @@
     },
     {
       "id": "Fibaro_FGSS-001_TAMPER_DETECTOR_0",
-      "label": "Fibaro_FGSS-001_TAMPER_DETECTOR_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Fibaro_FGSS-001_TAMPER_DETECTOR_0"
+            ]
+          }
+        ]
+      },
       "type": "TAMPER_DETECTOR",
       "service_template_config": [
         {
@@ -123,7 +159,16 @@
     },
     {
       "id": "Fibaro_FGSS-001_BATTERY_0",
-      "label": "Fibaro_FGSS-001_BATTERY_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Fibaro_FGSS-001_BATTERY_0"
+            ]
+          }
+        ]
+      },
       "type": "BATTERY",
       "service_template_config": [
         {

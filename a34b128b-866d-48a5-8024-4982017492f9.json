@@ -1,6 +1,15 @@
 {
   "id": "a34b128b-866d-48a5-8024-4982017492f9",
-  "label": "Gira_5142",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Gira_5142"
+        ]
+      }
+    ]
+  },
   "product_number": "429496730250000",
   "description": "4 knx buttons and a temperature controller by Gira.",
   "binding_config": {
@@ -18,7 +27,16 @@
   "unit_template_config": [
     {
       "id": "Gira_429496730250000_TEMPERATURE_CONTROLLER_0",
-      "label": "Gira_429496730250000_TEMPERATURE_CONTROLLER_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Gira_429496730250000_TEMPERATURE_CONTROLLER_0"
+            ]
+          }
+        ]
+      },
       "type": "TEMPERATURE_CONTROLLER",
       "service_template_config": [
         {
@@ -33,7 +51,16 @@
     },
     {
       "id": "Gira_429496730250000_BUTTON_0",
-      "label": "Gira_429496730250000_BUTTON_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Gira_429496730250000_BUTTON_0"
+            ]
+          }
+        ]
+      },
       "type": "BUTTON",
       "service_template_config": [
         {
@@ -44,7 +71,16 @@
     },
     {
       "id": "Gira_429496730250000_BUTTON_1",
-      "label": "Gira_429496730250000_BUTTON_1",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Gira_429496730250000_BUTTON_1"
+            ]
+          }
+        ]
+      },
       "type": "BUTTON",
       "service_template_config": [
         {
@@ -55,7 +91,16 @@
     },
     {
       "id": "Gira_429496730250000_BUTTON_2",
-      "label": "Gira_429496730250000_BUTTON_2",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Gira_429496730250000_BUTTON_2"
+            ]
+          }
+        ]
+      },
       "type": "BUTTON",
       "service_template_config": [
         {
@@ -66,7 +111,16 @@
     },
     {
       "id": "Gira_429496730250000_BUTTON_3",
-      "label": "Gira_429496730250000_BUTTON_3",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Gira_429496730250000_BUTTON_3"
+            ]
+          }
+        ]
+      },
       "type": "BUTTON",
       "service_template_config": [
         {

@@ -1,6 +1,15 @@
 {
   "id": "61cf939b-a94f-4c1d-a264-eb0325a957da",
-  "label": "Philips Hue White E27",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Philips Hue White E27"
+        ]
+      }
+    ]
+  },
   "product_number": "LWB006",
   "description": "Hue white",
   "binding_config": {
@@ -19,7 +28,16 @@
   "unit_template_config": [
     {
       "id": "61cf939b-a94f-4c1d-a264-eb0325a957da_DIMMABLE_LIGHT_0",
-      "label": "Philips Hue white E27 DIMMABLE_LIGHT_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Philips Hue white E27 DIMMABLE_LIGHT_0"
+            ]
+          }
+        ]
+      },
       "type": "DIMMABLE_LIGHT",
       "service_template_config": [
         {

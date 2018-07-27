@@ -1,6 +1,15 @@
 {
   "id": "3a7d9289-ddb9-4de7-8cdf-a1781e787201",
-  "label": "HD Webcam C910",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "HD Webcam C910"
+        ]
+      }
+    ]
+  },
   "product_number": "C910",
   "description": "Desktop HD Webcam",
   "binding_config": {
@@ -10,7 +19,16 @@
   "unit_template_config": [
     {
       "id": "Logitech_C910_VIDEO_RGB_SOURCE_0",
-      "label": "Logitech_C910_VIDEO_RGB_SOURCE_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Logitech_C910_VIDEO_RGB_SOURCE_0"
+            ]
+          }
+        ]
+      },
       "type": "VIDEO_RGB_SOURCE"
     }
   ],

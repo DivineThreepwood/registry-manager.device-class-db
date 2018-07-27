@@ -1,6 +1,15 @@
 {
   "id": "aa309624-53b2-4d15-b25f-484864fc55e9",
-  "label": "Philips Hue E27 Gen3",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Philips Hue E27 Gen3"
+        ]
+      }
+    ]
+  },
   "product_number": "8718696592984",
   "description": "Ambient light with the socket E27 of product generation 3 (green hue fixed)",
   "binding_config": {
@@ -30,7 +39,16 @@
   "unit_template_config": [
     {
       "id": "aa309624-53b2-4d15-b25f-484864fc55e9_COLORABLE_LIGHT_0",
-      "label": "COLORABLE_LIGHT_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "COLORABLE_LIGHT_0"
+            ]
+          }
+        ]
+      },
       "type": "COLORABLE_LIGHT",
       "service_template_config": [
         {

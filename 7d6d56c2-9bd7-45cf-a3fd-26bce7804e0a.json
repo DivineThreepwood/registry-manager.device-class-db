@@ -1,6 +1,15 @@
 {
   "id": "7d6d56c2-9bd7-45cf-a3fd-26bce7804e0a",
-  "label": "Handle",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Handle"
+        ]
+      }
+    ]
+  },
   "product_number": "HandleRev1",
   "description": "Colorful Kitchen Handles",
   "binding_config": {
@@ -12,7 +21,16 @@
   "unit_template_config": [
     {
       "id": "SimonProduction_HandleRev1_COLORABLE_LIGHT_0",
-      "label": "SimonProduction_HandleRev1_COLORABLE_LIGHT_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "SimonProduction_HandleRev1_COLORABLE_LIGHT_0"
+            ]
+          }
+        ]
+      },
       "type": "COLORABLE_LIGHT",
       "service_template_config": [
         {
@@ -32,7 +50,16 @@
     },
     {
       "id": "7d6d56c2-9bd7-45cf-a3fd-26bce7804e0a_REED_CONTACT_0",
-      "label": "SimonProduction_HandleRev1_REED_CONTACT_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "SimonProduction_HandleRev1_REED_CONTACT_0"
+            ]
+          }
+        ]
+      },
       "type": "REED_CONTACT",
       "service_template_config": [
         {

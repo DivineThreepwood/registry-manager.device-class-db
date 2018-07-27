@@ -1,6 +1,15 @@
 {
   "id": "0fd75f59-95be-484a-8f2a-dad38ba58982",
-  "label": "AKG C411",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "AKG C411"
+        ]
+      }
+    ]
+  },
   "product_number": "C411 PP",
   "description": "Condenser contact microphone",
   "binding_config": {},

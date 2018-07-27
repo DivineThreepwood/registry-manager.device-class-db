@@ -1,6 +1,15 @@
 {
   "id": "22a869e9-de2f-4e85-9503-5e5cacd39309",
-  "label": "Hager_TYA663A",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Hager_TYA663A"
+        ]
+      }
+    ]
+  },
   "product_number": "TYA663A",
   "description": "Hager dimmer actuator with 3 dimmers.",
   "binding_config": {
@@ -19,7 +28,16 @@
   "unit_template_config": [
     {
       "id": "Hager_TYA663A_DIMMER_0",
-      "label": "Hager_TYA663A_DIMMER_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Hager_TYA663A_DIMMER_0"
+            ]
+          }
+        ]
+      },
       "type": "DIMMER",
       "service_template_config": [
         {
@@ -35,7 +53,16 @@
     },
     {
       "id": "Hager_TYA663A_DIMMER_1",
-      "label": "Hager_TYA663A_DIMMER_1",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Hager_TYA663A_DIMMER_1"
+            ]
+          }
+        ]
+      },
       "type": "DIMMER",
       "service_template_config": [
         {
@@ -51,7 +78,16 @@
     },
     {
       "id": "Hager_TYA663A_DIMMER_2",
-      "label": "Hager_TYA663A_DIMMER_2",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Hager_TYA663A_DIMMER_2"
+            ]
+          }
+        ]
+      },
       "type": "DIMMER",
       "service_template_config": [
         {

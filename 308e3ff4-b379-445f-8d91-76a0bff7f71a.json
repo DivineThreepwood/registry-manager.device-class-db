@@ -1,6 +1,15 @@
 {
   "id": "308e3ff4-b379-445f-8d91-76a0bff7f71a",
-  "label": "Gira_1045",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Gira_1045"
+        ]
+      }
+    ]
+  },
   "product_number": "432955187350000",
   "description": "An actuator with 4 power switches and power consumption sensors by Gira.",
   "binding_config": {
@@ -30,7 +39,16 @@
   "unit_template_config": [
     {
       "id": "308e3ff4-b379-445f-8d91-76a0bff7f71a_POWER_SWITCH_0",
-      "label": "C1",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "C1"
+            ]
+          }
+        ]
+      },
       "type": "POWER_SWITCH",
       "service_template_config": [
         {
@@ -42,7 +60,16 @@
     },
     {
       "id": "308e3ff4-b379-445f-8d91-76a0bff7f71a_POWER_SWITCH_1",
-      "label": "C2",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "C2"
+            ]
+          }
+        ]
+      },
       "type": "POWER_SWITCH",
       "service_template_config": [
         {
@@ -54,7 +81,16 @@
     },
     {
       "id": "308e3ff4-b379-445f-8d91-76a0bff7f71a_POWER_SWITCH_2",
-      "label": "C3",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "C3"
+            ]
+          }
+        ]
+      },
       "type": "POWER_SWITCH",
       "service_template_config": [
         {
@@ -66,7 +102,16 @@
     },
     {
       "id": "308e3ff4-b379-445f-8d91-76a0bff7f71a_POWER_SWITCH_3",
-      "label": "C4",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "C4"
+            ]
+          }
+        ]
+      },
       "type": "POWER_SWITCH",
       "service_template_config": [
         {
@@ -78,7 +123,16 @@
     },
     {
       "id": "308e3ff4-b379-445f-8d91-76a0bff7f71a_POWER_SWITCH_4",
-      "label": "C1 Consumption",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "C1 Consumption"
+            ]
+          }
+        ]
+      },
       "type": "POWER_CONSUMPTION_SENSOR",
       "service_template_config": [
         {
@@ -90,7 +144,16 @@
     },
     {
       "id": "308e3ff4-b379-445f-8d91-76a0bff7f71a_POWER_CONSUMPTION_SENSOR_0",
-      "label": "C2 Consumption",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "C2 Consumption"
+            ]
+          }
+        ]
+      },
       "type": "POWER_CONSUMPTION_SENSOR",
       "service_template_config": [
         {
@@ -102,7 +165,16 @@
     },
     {
       "id": "308e3ff4-b379-445f-8d91-76a0bff7f71a_POWER_CONSUMPTION_SENSOR_1",
-      "label": "C3 Consumption",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "C3 Consumption"
+            ]
+          }
+        ]
+      },
       "type": "POWER_CONSUMPTION_SENSOR",
       "service_template_config": [
         {
@@ -114,7 +186,16 @@
     },
     {
       "id": "308e3ff4-b379-445f-8d91-76a0bff7f71a_POWER_CONSUMPTION_SENSOR_2",
-      "label": "C4 Consumption",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "C4 Consumption"
+            ]
+          }
+        ]
+      },
       "type": "POWER_CONSUMPTION_SENSOR",
       "service_template_config": [
         {

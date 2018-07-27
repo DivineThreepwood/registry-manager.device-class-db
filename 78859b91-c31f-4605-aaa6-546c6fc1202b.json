@@ -1,6 +1,15 @@
 {
   "id": "78859b91-c31f-4605-aaa6-546c6fc1202b",
-  "label": "Power Plug 2",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Power Plug 2"
+        ]
+      }
+    ]
+  },
   "product_number": "FGWPF-102",
   "description": "Power plug with power consumption color feedback by Fibaro.",
   "binding_config": {
@@ -30,7 +39,16 @@
   "unit_template_config": [
     {
       "id": "78859b91-c31f-4605-aaa6-546c6fc1202b_POWER_CONSUMPTION_SENSOR_0",
-      "label": "78859b91-c31f-4605-aaa6-546c6fc1202b_POWER_CONSUMPTION_SENSOR_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "78859b91-c31f-4605-aaa6-546c6fc1202b_POWER_CONSUMPTION_SENSOR_0"
+            ]
+          }
+        ]
+      },
       "type": "POWER_CONSUMPTION_SENSOR",
       "service_template_config": [
         {
@@ -53,7 +71,16 @@
     },
     {
       "id": "78859b91-c31f-4605-aaa6-546c6fc1202b_POWER_SWITCH_0",
-      "label": "78859b91-c31f-4605-aaa6-546c6fc1202b_POWER_SWITCH_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "78859b91-c31f-4605-aaa6-546c6fc1202b_POWER_SWITCH_0"
+            ]
+          }
+        ]
+      },
       "type": "POWER_SWITCH",
       "service_template_config": [
         {

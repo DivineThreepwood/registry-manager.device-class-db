@@ -1,6 +1,15 @@
 {
   "id": "fde68a0b-f147-4fe5-8bd0-8a8cc40cc222",
-  "label": "Scene Switch",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Scene Switch"
+        ]
+      }
+    ]
+  },
   "product_number": "MT 2652",
   "description": "4 Button wireless switch by Devolo - http://manuals-backend.z-wave.info/make.php?lang\u003dde\u0026sku\u003dMT2652\u0026cert\u003dZC10-14090021",
   "binding_config": {
@@ -19,7 +28,16 @@
   "unit_template_config": [
     {
       "id": "Devolo_MT_2652_BUTTON_0",
-      "label": "Button 1 [TOP LEFT]",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Button 1 [TOP LEFT]"
+            ]
+          }
+        ]
+      },
       "type": "BUTTON",
       "service_template_config": [
         {
@@ -38,7 +56,16 @@
     },
     {
       "id": "Devolo_MT_2652_BUTTON_1",
-      "label": "Button 2 [TOP RIGHT]",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Button 2 [TOP RIGHT]"
+            ]
+          }
+        ]
+      },
       "type": "BUTTON",
       "service_template_config": [
         {
@@ -57,7 +84,16 @@
     },
     {
       "id": "Devolo_MT_2652_BUTTON_2",
-      "label": "Button 3 [BOTTOM LEFT]",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Button 3 [BOTTOM LEFT]"
+            ]
+          }
+        ]
+      },
       "type": "BUTTON",
       "service_template_config": [
         {
@@ -76,7 +112,16 @@
     },
     {
       "id": "Devolo_MT_2652_BUTTON_3",
-      "label": "Button 4 [BOTTOM RIGHT]",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Button 4 [BOTTOM RIGHT]"
+            ]
+          }
+        ]
+      },
       "type": "BUTTON",
       "service_template_config": [
         {

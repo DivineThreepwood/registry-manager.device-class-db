@@ -1,6 +1,15 @@
 {
   "id": "067c040f-0fef-4ca6-9776-aa4c56453757",
-  "label": "Double Relay Switch 2",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Double Relay Switch 2"
+        ]
+      }
+    ]
+  },
   "product_number": "FGS-222",
   "description": "Relay Switch 2 x 1.5kW by Fibaro",
   "binding_config": {
@@ -18,7 +27,16 @@
   "unit_template_config": [
     {
       "id": "Fibaro_FGS-222_BUTTON_0",
-      "label": "S1",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "S1"
+            ]
+          }
+        ]
+      },
       "type": "BUTTON",
       "service_template_config": [
         {
@@ -40,7 +58,16 @@
     },
     {
       "id": "Fibaro_FGS-222_LIGHT_0",
-      "label": "Q1",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Q1"
+            ]
+          }
+        ]
+      },
       "type": "LIGHT",
       "service_template_config": [
         {
@@ -58,7 +85,16 @@
     },
     {
       "id": "Fibaro_FGS-222_BUTTON_1",
-      "label": "S2",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "S2"
+            ]
+          }
+        ]
+      },
       "type": "BUTTON",
       "service_template_config": [
         {
@@ -80,7 +116,16 @@
     },
     {
       "id": "Fibaro_FGS-222_LIGHT_1",
-      "label": "Q2",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Q2"
+            ]
+          }
+        ]
+      },
       "type": "LIGHT",
       "service_template_config": [
         {

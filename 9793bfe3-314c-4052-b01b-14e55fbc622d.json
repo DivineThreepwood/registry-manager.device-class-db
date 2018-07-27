@@ -1,6 +1,15 @@
 {
   "id": "9793bfe3-314c-4052-b01b-14e55fbc622d",
-  "label": "Rode NT55",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Rode NT55"
+        ]
+      }
+    ]
+  },
   "product_number": "NT55",
   "description": "Condenser omnidirectional microphone",
   "binding_config": {},

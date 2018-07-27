@@ -1,6 +1,15 @@
 {
   "id": "a9977a4a-ef9c-4280-81a3-79bf6b8069b4",
-  "label": "Philips Hue GU10",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Philips Hue GU10"
+        ]
+      }
+    ]
+  },
   "product_number": "KV01-18Y",
   "description": "Ambient light with the socket GU10.",
   "binding_config": {
@@ -18,7 +27,16 @@
   "unit_template_config": [
     {
       "id": "Philips_KV01-18Y_COLORABLE_LIGHT_0",
-      "label": "Philips_KV01-18Y_COLORABLE_LIGHT_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Philips_KV01-18Y_COLORABLE_LIGHT_0"
+            ]
+          }
+        ]
+      },
       "type": "COLORABLE_LIGHT",
       "service_template_config": [
         {

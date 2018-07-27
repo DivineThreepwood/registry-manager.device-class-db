@@ -1,6 +1,15 @@
 {
   "id": "591eecbd-5985-427b-a092-d21e6c7f233b",
-  "label": "Fritz!DECT 200",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Fritz!DECT 200"
+        ]
+      }
+    ]
+  },
   "product_number": "FGWPF-101",
   "description": "Power plug with power consumption measurement by AVM.",
   "binding_config": {
@@ -18,7 +27,16 @@
   "unit_template_config": [
     {
       "id": "AVM_DECT_200_POWER_SWITCH_0",
-      "label": "AVM_DECT_200_POWER_SWITCH_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "AVM_DECT_200_POWER_SWITCH_0"
+            ]
+          }
+        ]
+      },
       "type": "POWER_SWITCH",
       "service_template_config": [
         {
@@ -36,7 +54,16 @@
     },
     {
       "id": "AVM_DECT_200_POWER_CONSUMPTION_SENSOR_0",
-      "label": "AVM_DECT_200_POWER_CONSUMPTION_SENSOR_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "AVM_DECT_200_POWER_CONSUMPTION_SENSOR_0"
+            ]
+          }
+        ]
+      },
       "type": "POWER_CONSUMPTION_SENSOR",
       "service_template_config": [
         {

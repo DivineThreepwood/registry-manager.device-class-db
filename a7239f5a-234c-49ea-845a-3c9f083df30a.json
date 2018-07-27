@@ -1,6 +1,15 @@
 {
   "id": "a7239f5a-234c-49ea-845a-3c9f083df30a",
-  "label": "Insert Blind Control",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Insert Blind Control"
+        ]
+      }
+    ]
+  },
   "product_number": "064367",
   "binding_config": {
     "binding_id": "OPENHAB",
@@ -17,7 +26,16 @@
   "unit_template_config": [
     {
       "id": "Reitz_Group_064367_ROLLER_SHUTTER_0",
-      "label": "Reitz_Group_064367_ROLLER_SHUTTER_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Reitz_Group_064367_ROLLER_SHUTTER_0"
+            ]
+          }
+        ]
+      },
       "type": "ROLLER_SHUTTER",
       "service_template_config": [
         {

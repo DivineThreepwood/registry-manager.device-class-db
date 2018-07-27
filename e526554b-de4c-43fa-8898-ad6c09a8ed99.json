@@ -1,6 +1,15 @@
 {
   "id": "e526554b-de4c-43fa-8898-ad6c09a8ed99",
-  "label": "SenseFloorUSBReceiver",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "SenseFloorUSBReceiver"
+        ]
+      }
+    ]
+  },
   "product_number": "SE3-P",
   "description": "SenseFloor USB Receiver",
   "binding_config": {

@@ -1,6 +1,15 @@
 {
   "id": "6d620edd-e87d-4c42-ba3c-074e4b086226",
-  "label": "Rode NT3",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Rode NT3"
+        ]
+      }
+    ]
+  },
   "product_number": "NT3",
   "description": "Condenser cardoid microphone",
   "binding_config": {},

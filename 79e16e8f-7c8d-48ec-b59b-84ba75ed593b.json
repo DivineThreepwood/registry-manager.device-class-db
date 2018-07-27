@@ -1,6 +1,15 @@
 {
   "id": "79e16e8f-7c8d-48ec-b59b-84ba75ed593b",
-  "label": "Motion Sensor",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Motion Sensor"
+        ]
+      }
+    ]
+  },
   "product_number": "FGMS-001",
   "description": "Wireless sensor for motion, temperature, brightness and tamper with a battery by Fibaro.",
   "binding_config": {
@@ -19,7 +28,16 @@
   "unit_template_config": [
     {
       "id": "Fibaro_FGMS-001_BATTERY_0",
-      "label": "Fibaro_FGMS-001_BATTERY_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Fibaro_FGMS-001_BATTERY_0"
+            ]
+          }
+        ]
+      },
       "type": "BATTERY",
       "service_template_config": [
         {
@@ -50,7 +68,16 @@
     },
     {
       "id": "Fibaro_FGMS-001_LIGHT_SENSOR_0",
-      "label": "Fibaro_FGMS-001_LIGHT_SENSOR_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Fibaro_FGMS-001_LIGHT_SENSOR_0"
+            ]
+          }
+        ]
+      },
       "type": "LIGHT_SENSOR",
       "service_template_config": [
         {
@@ -77,7 +104,16 @@
     },
     {
       "id": "Fibaro_FGMS-001_MOTION_DETECTOR_0",
-      "label": "Fibaro_FGMS-001_MOTION_DETECTOR_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Fibaro_FGMS-001_MOTION_DETECTOR_0"
+            ]
+          }
+        ]
+      },
       "type": "MOTION_DETECTOR",
       "service_template_config": [
         {
@@ -104,7 +140,16 @@
     },
     {
       "id": "Fibaro_FGMS-001_TAMPER_DETECTOR_0",
-      "label": "Fibaro_FGMS-001_TAMPER_DETECTOR_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Fibaro_FGMS-001_TAMPER_DETECTOR_0"
+            ]
+          }
+        ]
+      },
       "type": "TAMPER_DETECTOR",
       "service_template_config": [
         {
@@ -127,7 +172,16 @@
     },
     {
       "id": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
-      "label": "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Fibaro_FGMS-001_TEMPERATURE_SENSOR_0"
+            ]
+          }
+        ]
+      },
       "type": "TEMPERATURE_SENSOR",
       "service_template_config": [
         {

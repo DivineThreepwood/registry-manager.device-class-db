@@ -1,6 +1,15 @@
 {
   "id": "e52cd401-6aa3-4fde-ac48-459a7f48ed41",
-  "label": "Philips Hue Lightstrip Plus",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Philips Hue Lightstrip Plus"
+        ]
+      }
+    ]
+  },
   "product_number": "71901-55-PH",
   "binding_config": {
     "binding_id": "OPENHAB",
@@ -17,7 +26,16 @@
   "unit_template_config": [
     {
       "id": "Philips_71901-55-PH_COLORABLE_LIGHT_0",
-      "label": "Philips_71901-55-PH_COLORABLE_LIGHT_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Philips_71901-55-PH_COLORABLE_LIGHT_0"
+            ]
+          }
+        ]
+      },
       "type": "COLORABLE_LIGHT",
       "service_template_config": [
         {

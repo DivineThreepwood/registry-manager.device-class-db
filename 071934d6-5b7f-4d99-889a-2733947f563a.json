@@ -1,6 +1,15 @@
 {
   "id": "071934d6-5b7f-4d99-889a-2733947f563a",
-  "label": "Hager_TYA628C",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Hager_TYA628C"
+        ]
+      }
+    ]
+  },
   "product_number": "TYA628C",
   "description": "Hager rollershutter actuator with up to 8 rollershuters.",
   "binding_config": {
@@ -18,7 +27,16 @@
   "unit_template_config": [
     {
       "id": "Hager_TYA628C_ROLLER_SHUTTER_0",
-      "label": "Hager_TYA628C_ROLLER_SHUTTER_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Hager_TYA628C_ROLLER_SHUTTER_0"
+            ]
+          }
+        ]
+      },
       "type": "ROLLER_SHUTTER",
       "service_template_config": [
         {
@@ -32,7 +50,16 @@
     },
     {
       "id": "Hager_TYA628C_ROLLER_SHUTTER_1",
-      "label": "Hager_TYA628C_ROLLER_SHUTTER_1",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Hager_TYA628C_ROLLER_SHUTTER_1"
+            ]
+          }
+        ]
+      },
       "type": "ROLLER_SHUTTER",
       "service_template_config": [
         {
@@ -46,7 +73,16 @@
     },
     {
       "id": "Hager_TYA628C_ROLLER_SHUTTER_2",
-      "label": "Hager_TYA628C_ROLLER_SHUTTER_2",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Hager_TYA628C_ROLLER_SHUTTER_2"
+            ]
+          }
+        ]
+      },
       "type": "ROLLER_SHUTTER",
       "service_template_config": [
         {
@@ -60,7 +96,16 @@
     },
     {
       "id": "Hager_TYA628C_ROLLER_SHUTTER_3",
-      "label": "Hager_TYA628C_ROLLER_SHUTTER_3",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Hager_TYA628C_ROLLER_SHUTTER_3"
+            ]
+          }
+        ]
+      },
       "type": "ROLLER_SHUTTER",
       "service_template_config": [
         {
@@ -74,7 +119,16 @@
     },
     {
       "id": "Hager_TYA628C_ROLLER_SHUTTER_4",
-      "label": "Hager_TYA628C_ROLLER_SHUTTER_4",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Hager_TYA628C_ROLLER_SHUTTER_4"
+            ]
+          }
+        ]
+      },
       "type": "ROLLER_SHUTTER",
       "service_template_config": [
         {
@@ -88,7 +142,16 @@
     },
     {
       "id": "Hager_TYA628C_ROLLER_SHUTTER_5",
-      "label": "Hager_TYA628C_ROLLER_SHUTTER_5",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Hager_TYA628C_ROLLER_SHUTTER_5"
+            ]
+          }
+        ]
+      },
       "type": "ROLLER_SHUTTER",
       "service_template_config": [
         {
@@ -102,7 +165,16 @@
     },
     {
       "id": "Hager_TYA628C_ROLLER_SHUTTER_6",
-      "label": "Hager_TYA628C_ROLLER_SHUTTER_6",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Hager_TYA628C_ROLLER_SHUTTER_6"
+            ]
+          }
+        ]
+      },
       "type": "ROLLER_SHUTTER",
       "service_template_config": [
         {
@@ -116,7 +188,16 @@
     },
     {
       "id": "Hager_TYA628C_ROLLER_SHUTTER_7",
-      "label": "Hager_TYA628C_ROLLER_SHUTTER_7",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Hager_TYA628C_ROLLER_SHUTTER_7"
+            ]
+          }
+        ]
+      },
       "type": "ROLLER_SHUTTER",
       "service_template_config": [
         {

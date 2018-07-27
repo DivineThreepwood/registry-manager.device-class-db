@@ -1,6 +1,15 @@
 {
   "id": "569ff797-09f1-4437-8404-391017776796",
-  "label": "Homematic_Sec_SC_2",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Homematic_Sec_SC_2"
+        ]
+      }
+    ]
+  },
   "product_number": "Sec_SC_2",
   "description": "Reed switch by Homematic.",
   "binding_config": {
@@ -19,7 +28,16 @@
   "unit_template_config": [
     {
       "id": "Homematic_Sec_SC_2_BATTERY_0",
-      "label": "Homematic_Sec_SC_2_BATTERY_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Homematic_Sec_SC_2_BATTERY_0"
+            ]
+          }
+        ]
+      },
       "type": "BATTERY",
       "service_template_config": [
         {
@@ -38,7 +56,16 @@
     },
     {
       "id": "Homematic_Sec_SC_2_REED_CONTACT_0",
-      "label": "Homematic_Sec_SC_2_REED_CONTACT_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Homematic_Sec_SC_2_REED_CONTACT_0"
+            ]
+          }
+        ]
+      },
       "type": "REED_CONTACT",
       "service_template_config": [
         {
