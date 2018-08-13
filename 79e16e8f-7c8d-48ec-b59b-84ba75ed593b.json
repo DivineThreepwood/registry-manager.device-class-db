@@ -59,6 +59,10 @@
               {
                 "key": "UNIT_VISIBLE_IN_GUI",
                 "value": "false"
+              },
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "battery-level"
               }
             ]
           }
@@ -95,6 +99,10 @@
               {
                 "key": "OPENHAB_BINDING_ICON",
                 "value": "sun"
+              },
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "sensor_luminance"
               }
             ]
           }
@@ -131,6 +139,10 @@
               {
                 "key": "OPENHAB_BINDING_ICON",
                 "value": "present"
+              },
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "alarm_motion"
               }
             ]
           }
@@ -163,6 +175,10 @@
               {
                 "key": "UNIT_VISIBLE_IN_GUI",
                 "value": "false"
+              },
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "alarm_tamper"
               }
             ]
           }
@@ -199,6 +215,10 @@
               {
                 "key": "OPENHAB_BINDING_ICON",
                 "value": "temperature"
+              },
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "sensor_temperature"
               }
             ]
           }
@@ -207,5 +227,12 @@
       "meta_config": {}
     }
   ],
-  "meta_config": {}
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_THING_CLASS",
+        "value": "zwave_devicetype:2048"
+      }
+    ]
+  }
 }

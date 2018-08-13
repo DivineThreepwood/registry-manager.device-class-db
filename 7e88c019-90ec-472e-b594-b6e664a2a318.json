@@ -92,8 +92,8 @@
                 "value": "${OPENHAB_BINDING_DEVICE_ID}:2:command\u003dswitch_binary"
               },
               {
-                "key": "switch_binary2",
-                "value": "OPENHAB_THING_CHANNEL_TYPE_UID"
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "switch_binary2"
               }
             ]
           }
@@ -170,7 +170,7 @@
     "entry": [
       {
         "key": "OPENHAB_THING_CLASS",
-        "value": "zwave_deviceid:4096"
+        "value": "zwave_devicetype:515"
       }
     ]
   }
