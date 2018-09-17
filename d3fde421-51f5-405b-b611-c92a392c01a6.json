@@ -1,0 +1,78 @@
+{
+  "id": "d3fde421-51f5-405b-b611-c92a392c01a6",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Heat Controller"
+        ]
+      }
+    ]
+  },
+  "product_number": "FGT-001",
+  "binding_config": {
+    "meta_config": {}
+  },
+  "company": "Fibaro",
+  "shape": {},
+  "unit_template_config": [
+    {
+      "id": "d3fde421-51f5-405b-b611-c92a392c01a6_TEMPERATURE_CONTROLLER_0",
+      "label": {},
+      "type": "TEMPERATURE_CONTROLLER",
+      "service_template_config": [
+        {
+          "service_type": "TEMPERATURE_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "sensor_temperature"
+              }
+            ]
+          }
+        },
+        {
+          "service_type": "TARGET_TEMPERATURE_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "thermostat_setpoint_heating"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "d3fde421-51f5-405b-b611-c92a392c01a6_BATTERY_0",
+      "label": {},
+      "type": "BATTERY",
+      "service_template_config": [
+        {
+          "service_type": "BATTERY_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "battery-level"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_THING_CLASS",
+        "value": "zwave_devicetype:4865"
+      }
+    ]
+  }
+}
