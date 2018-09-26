@@ -11,7 +11,14 @@
     ]
   },
   "product_number": "C411 PP",
-  "description": "Condenser contact microphone",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Condenser contact microphone"
+      }
+    ]
+  },
   "binding_config": {},
   "company": "AKG"
 }

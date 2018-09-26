@@ -11,7 +11,14 @@
     ]
   },
   "product_number": "SF-HR32P",
-  "description": "Capacitive sensor patches for person detection.",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Capacitive sensor patches for person detection."
+      }
+    ]
+  },
   "binding_config": {
     "binding_id": "",
     "meta_config": {}

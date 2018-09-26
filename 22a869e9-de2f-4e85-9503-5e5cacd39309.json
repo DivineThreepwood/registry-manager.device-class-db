@@ -11,7 +11,14 @@
     ]
   },
   "product_number": "TYA663A",
-  "description": "Hager dimmer actuator with 3 dimmers.",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Hager dimmer actuator with 3 dimmers."
+      }
+    ]
+  },
   "binding_config": {
     "binding_id": "OPENHAB",
     "meta_config": {
@@ -42,11 +49,25 @@
       "service_template_config": [
         {
           "service_type": "BRIGHTNESS_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "brightness_state_service_1"
+              }
+            ]
+          }
         },
         {
           "service_type": "POWER_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "power_state_service_1"
+              }
+            ]
+          }
         }
       ],
       "meta_config": {}
@@ -67,11 +88,25 @@
       "service_template_config": [
         {
           "service_type": "BRIGHTNESS_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "brightness_state_service_2"
+              }
+            ]
+          }
         },
         {
           "service_type": "POWER_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "power_state_service_2"
+              }
+            ]
+          }
         }
       ],
       "meta_config": {}
@@ -92,11 +127,25 @@
       "service_template_config": [
         {
           "service_type": "BRIGHTNESS_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "brightness_state_service_3"
+              }
+            ]
+          }
         },
         {
           "service_type": "POWER_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "power_state_service_3"
+              }
+            ]
+          }
         }
       ],
       "meta_config": {}

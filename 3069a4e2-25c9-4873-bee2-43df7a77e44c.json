@@ -11,7 +11,14 @@
     ]
   },
   "product_number": "90IW0122-B01UA",
-  "description": "USB 2.0 3D/RGB Sensor",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "USB 2.0 3D/RGB Sensor"
+      }
+    ]
+  },
   "binding_config": {
     "meta_config": {}
   },

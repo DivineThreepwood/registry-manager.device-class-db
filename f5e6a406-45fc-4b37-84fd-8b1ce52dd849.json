@@ -11,7 +11,14 @@
     ]
   },
   "product_number": "FGWPF-101",
-  "description": "Power plug with power consumption color feedback by fibaro.",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Power plug with power consumption color feedback by fibaro."
+      }
+    ]
+  },
   "binding_config": {
     "binding_id": "OPENHAB",
     "meta_config": {

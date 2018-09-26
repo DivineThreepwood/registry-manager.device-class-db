@@ -40,9 +40,6 @@
       "type": "ROLLER_SHUTTER",
       "service_template_config": [
         {
-          "meta_config": {}
-        },
-        {
           "service_type": "BLIND_STATE_SERVICE",
           "meta_config": {
             "entry": [

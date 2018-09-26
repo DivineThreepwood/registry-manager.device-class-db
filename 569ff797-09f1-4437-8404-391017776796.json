@@ -11,7 +11,14 @@
     ]
   },
   "product_number": "Sec_SC_2",
-  "description": "Reed switch by Homematic.",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Reed switch by Homematic."
+      }
+    ]
+  },
   "binding_config": {
     "binding_id": "OPENHAB",
     "meta_config": {

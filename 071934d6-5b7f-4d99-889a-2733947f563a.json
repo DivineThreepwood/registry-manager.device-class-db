@@ -11,7 +11,14 @@
     ]
   },
   "product_number": "TYA628C",
-  "description": "Hager rollershutter actuator with up to 8 rollershuters.",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Hager rollershutter actuator with up to 8 rollershuters."
+      }
+    ]
+  },
   "binding_config": {
     "binding_id": "OPENHAB",
     "meta_config": {
@@ -40,11 +47,15 @@
       "type": "ROLLER_SHUTTER",
       "service_template_config": [
         {
-          "meta_config": {}
-        },
-        {
           "service_type": "BLIND_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "blind_state_service_1"
+              }
+            ]
+          }
         }
       ]
     },
@@ -63,11 +74,15 @@
       "type": "ROLLER_SHUTTER",
       "service_template_config": [
         {
-          "meta_config": {}
-        },
-        {
           "service_type": "BLIND_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "blind_state_service_2"
+              }
+            ]
+          }
         }
       ]
     },
@@ -86,11 +101,15 @@
       "type": "ROLLER_SHUTTER",
       "service_template_config": [
         {
-          "meta_config": {}
-        },
-        {
           "service_type": "BLIND_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "blind_state_service_3"
+              }
+            ]
+          }
         }
       ]
     },
@@ -109,11 +128,15 @@
       "type": "ROLLER_SHUTTER",
       "service_template_config": [
         {
-          "meta_config": {}
-        },
-        {
           "service_type": "BLIND_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "blind_state_service_4"
+              }
+            ]
+          }
         }
       ]
     },
@@ -132,11 +155,15 @@
       "type": "ROLLER_SHUTTER",
       "service_template_config": [
         {
-          "meta_config": {}
-        },
-        {
           "service_type": "BLIND_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "blind_state_service_5"
+              }
+            ]
+          }
         }
       ]
     },
@@ -155,11 +182,15 @@
       "type": "ROLLER_SHUTTER",
       "service_template_config": [
         {
-          "meta_config": {}
-        },
-        {
           "service_type": "BLIND_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "blind_state_service_6"
+              }
+            ]
+          }
         }
       ]
     },
@@ -178,11 +209,15 @@
       "type": "ROLLER_SHUTTER",
       "service_template_config": [
         {
-          "meta_config": {}
-        },
-        {
           "service_type": "BLIND_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "blind_state_service_7"
+              }
+            ]
+          }
         }
       ]
     },
@@ -201,11 +236,15 @@
       "type": "ROLLER_SHUTTER",
       "service_template_config": [
         {
-          "meta_config": {}
-        },
-        {
           "service_type": "BLIND_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "blind_state_service_8"
+              }
+            ]
+          }
         }
       ]
     }

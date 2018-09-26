@@ -11,7 +11,14 @@
     ]
   },
   "product_number": "432955187350000",
-  "description": "An actuator with 4 power switches and power consumption sensors by Gira.",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "An actuator with 4 power switches and power consumption sensors by Gira."
+      }
+    ]
+  },
   "binding_config": {
     "binding_id": "OPENHAB",
     "meta_config": {
@@ -53,7 +60,14 @@
       "service_template_config": [
         {
           "service_type": "POWER_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "power_state_service_1"
+              }
+            ]
+          }
         }
       ],
       "meta_config": {}
@@ -74,7 +88,14 @@
       "service_template_config": [
         {
           "service_type": "POWER_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "power_state_service_2"
+              }
+            ]
+          }
         }
       ],
       "meta_config": {}
@@ -95,7 +116,14 @@
       "service_template_config": [
         {
           "service_type": "POWER_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "power_state_service_3"
+              }
+            ]
+          }
         }
       ],
       "meta_config": {}
@@ -116,7 +144,14 @@
       "service_template_config": [
         {
           "service_type": "POWER_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "power_state_service_4"
+              }
+            ]
+          }
         }
       ],
       "meta_config": {}
@@ -137,7 +172,14 @@
       "service_template_config": [
         {
           "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "power_consumption_state_service_1"
+              }
+            ]
+          }
         }
       ],
       "meta_config": {}
@@ -158,7 +200,14 @@
       "service_template_config": [
         {
           "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "power_consumption_state_service_2"
+              }
+            ]
+          }
         }
       ],
       "meta_config": {}
@@ -179,7 +228,14 @@
       "service_template_config": [
         {
           "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "power_consumption_state_service_3"
+              }
+            ]
+          }
         }
       ],
       "meta_config": {}
@@ -200,7 +256,14 @@
       "service_template_config": [
         {
           "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "power_consumption_state_service_4"
+              }
+            ]
+          }
         }
       ],
       "meta_config": {}

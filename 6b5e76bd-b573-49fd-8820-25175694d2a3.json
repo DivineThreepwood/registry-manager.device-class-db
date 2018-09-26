@@ -11,7 +11,14 @@
     ]
   },
   "product_number": "8020C",
-  "description": "Two-way monitor loudspeaker",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Two-way monitor loudspeaker"
+      }
+    ]
+  },
   "binding_config": {},
   "company": "Genelec"
 }

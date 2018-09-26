@@ -11,7 +11,14 @@
     ]
   },
   "product_number": "FGK-101",
-  "description": "Reed Contact by Fibaro",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Reed Contact by Fibaro"
+      }
+    ]
+  },
   "binding_config": {
     "binding_id": "OPENHAB",
     "meta_config": {

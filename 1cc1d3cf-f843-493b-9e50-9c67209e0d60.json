@@ -11,7 +11,14 @@
     ]
   },
   "product_number": "FGSS-001",
-  "description": "Fibaro smoke detector",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Fibaro smoke detector"
+      }
+    ]
+  },
   "binding_config": {
     "binding_id": "OPENHAB",
     "meta_config": {

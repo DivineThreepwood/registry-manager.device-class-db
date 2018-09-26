@@ -11,7 +11,14 @@
     ]
   },
   "product_number": "FGMS-001",
-  "description": "Wireless sensor for motion, temperature, brightness and tamper with a battery by Fibaro.",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Wireless sensor for motion, temperature, brightness and tamper with a battery by Fibaro."
+      }
+    ]
+  },
   "binding_config": {
     "binding_id": "OPENHAB",
     "meta_config": {
@@ -222,6 +229,9 @@
               }
             ]
           }
+        },
+        {
+          "service_type": "TEMPERATURE_ALARM_STATE_SERVICE"
         }
       ],
       "meta_config": {}

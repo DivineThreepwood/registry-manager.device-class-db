@@ -11,7 +11,14 @@
     ]
   },
   "product_number": "KV01-18U",
-  "description": "Ambient light with the socket E27 of product generation 1",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Ambient light with the socket E27 of product generation 1"
+      }
+    ]
+  },
   "binding_config": {
     "binding_id": "OPENHAB",
     "meta_config": {
