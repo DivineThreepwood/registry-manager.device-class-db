@@ -56,7 +56,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "button_state_service_1"
+                "value": "button-state-service-1"
               }
             ]
           }
@@ -83,7 +83,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "button_state_service_2"
+                "value": "button-state-service-2"
               }
             ]
           }
@@ -110,7 +110,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "button_state_service_3"
+                "value": "button-state-service-3"
               }
             ]
           }
@@ -137,7 +137,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "button_state_service_4"
+                "value": "button-state-service-4"
               }
             ]
           }
@@ -164,7 +164,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "button_state_service_5"
+                "value": "button-state-service-5"
               }
             ]
           }
@@ -191,7 +191,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "button_state_service_6"
+                "value": "button-state-service-6"
               }
             ]
           }

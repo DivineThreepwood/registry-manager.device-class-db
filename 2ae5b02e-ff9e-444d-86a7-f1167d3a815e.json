@@ -52,7 +52,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "power_state_service_1"
+                "value": "power-state-service-1"
               }
             ]
           }
@@ -79,7 +79,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "power_consumption_state_service_1"
+                "value": "power-consumption-state-service-1"
               }
             ]
           }
@@ -106,7 +106,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "power_state_service_2"
+                "value": "power-state-service-2"
               }
             ]
           }
@@ -133,7 +133,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "power_consumption_state_service_2"
+                "value": "power-consumption-state-service-2"
               }
             ]
           }
@@ -160,7 +160,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "power_state_service_3"
+                "value": "power-state-service-3"
               }
             ]
           }
@@ -187,7 +187,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "power_consumption_state_service_3"
+                "value": "power-consumption-state-service-3"
               }
             ]
           }
@@ -214,7 +214,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "power_state_service_4"
+                "value": "power-state-service-4"
               }
             ]
           }
@@ -241,7 +241,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "power_consumption_state_service_4"
+                "value": "power-consumption-state-service-4"
               }
             ]
           }
@@ -268,7 +268,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "power_state_service_5"
+                "value": "power-state-service-5"
               }
             ]
           }
@@ -295,7 +295,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "power_consumption_state_service_5"
+                "value": "power-consumption-state-service-5"
               }
             ]
           }
@@ -322,7 +322,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "power_state_service_6"
+                "value": "power-state-service-6"
               }
             ]
           }
@@ -349,7 +349,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "power_consumption_state_service_6"
+                "value": "power-consumption-state-service-6"
               }
             ]
           }

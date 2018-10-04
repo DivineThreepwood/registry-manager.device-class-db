@@ -52,7 +52,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "temperature_state_service_1"
+                "value": "temperature-state-service-1"
               }
             ]
           }
@@ -63,7 +63,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "target_temperature_state_service_1"
+                "value": "target-temperature-state-service-1"
               }
             ]
           }
@@ -90,7 +90,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "button_state_service_1"
+                "value": "button-state-service-1"
               }
             ]
           }
@@ -117,7 +117,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "button_state_service_2"
+                "value": "button-state-service-2"
               }
             ]
           }
@@ -144,7 +144,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "button_state_service_3"
+                "value": "button-state-service-3"
               }
             ]
           }
@@ -171,7 +171,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "button_state_service_4"
+                "value": "button-state-service-4"
               }
             ]
           }

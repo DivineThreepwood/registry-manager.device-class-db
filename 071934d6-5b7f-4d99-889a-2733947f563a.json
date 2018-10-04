@@ -52,7 +52,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "blind_state_service_1"
+                "value": "blind-state-service-1"
               }
             ]
           }
@@ -79,7 +79,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "blind_state_service_2"
+                "value": "blind-state-service-2"
               }
             ]
           }
@@ -106,7 +106,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "blind_state_service_3"
+                "value": "blind-state-service-3"
               }
             ]
           }
@@ -133,7 +133,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "blind_state_service_4"
+                "value": "blind-state-service-4"
               }
             ]
           }
@@ -160,7 +160,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "blind_state_service_5"
+                "value": "blind-state-service-5"
               }
             ]
           }
@@ -187,7 +187,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "blind_state_service_6"
+                "value": "blind-state-service-6"
               }
             ]
           }
@@ -214,7 +214,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "blind_state_service_7"
+                "value": "blind-state-service-7"
               }
             ]
           }
@@ -241,7 +241,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "blind_state_service_8"
+                "value": "blind-state-service-8"
               }
             ]
           }

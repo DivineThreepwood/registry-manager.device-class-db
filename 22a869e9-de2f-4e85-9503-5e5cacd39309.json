@@ -53,7 +53,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "brightness_state_service_1"
+                "value": "brightness-state-service-1"
               }
             ]
           }
@@ -64,7 +64,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "power_state_service_1"
+                "value": "power-state-service-1"
               }
             ]
           }
@@ -92,7 +92,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "brightness_state_service_2"
+                "value": "brightness-state-service-2"
               }
             ]
           }
@@ -103,7 +103,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "power_state_service_2"
+                "value": "power-state-service-2"
               }
             ]
           }
@@ -131,7 +131,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "brightness_state_service_3"
+                "value": "brightness-state-service-3"
               }
             ]
           }
@@ -142,7 +142,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "power_state_service_3"
+                "value": "power-state-service-3"
               }
             ]
           }
