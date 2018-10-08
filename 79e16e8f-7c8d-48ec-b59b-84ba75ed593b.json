@@ -231,7 +231,8 @@
           }
         },
         {
-          "service_type": "TEMPERATURE_ALARM_STATE_SERVICE"
+          "service_type": "TEMPERATURE_ALARM_STATE_SERVICE",
+          "meta_config": {}
         }
       ],
       "meta_config": {}
@@ -241,7 +242,7 @@
     "entry": [
       {
         "key": "OPENHAB_THING_CLASS",
-        "value": "zwave_devicetype:2049"
+        "value": "zwave_devicetype:2048,zwave_devicetype:2049"
       }
     ]
   }
