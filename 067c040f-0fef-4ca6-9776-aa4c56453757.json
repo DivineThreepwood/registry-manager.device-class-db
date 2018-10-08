@@ -58,6 +58,10 @@
               {
                 "key": "UNIT_VISIBLE_IN_GUI",
                 "value": "false"
+              },
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "switch_binary"
               }
             ]
           }
@@ -86,6 +90,10 @@
               {
                 "key": "OPENHAB_BINDING_CONFIG",
                 "value": "${OPENHAB_BINDING_DEVICE_ID}"
+              },
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "switch_binary"
               }
             ]
           }
@@ -118,6 +126,10 @@
               {
                 "key": "UNIT_VISIBLE_IN_GUI",
                 "value": "false"
+              },
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "switch_binary2"
               }
             ]
           }
@@ -146,6 +158,10 @@
               {
                 "key": "OPENHAB_BINDING_CONFIG",
                 "value": "${OPENHAB_BINDING_DEVICE_ID}:2:command\u003dswitch_binary"
+              },
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "switch_binary2"
               }
             ]
           }
@@ -154,5 +170,12 @@
       "meta_config": {}
     }
   ],
-  "meta_config": {}
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_THING_CLASS",
+        "value": "zwave_devicetype:514"
+      }
+    ]
+  }
 }
