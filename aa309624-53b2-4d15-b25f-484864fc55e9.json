@@ -11,7 +11,14 @@
     ]
   },
   "product_number": "8718696592984",
-  "description": "Ambient light with the socket E27 of product generation 3 (green hue fixed)",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Ambient light with the socket E27 of product generation 3 (green hue fixed)"
+      }
+    ]
+  },
   "binding_config": {
     "binding_id": "OPENHAB",
     "meta_config": {

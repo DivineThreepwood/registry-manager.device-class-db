@@ -11,7 +11,14 @@
     ]
   },
   "product_number": "LWB006",
-  "description": "Hue white",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Hue white"
+      }
+    ]
+  },
   "binding_config": {
     "binding_id": "OPENHAB",
     "meta_config": {

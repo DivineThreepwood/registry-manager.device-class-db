@@ -19,7 +19,16 @@
   "unit_template_config": [
     {
       "id": "d3fde421-51f5-405b-b611-c92a392c01a6_TEMPERATURE_CONTROLLER_0",
-      "label": {},
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "TEMPERATURE_CONTROLLER_0"
+            ]
+          }
+        ]
+      },
       "type": "TEMPERATURE_CONTROLLER",
       "service_template_config": [
         {
@@ -49,7 +58,16 @@
     },
     {
       "id": "d3fde421-51f5-405b-b611-c92a392c01a6_BATTERY_0",
-      "label": {},
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "BATTERY_0"
+            ]
+          }
+        ]
+      },
       "type": "BATTERY",
       "service_template_config": [
         {

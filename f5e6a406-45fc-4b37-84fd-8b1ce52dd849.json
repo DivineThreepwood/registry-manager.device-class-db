@@ -11,7 +11,14 @@
     ]
   },
   "product_number": "FGWPF-101",
-  "description": "Power plug with power consumption color feedback by fibaro.",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Power plug with power consumption color feedback by fibaro."
+      }
+    ]
+  },
   "binding_config": {
     "binding_id": "OPENHAB",
     "meta_config": {
@@ -47,6 +54,10 @@
               {
                 "key": "OPENHAB_BINDING_CONFIG",
                 "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dswitch_binary"
+              },
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "switch_binary"
               }
             ]
           }
@@ -79,6 +90,10 @@
               {
                 "key": "UNIT_VISIBLE_IN_GUI",
                 "value": "false"
+              },
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "sensor_power"
               }
             ]
           }
@@ -87,5 +102,12 @@
       "meta_config": {}
     }
   ],
-  "meta_config": {}
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_THING_CLASS",
+        "value": "zwave_devicetype:1536"
+      }
+    ]
+  }
 }

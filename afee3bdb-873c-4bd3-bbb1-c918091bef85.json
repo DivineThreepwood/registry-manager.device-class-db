@@ -11,7 +11,14 @@
     ]
   },
   "product_number": "Sec_RHS",
-  "description": "Wireless rotary handle sensor by homematic.",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Wireless rotary handle sensor by homematic."
+      }
+    ]
+  },
   "binding_config": {
     "binding_id": "OPENHAB",
     "meta_config": {

@@ -11,7 +11,14 @@
     ]
   },
   "product_number": "HandleRev1",
-  "description": "Colorful Kitchen Handles",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Colorful Kitchen Handles"
+      }
+    ]
+  },
   "binding_config": {
     "binding_id": "HANDLES",
     "meta_config": {}

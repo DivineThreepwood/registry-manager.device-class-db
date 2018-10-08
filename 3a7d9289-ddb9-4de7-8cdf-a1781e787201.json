@@ -11,7 +11,14 @@
     ]
   },
   "product_number": "C910",
-  "description": "Desktop HD Webcam",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Desktop HD Webcam"
+      }
+    ]
+  },
   "binding_config": {
     "meta_config": {}
   },

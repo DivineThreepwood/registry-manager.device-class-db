@@ -11,7 +11,14 @@
     ]
   },
   "product_number": "KV01-18Y",
-  "description": "Ambient light with the socket GU10.",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Ambient light with the socket GU10."
+      }
+    ]
+  },
   "binding_config": {
     "binding_id": "OPENHAB",
     "meta_config": {

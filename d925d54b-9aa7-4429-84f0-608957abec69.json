@@ -11,7 +11,14 @@
     ]
   },
   "product_number": "FGS-221",
-  "description": "Relay Switch 2 x 1.5kW 1.4 by Fibaro",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Relay Switch 2 x 1.5kW 1.4 by Fibaro"
+      }
+    ]
+  },
   "binding_config": {
     "binding_id": "OPENHAB",
     "meta_config": {
@@ -24,6 +31,7 @@
     }
   },
   "company": "Fibaro",
+  "shape": {},
   "unit_template_config": [
     {
       "id": "Fibaro_FGS-221_BUTTON_0",
@@ -50,11 +58,16 @@
               {
                 "key": "UNIT_VISIBLE_IN_GUI",
                 "value": "false"
+              },
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "switch_binary"
               }
             ]
           }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "Fibaro_FGS-221_LIGHT_0",
@@ -77,11 +90,16 @@
               {
                 "key": "OPENHAB_BINDING_CONFIG",
                 "value": "${OPENHAB_BINDING_DEVICE_ID}"
+              },
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "switch_binary"
               }
             ]
           }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "Fibaro_FGS-221_BUTTON_1",
@@ -108,11 +126,16 @@
               {
                 "key": "UNIT_VISIBLE_IN_GUI",
                 "value": "false"
+              },
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "switch_binary2"
               }
             ]
           }
         }
-      ]
+      ],
+      "meta_config": {}
     },
     {
       "id": "Fibaro_FGS-221_LIGHT_1",
@@ -135,12 +158,24 @@
               {
                 "key": "OPENHAB_BINDING_CONFIG",
                 "value": "${OPENHAB_BINDING_DEVICE_ID}:2:command\u003dswitch_binary"
+              },
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "switch_binary2"
               }
             ]
           }
         }
-      ]
+      ],
+      "meta_config": {}
     }
   ],
-  "meta_config": {}
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_THING_CLASS",
+        "value": "zwave_devicetype:512"
+      }
+    ]
+  }
 }

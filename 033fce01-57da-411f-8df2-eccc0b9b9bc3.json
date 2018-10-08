@@ -11,7 +11,14 @@
     ]
   },
   "product_number": "SM-P9000ZWADBT",
-  "description": "12\" Tablet",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "12\" Tablet"
+      }
+    ]
+  },
   "binding_config": {},
   "company": "Samsung"
 }

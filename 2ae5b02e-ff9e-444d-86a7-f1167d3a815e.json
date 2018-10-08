@@ -11,7 +11,14 @@
     ]
   },
   "product_number": "TYA606E",
-  "description": "Hager power plug actuator with 6 power switches and related power consumption sensors.",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Hager power plug actuator with 6 power switches and related power consumption sensors."
+      }
+    ]
+  },
   "binding_config": {
     "binding_id": "OPENHAB",
     "meta_config": {
@@ -41,7 +48,14 @@
       "service_template_config": [
         {
           "service_type": "POWER_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "power-state-service-1"
+              }
+            ]
+          }
         }
       ]
     },
@@ -61,7 +75,14 @@
       "service_template_config": [
         {
           "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "power-consumption-state-service-1"
+              }
+            ]
+          }
         }
       ]
     },
@@ -81,7 +102,14 @@
       "service_template_config": [
         {
           "service_type": "POWER_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "power-state-service-2"
+              }
+            ]
+          }
         }
       ]
     },
@@ -101,7 +129,14 @@
       "service_template_config": [
         {
           "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "power-consumption-state-service-2"
+              }
+            ]
+          }
         }
       ]
     },
@@ -121,7 +156,14 @@
       "service_template_config": [
         {
           "service_type": "POWER_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "power-state-service-3"
+              }
+            ]
+          }
         }
       ]
     },
@@ -141,7 +183,14 @@
       "service_template_config": [
         {
           "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "power-consumption-state-service-3"
+              }
+            ]
+          }
         }
       ]
     },
@@ -161,7 +210,14 @@
       "service_template_config": [
         {
           "service_type": "POWER_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "power-state-service-4"
+              }
+            ]
+          }
         }
       ]
     },
@@ -181,7 +237,14 @@
       "service_template_config": [
         {
           "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "power-consumption-state-service-4"
+              }
+            ]
+          }
         }
       ]
     },
@@ -201,7 +264,14 @@
       "service_template_config": [
         {
           "service_type": "POWER_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "power-state-service-5"
+              }
+            ]
+          }
         }
       ]
     },
@@ -221,7 +291,14 @@
       "service_template_config": [
         {
           "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "power-consumption-state-service-5"
+              }
+            ]
+          }
         }
       ]
     },
@@ -241,7 +318,14 @@
       "service_template_config": [
         {
           "service_type": "POWER_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "power-state-service-6"
+              }
+            ]
+          }
         }
       ]
     },
@@ -261,7 +345,14 @@
       "service_template_config": [
         {
           "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "power-consumption-state-service-6"
+              }
+            ]
+          }
         }
       ]
     }

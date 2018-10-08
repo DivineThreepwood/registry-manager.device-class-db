@@ -11,7 +11,14 @@
     ]
   },
   "product_number": "71450-60-PH",
-  "description": "Portable light of Philips",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Portable light of Philips"
+      }
+    ]
+  },
   "binding_config": {
     "binding_id": "OPENHAB",
     "meta_config": {

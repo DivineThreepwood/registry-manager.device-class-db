@@ -11,7 +11,14 @@
     ]
   },
   "product_number": "429496730250000",
-  "description": "4 knx buttons and a temperature controller by Gira.",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "4 knx buttons and a temperature controller by Gira."
+      }
+    ]
+  },
   "binding_config": {
     "binding_id": "OPENHAB",
     "meta_config": {
@@ -41,11 +48,25 @@
       "service_template_config": [
         {
           "service_type": "TEMPERATURE_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "temperature-state-service-1"
+              }
+            ]
+          }
         },
         {
           "service_type": "TARGET_TEMPERATURE_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "target-temperature-state-service-1"
+              }
+            ]
+          }
         }
       ]
     },
@@ -65,7 +86,14 @@
       "service_template_config": [
         {
           "service_type": "BUTTON_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "button-state-service-1"
+              }
+            ]
+          }
         }
       ]
     },
@@ -85,7 +113,14 @@
       "service_template_config": [
         {
           "service_type": "BUTTON_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "button-state-service-2"
+              }
+            ]
+          }
         }
       ]
     },
@@ -105,7 +140,14 @@
       "service_template_config": [
         {
           "service_type": "BUTTON_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "button-state-service-3"
+              }
+            ]
+          }
         }
       ]
     },
@@ -125,7 +167,14 @@
       "service_template_config": [
         {
           "service_type": "BUTTON_STATE_SERVICE",
-          "meta_config": {}
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "button-state-service-4"
+              }
+            ]
+          }
         }
       ]
     }

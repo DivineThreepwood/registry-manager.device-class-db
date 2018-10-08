@@ -11,7 +11,14 @@
     ]
   },
   "product_number": "1520",
-  "description": "Kinect for Xbox One",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Kinect for Xbox One"
+      }
+    ]
+  },
   "binding_config": {
     "meta_config": {}
   },

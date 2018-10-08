@@ -11,7 +11,14 @@
     ]
   },
   "product_number": "FGS-223",
-  "description": "Double Switch 2 x 1.5kW by Fibaro",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Double Switch 2 x 1.5kW by Fibaro"
+      }
+    ]
+  },
   "binding_config": {
     "binding_id": "OPENHAB",
     "meta_config": {

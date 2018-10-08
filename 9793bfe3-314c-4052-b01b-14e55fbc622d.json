@@ -11,7 +11,14 @@
     ]
   },
   "product_number": "NT55",
-  "description": "Condenser omnidirectional microphone",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Condenser omnidirectional microphone"
+      }
+    ]
+  },
   "binding_config": {},
   "company": "Røde"
 }
