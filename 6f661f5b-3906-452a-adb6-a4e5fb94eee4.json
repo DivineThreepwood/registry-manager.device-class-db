@@ -111,7 +111,7 @@
     "entry": [
       {
         "key": "OPENHAB_THING_CLASS",
-        "value": "hue:0210"
+        "value": "LCT001"
       }
     ]
   }

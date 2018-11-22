@@ -11,6 +11,7 @@
     ]
   },
   "product_number": "71901-55-PH",
+  "description": {},
   "binding_config": {
     "binding_id": "OPENHAB",
     "meta_config": {
@@ -23,6 +24,7 @@
     }
   },
   "company": "Philips",
+  "shape": {},
   "unit_template_config": [
     {
       "id": "Philips_71901-55-PH_COLORABLE_LIGHT_0",
@@ -45,6 +47,10 @@
               {
                 "key": "OPENHAB_BINDING_CONFIG",
                 "value": "${OPENHAB_BINDING_DEVICE_ID}"
+              },
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "color"
               }
             ]
           }
@@ -56,6 +62,10 @@
               {
                 "key": "OPENHAB_BINDING_CONFIG",
                 "value": "${OPENHAB_BINDING_DEVICE_ID}"
+              },
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "color"
               }
             ]
           }
@@ -67,12 +77,24 @@
               {
                 "key": "OPENHAB_BINDING_CONFIG",
                 "value": "${OPENHAB_BINDING_DEVICE_ID}"
+              },
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "color"
               }
             ]
           }
         }
-      ]
+      ],
+      "meta_config": {}
     }
   ],
-  "meta_config": {}
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_THING_CLASS",
+        "value": "LST002"
+      }
+    ]
+  }
 }
