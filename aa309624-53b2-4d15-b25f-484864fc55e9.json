@@ -5,12 +5,12 @@
       {
         "key": "en",
         "value": [
-          "Philips Hue E27 Gen3"
+          "Philips Hue Color E27 Gen3"
         ]
       }
     ]
   },
-  "product_number": "8718696592984",
+  "product_number": "LCT010",
   "description": {
     "entry": [
       {
@@ -111,7 +111,7 @@
     "entry": [
       {
         "key": "OPENHAB_THING_CLASS",
-        "value": "LCT010"
+        "value": "modelId:LCT010,LCT014"
       }
     ]
   }

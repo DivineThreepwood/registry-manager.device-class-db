@@ -1,46 +1,32 @@
 {
-  "id": "61cf939b-a94f-4c1d-a264-eb0325a957da",
+  "id": "f9c9d197-4879-4610-af75-2dca39877c5e",
   "label": {
     "entry": [
       {
         "key": "en",
         "value": [
-          "Philips Hue White E27 Gen1"
+          "Philips Hue White E27 Gen3"
         ]
       }
     ]
   },
-  "product_number": "LWB006",
-  "description": {
-    "entry": [
-      {
-        "key": "en",
-        "value": "Hue white"
-      }
-    ]
-  },
+  "product_number": "",
+  "description": {},
   "binding_config": {
     "binding_id": "OPENHAB",
-    "meta_config": {
-      "entry": [
-        {
-          "key": "OPENHAB_BINDING_TYPE",
-          "value": "hue"
-        }
-      ]
-    }
+    "meta_config": {}
   },
   "company": "Philips",
   "shape": {},
   "unit_template_config": [
     {
-      "id": "61cf939b-a94f-4c1d-a264-eb0325a957da_DIMMABLE_LIGHT_0",
+      "id": "f9c9d197-4879-4610-af75-2dca39877c5e_DIMMABLE_LIGHT_0",
       "label": {
         "entry": [
           {
             "key": "en",
             "value": [
-              "Philips Hue white E27 DIMMABLE_LIGHT_0"
+              "DIMMABLE_LIGHT_0"
             ]
           }
         ]
@@ -48,13 +34,9 @@
       "type": "DIMMABLE_LIGHT",
       "service_template_config": [
         {
-          "service_type": "BRIGHTNESS_STATE_SERVICE",
+          "service_type": "POWER_STATE_SERVICE",
           "meta_config": {
             "entry": [
-              {
-                "key": "OPENHAB_BINDING_CONFIG",
-                "value": "${OPENHAB_BINDING_DEVICE_ID}"
-              },
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
                 "value": "brightness"
@@ -63,13 +45,9 @@
           }
         },
         {
-          "service_type": "POWER_STATE_SERVICE",
+          "service_type": "BRIGHTNESS_STATE_SERVICE",
           "meta_config": {
             "entry": [
-              {
-                "key": "OPENHAB_BINDING_CONFIG",
-                "value": "${OPENHAB_BINDING_DEVICE_ID}"
-              },
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
                 "value": "brightness"
@@ -85,7 +63,7 @@
     "entry": [
       {
         "key": "OPENHAB_THING_CLASS",
-        "value": "modelId:LWB006"
+        "value": "modelId:LWB014"
       }
     ]
   }

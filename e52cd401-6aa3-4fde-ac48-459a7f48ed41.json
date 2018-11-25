@@ -93,7 +93,7 @@
     "entry": [
       {
         "key": "OPENHAB_THING_CLASS",
-        "value": "LST002"
+        "value": "modelId:LST002"
       }
     ]
   }
