@@ -11,11 +11,15 @@
     ]
   },
   "product_number": "FGT-001",
+  "description": {},
   "binding_config": {
+    "binding_id": "OPENHAB",
     "meta_config": {}
   },
   "company": "Fibaro",
-  "shape": {},
+  "shape": {
+    "bounding_box": {}
+  },
   "unit_template_config": [
     {
       "id": "d3fde421-51f5-405b-b611-c92a392c01a6_TEMPERATURE_CONTROLLER_0",
