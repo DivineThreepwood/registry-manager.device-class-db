@@ -38,7 +38,7 @@
           }
         ]
       },
-      "type": "COLORABLE_LIGHT",
+      "unit_type": "COLORABLE_LIGHT",
       "service_template_config": [
         {
           "service_type": "BRIGHTNESS_STATE_SERVICE",
@@ -67,7 +67,7 @@
           }
         ]
       },
-      "type": "REED_CONTACT",
+      "unit_type": "REED_CONTACT",
       "service_template_config": [
         {
           "service_type": "CONTACT_STATE_SERVICE",

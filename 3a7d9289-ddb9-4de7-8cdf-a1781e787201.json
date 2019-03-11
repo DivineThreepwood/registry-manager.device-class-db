@@ -36,7 +36,7 @@
           }
         ]
       },
-      "type": "VIDEO_RGB_SOURCE"
+      "unit_type": "VIDEO_RGB_SOURCE"
     }
   ],
   "meta_config": {}

@@ -44,7 +44,7 @@
           }
         ]
       },
-      "type": "TEMPERATURE_CONTROLLER",
+      "unit_type": "TEMPERATURE_CONTROLLER",
       "service_template_config": [
         {
           "service_type": "TEMPERATURE_STATE_SERVICE",
@@ -82,7 +82,7 @@
           }
         ]
       },
-      "type": "BUTTON",
+      "unit_type": "BUTTON",
       "service_template_config": [
         {
           "service_type": "BUTTON_STATE_SERVICE",
@@ -109,7 +109,7 @@
           }
         ]
       },
-      "type": "BUTTON",
+      "unit_type": "BUTTON",
       "service_template_config": [
         {
           "service_type": "BUTTON_STATE_SERVICE",
@@ -136,7 +136,7 @@
           }
         ]
       },
-      "type": "BUTTON",
+      "unit_type": "BUTTON",
       "service_template_config": [
         {
           "service_type": "BUTTON_STATE_SERVICE",
@@ -163,7 +163,7 @@
           }
         ]
       },
-      "type": "BUTTON",
+      "unit_type": "BUTTON",
       "service_template_config": [
         {
           "service_type": "BUTTON_STATE_SERVICE",

@@ -56,7 +56,7 @@
           }
         ]
       },
-      "type": "REED_CONTACT",
+      "unit_type": "REED_CONTACT",
       "service_template_config": [
         {
           "service_type": "CONTACT_STATE_SERVICE",
@@ -88,7 +88,7 @@
           }
         ]
       },
-      "type": "BATTERY",
+      "unit_type": "BATTERY",
       "service_template_config": [
         {
           "service_type": "BATTERY_STATE_SERVICE",

@@ -48,7 +48,7 @@
           }
         ]
       },
-      "type": "BUTTON",
+      "unit_type": "BUTTON",
       "service_template_config": [
         {
           "service_type": "BUTTON_STATE_SERVICE",
@@ -75,7 +75,7 @@
           }
         ]
       },
-      "type": "BUTTON",
+      "unit_type": "BUTTON",
       "service_template_config": [
         {
           "service_type": "BUTTON_STATE_SERVICE",
@@ -102,7 +102,7 @@
           }
         ]
       },
-      "type": "BUTTON",
+      "unit_type": "BUTTON",
       "service_template_config": [
         {
           "service_type": "BUTTON_STATE_SERVICE",
@@ -129,7 +129,7 @@
           }
         ]
       },
-      "type": "BUTTON",
+      "unit_type": "BUTTON",
       "service_template_config": [
         {
           "service_type": "BUTTON_STATE_SERVICE",
@@ -156,7 +156,7 @@
           }
         ]
       },
-      "type": "BUTTON",
+      "unit_type": "BUTTON",
       "service_template_config": [
         {
           "service_type": "BUTTON_STATE_SERVICE",
@@ -183,7 +183,7 @@
           }
         ]
       },
-      "type": "BUTTON",
+      "unit_type": "BUTTON",
       "service_template_config": [
         {
           "service_type": "BUTTON_STATE_SERVICE",

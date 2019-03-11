@@ -56,7 +56,7 @@
           }
         ]
       },
-      "type": "LIGHT",
+      "unit_type": "LIGHT",
       "service_template_config": [
         {
           "service_type": "POWER_STATE_SERVICE",
@@ -88,7 +88,7 @@
           }
         ]
       },
-      "type": "LIGHT",
+      "unit_type": "LIGHT",
       "service_template_config": [
         {
           "service_type": "POWER_STATE_SERVICE",
@@ -120,7 +120,7 @@
           }
         ]
       },
-      "type": "BUTTON",
+      "unit_type": "BUTTON",
       "service_template_config": [
         {
           "service_type": "BUTTON_STATE_SERVICE",
@@ -152,7 +152,7 @@
           }
         ]
       },
-      "type": "BUTTON",
+      "unit_type": "BUTTON",
       "service_template_config": [
         {
           "service_type": "BUTTON_STATE_SERVICE",

@@ -44,7 +44,7 @@
           }
         ]
       },
-      "type": "ROLLER_SHUTTER",
+      "unit_type": "ROLLER_SHUTTER",
       "service_template_config": [
         {
           "service_type": "BLIND_STATE_SERVICE",
@@ -71,7 +71,7 @@
           }
         ]
       },
-      "type": "ROLLER_SHUTTER",
+      "unit_type": "ROLLER_SHUTTER",
       "service_template_config": [
         {
           "service_type": "BLIND_STATE_SERVICE",
@@ -98,7 +98,7 @@
           }
         ]
       },
-      "type": "ROLLER_SHUTTER",
+      "unit_type": "ROLLER_SHUTTER",
       "service_template_config": [
         {
           "service_type": "BLIND_STATE_SERVICE",
@@ -125,7 +125,7 @@
           }
         ]
       },
-      "type": "ROLLER_SHUTTER",
+      "unit_type": "ROLLER_SHUTTER",
       "service_template_config": [
         {
           "service_type": "BLIND_STATE_SERVICE",
@@ -152,7 +152,7 @@
           }
         ]
       },
-      "type": "ROLLER_SHUTTER",
+      "unit_type": "ROLLER_SHUTTER",
       "service_template_config": [
         {
           "service_type": "BLIND_STATE_SERVICE",
@@ -179,7 +179,7 @@
           }
         ]
       },
-      "type": "ROLLER_SHUTTER",
+      "unit_type": "ROLLER_SHUTTER",
       "service_template_config": [
         {
           "service_type": "BLIND_STATE_SERVICE",
@@ -206,7 +206,7 @@
           }
         ]
       },
-      "type": "ROLLER_SHUTTER",
+      "unit_type": "ROLLER_SHUTTER",
       "service_template_config": [
         {
           "service_type": "BLIND_STATE_SERVICE",
@@ -233,7 +233,7 @@
           }
         ]
       },
-      "type": "ROLLER_SHUTTER",
+      "unit_type": "ROLLER_SHUTTER",
       "service_template_config": [
         {
           "service_type": "BLIND_STATE_SERVICE",

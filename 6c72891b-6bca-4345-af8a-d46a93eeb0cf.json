@@ -40,7 +40,7 @@
           }
         ]
       },
-      "type": "COLORABLE_LIGHT",
+      "unit_type": "COLORABLE_LIGHT",
       "service_template_config": [
         {
           "service_type": "COLOR_STATE_SERVICE",

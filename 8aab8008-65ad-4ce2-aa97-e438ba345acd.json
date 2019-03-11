@@ -31,7 +31,7 @@
           }
         ]
       },
-      "type": "DIMMABLE_LIGHT",
+      "unit_type": "DIMMABLE_LIGHT",
       "service_template_config": [
         {
           "service_type": "POWER_STATE_SERVICE",

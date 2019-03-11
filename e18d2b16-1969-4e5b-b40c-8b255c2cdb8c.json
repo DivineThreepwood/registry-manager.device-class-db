@@ -37,7 +37,7 @@
           }
         ]
       },
-      "type": "AUDIO_SOURCE",
+      "unit_type": "AUDIO_SOURCE",
       "meta_config": {}
     },
     {
@@ -52,7 +52,7 @@
           }
         ]
       },
-      "type": "VIDEO_RGB_SOURCE",
+      "unit_type": "VIDEO_RGB_SOURCE",
       "meta_config": {}
     },
     {
@@ -67,7 +67,7 @@
           }
         ]
       },
-      "type": "VIDEO_DEPTH_SOURCE",
+      "unit_type": "VIDEO_DEPTH_SOURCE",
       "meta_config": {}
     }
   ],

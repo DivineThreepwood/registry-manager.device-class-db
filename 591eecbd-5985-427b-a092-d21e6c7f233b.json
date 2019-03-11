@@ -44,7 +44,7 @@
           }
         ]
       },
-      "type": "POWER_SWITCH",
+      "unit_type": "POWER_SWITCH",
       "service_template_config": [
         {
           "service_type": "POWER_STATE_SERVICE",
@@ -71,7 +71,7 @@
           }
         ]
       },
-      "type": "POWER_CONSUMPTION_SENSOR",
+      "unit_type": "POWER_CONSUMPTION_SENSOR",
       "service_template_config": [
         {
           "service_type": "POWER_CONSUMPTION_STATE_SERVICE",

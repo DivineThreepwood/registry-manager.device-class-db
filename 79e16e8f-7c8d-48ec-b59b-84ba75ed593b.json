@@ -45,7 +45,7 @@
           }
         ]
       },
-      "type": "BATTERY",
+      "unit_type": "BATTERY",
       "service_template_config": [
         {
           "service_type": "BATTERY_STATE_SERVICE",
@@ -89,7 +89,7 @@
           }
         ]
       },
-      "type": "LIGHT_SENSOR",
+      "unit_type": "LIGHT_SENSOR",
       "service_template_config": [
         {
           "service_type": "ILLUMINANCE_STATE_SERVICE",
@@ -129,7 +129,7 @@
           }
         ]
       },
-      "type": "MOTION_DETECTOR",
+      "unit_type": "MOTION_DETECTOR",
       "service_template_config": [
         {
           "service_type": "MOTION_STATE_SERVICE",
@@ -169,7 +169,7 @@
           }
         ]
       },
-      "type": "TAMPER_DETECTOR",
+      "unit_type": "TAMPER_DETECTOR",
       "service_template_config": [
         {
           "service_type": "TAMPER_STATE_SERVICE",
@@ -205,7 +205,7 @@
           }
         ]
       },
-      "type": "TEMPERATURE_SENSOR",
+      "unit_type": "TEMPERATURE_SENSOR",
       "service_template_config": [
         {
           "service_type": "TEMPERATURE_STATE_SERVICE",

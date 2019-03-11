@@ -56,7 +56,7 @@
           }
         ]
       },
-      "type": "COLORABLE_LIGHT",
+      "unit_type": "COLORABLE_LIGHT",
       "service_template_config": [
         {
           "service_type": "BRIGHTNESS_STATE_SERVICE",
