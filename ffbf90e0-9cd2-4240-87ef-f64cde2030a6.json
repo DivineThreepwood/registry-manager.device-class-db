@@ -69,7 +69,7 @@
     "entry": [
       {
         "key": "OPENHAB_THING_CLASS",
-        "value": "zwave_devicetype:16385"
+        "value": "zwave_devicetype:769"
       }
     ]
   }

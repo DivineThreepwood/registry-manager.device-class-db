@@ -69,7 +69,7 @@
     "entry": [
       {
         "key": "OPENHAB_THING_CLASS",
-        "value": ""
+        "value": "16385"
       }
     ]
   }
