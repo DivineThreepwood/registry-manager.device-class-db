@@ -11,6 +11,7 @@
     ]
   },
   "product_number": "064367",
+  "description": {},
   "binding_config": {
     "binding_id": "OPENHAB",
     "meta_config": {
@@ -23,6 +24,9 @@
     }
   },
   "company": "Reitz Group",
+  "shape": {
+    "bounding_box": {}
+  },
   "unit_template_config": [
     {
       "id": "Reitz_Group_064367_ROLLER_SHUTTER_0",
@@ -49,12 +53,24 @@
               {
                 "key": "OPENHAB_BINDING_ICON",
                 "value": "rollershutter"
+              },
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "blinds_control"
               }
             ]
           }
         }
-      ]
+      ],
+      "meta_config": {}
     }
   ],
-  "meta_config": {}
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_THING_CLASS",
+        "value": ""
+      }
+    ]
+  }
 }

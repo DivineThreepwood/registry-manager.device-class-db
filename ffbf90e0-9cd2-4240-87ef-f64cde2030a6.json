@@ -11,6 +11,7 @@
     ]
   },
   "product_number": "FGRM-222",
+  "description": {},
   "binding_config": {
     "binding_id": "OPENHAB",
     "meta_config": {
@@ -23,7 +24,9 @@
     }
   },
   "company": "Fibaro",
-  "shape": {},
+  "shape": {
+    "bounding_box": {}
+  },
   "unit_template_config": [
     {
       "id": "Fibaro_FGRM-222_ROLLER_SHUTTER_0",
@@ -50,6 +53,10 @@
               {
                 "key": "OPENHAB_BINDING_CONFIG",
                 "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dswitch_multilevel,invert_state\u003dfalse,invert_percent\u003dtrue"
+              },
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "blinds_control"
               }
             ]
           }
@@ -58,5 +65,12 @@
       "meta_config": {}
     }
   ],
-  "meta_config": {}
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_THING_CLASS",
+        "value": "zwave_devicetype:16385"
+      }
+    ]
+  }
 }
