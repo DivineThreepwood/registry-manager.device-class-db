@@ -1,0 +1,211 @@
+{
+  "id": "98a370dc-a0c6-4b5e-84db-32fba685bb50",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Slim Multi-Sensor PST02A"
+        ]
+      }
+    ]
+  },
+  "product_number": "PST02A",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "PST02A Slim Multi-Sensor (PIR/Door/Temperature/Illumination)"
+      }
+    ]
+  },
+  "binding_config": {
+    "meta_config": {}
+  },
+  "company": "Philio Technology Corp",
+  "shape": {
+    "bounding_box": {}
+  },
+  "unit_template_config": [
+    {
+      "id": "98a370dc-a0c6-4b5e-84db-32fba685bb50_REED_CONTACT_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Door/Window Sensor"
+            ]
+          }
+        ]
+      },
+      "unit_type": "REED_CONTACT",
+      "service_template_config": [
+        {
+          "service_type": "CONTACT_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "sensor_door"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "98a370dc-a0c6-4b5e-84db-32fba685bb50_MOTION_DETECTOR_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Motion Sensor"
+            ]
+          }
+        ]
+      },
+      "unit_type": "MOTION_DETECTOR",
+      "service_template_config": [
+        {
+          "service_type": "MOTION_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "alarm_motion"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "98a370dc-a0c6-4b5e-84db-32fba685bb50_TAMPER_DETECTOR_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Tamper Alarm"
+            ]
+          }
+        ]
+      },
+      "unit_type": "TAMPER_DETECTOR",
+      "service_template_config": [
+        {
+          "service_type": "TAMPER_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "alarm_tamper"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "98a370dc-a0c6-4b5e-84db-32fba685bb50_LIGHT_SENSOR_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Light Sensor"
+            ]
+          }
+        ]
+      },
+      "unit_type": "LIGHT_SENSOR",
+      "service_template_config": [
+        {
+          "service_type": "ILLUMINANCE_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "sensor_luminance"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "98a370dc-a0c6-4b5e-84db-32fba685bb50_TEMPERATURE_SENSOR_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Temperature Sensor"
+            ]
+          }
+        ]
+      },
+      "unit_type": "TEMPERATURE_SENSOR",
+      "service_template_config": [
+        {
+          "service_type": "TEMPERATURE_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "sensor_temperature"
+              }
+            ]
+          }
+        },
+        {
+          "service_type": "TEMPERATURE_ALARM_STATE_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "98a370dc-a0c6-4b5e-84db-32fba685bb50_BATTERY_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Battery"
+            ]
+          }
+        ]
+      },
+      "unit_type": "BATTERY",
+      "service_template_config": [
+        {
+          "service_type": "BATTERY_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "battery-level"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_THING_CLASS",
+        "value": "zwave_devicetype:2"
+      }
+    ]
+  }
+}
