@@ -20,7 +20,15 @@
     ]
   },
   "binding_config": {
-    "meta_config": {}
+    "binding_id": "OPENHAB",
+    "meta_config": {
+      "entry": [
+        {
+          "key": "OPENHAB_BINDING_TYPE",
+          "value": "zwave"
+        }
+      ]
+    }
   },
   "company": "Philio Technology Corp",
   "shape": {
