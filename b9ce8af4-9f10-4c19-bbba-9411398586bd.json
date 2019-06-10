@@ -1,0 +1,86 @@
+{
+  "id": "b9ce8af4-9f10-4c19-bbba-9411398586bd",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Philips Hue White Ambience GU10"
+        ]
+      }
+    ]
+  },
+  "product_number": "LTW013",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Ambient light with the socket GU10 (White Ambience)."
+      }
+    ]
+  },
+  "binding_config": {
+    "binding_id": "OPENHAB",
+    "meta_config": {
+      "entry": [
+        {
+          "key": "OPENHAB_BINDING_TYPE",
+          "value": "hue"
+        }
+      ]
+    }
+  },
+  "company": "Philips",
+  "shape": {
+    "bounding_box": {}
+  },
+  "unit_template_config": [
+    {
+      "id": "b9ce8af4-9f10-4c19-bbba-9411398586bd_DIMMABLE_LIGHT_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "DIMMABLE_LIGHT_0"
+            ]
+          }
+        ]
+      },
+      "unit_type": "DIMMABLE_LIGHT",
+      "service_template_config": [
+        {
+          "service_type": "POWER_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "brightness"
+              }
+            ]
+          }
+        },
+        {
+          "service_type": "BRIGHTNESS_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "brightness"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_THING_CLASS",
+        "value": "modelId:LTW013"
+      }
+    ]
+  }
+}

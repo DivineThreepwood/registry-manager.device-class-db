@@ -1,0 +1,68 @@
+{
+  "id": "6828ca65-d293-4cc9-b05b-df1fe5c1ef8b",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "OSRAM Smart+ Plug"
+        ]
+      }
+    ]
+  },
+  "product_number": "4058075036239",
+  "description": {},
+  "binding_config": {
+    "binding_id": "OPENHAB",
+    "meta_config": {
+      "entry": [
+        {
+          "key": "OPENHAB_BINDING_TYPE",
+          "value": "hue"
+        }
+      ]
+    }
+  },
+  "company": "OSRAM",
+  "shape": {
+    "bounding_box": {}
+  },
+  "unit_template_config": [
+    {
+      "id": "6828ca65-d293-4cc9-b05b-df1fe5c1ef8b_POWER_SWITCH_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "POWER_SWITCH_0"
+            ]
+          }
+        ]
+      },
+      "unit_type": "POWER_SWITCH",
+      "service_template_config": [
+        {
+          "service_type": "POWER_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "switch"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_THING_CLASS",
+        "value": "modelId:Plug_01"
+      }
+    ]
+  }
+}
