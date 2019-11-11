@@ -16,6 +16,10 @@
       {
         "key": "en",
         "value": "PST02A Slim Multi-Sensor (PIR/Door/Temperature/Illumination)"
+      },
+      {
+        "key": "technical",
+        "value": "Set ZWave Parameter 7 (Customer Function) to Preset: PIR Super Sensitivity and Binary Report and Motion Off Report"
       }
     ]
   },
