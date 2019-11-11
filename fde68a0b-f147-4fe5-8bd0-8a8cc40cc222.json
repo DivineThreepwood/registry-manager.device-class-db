@@ -195,6 +195,34 @@
         }
       ],
       "meta_config": {}
+    },
+    {
+      "id": "fde68a0b-f147-4fe5-8bd0-8a8cc40cc222_BATTERY_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "Button Battery"
+            ]
+          }
+        ]
+      },
+      "unit_type": "BATTERY",
+      "service_template_config": [
+        {
+          "service_type": "BATTERY_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "battery-level"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
     }
   ],
   "meta_config": {
@@ -209,7 +237,7 @@
       },
       {
         "key": "OPENHAB_THING_CLASS",
-        "value": "modelId:${ProductNumber}"
+        "value": "zwave_devicetype:256"
       }
     ]
   }
