@@ -1,34 +1,20 @@
 {
-  "id": "7e8a99af-a9f2-4f67-9ef7-377e085401e4",
+  "id": "d43e9b71-5a15-4949-b762-55698777cdde",
   "label": {
     "entry": [
       {
         "key": "en",
         "value": [
-          "HueGo Gen1"
+          "Philips Hue Lightstrip Outdoor Gen1"
         ]
       }
     ]
   },
-  "product_number": "71450-60-PH",
-  "description": {
-    "entry": [
-      {
-        "key": "en",
-        "value": "Portable light of Philips"
-      }
-    ]
-  },
+  "product_number": "LST004",
+  "description": {},
   "binding_config": {
     "binding_id": "OPENHAB",
-    "meta_config": {
-      "entry": [
-        {
-          "key": "OPENHAB_BINDING_TYPE",
-          "value": "hue"
-        }
-      ]
-    }
+    "meta_config": {}
   },
   "company": "Philips",
   "shape": {
@@ -36,13 +22,13 @@
   },
   "unit_template_config": [
     {
-      "id": "Philips_71450-60-PH_COLORABLE_LIGHT_0",
+      "id": "ac2ed1fb-81b4-4fd6-ad85-aae96d7d421b_COLORABLE_LIGHT_0",
       "label": {
         "entry": [
           {
             "key": "en",
             "value": [
-              "Philips_71450-60-PH_COLORABLE_LIGHT_0"
+              "COLORABLE_LIGHT_0"
             ]
           }
         ]
@@ -50,13 +36,9 @@
       "unit_type": "COLORABLE_LIGHT",
       "service_template_config": [
         {
-          "service_type": "BRIGHTNESS_STATE_SERVICE",
+          "service_type": "POWER_STATE_SERVICE",
           "meta_config": {
             "entry": [
-              {
-                "key": "OPENHAB_BINDING_CONFIG",
-                "value": "${OPENHAB_BINDING_DEVICE_ID}"
-              },
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
                 "value": "color"
@@ -69,10 +51,6 @@
           "meta_config": {
             "entry": [
               {
-                "key": "OPENHAB_BINDING_CONFIG",
-                "value": "${OPENHAB_BINDING_DEVICE_ID}"
-              },
-              {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
                 "value": "color"
               }
@@ -80,13 +58,9 @@
           }
         },
         {
-          "service_type": "POWER_STATE_SERVICE",
+          "service_type": "BRIGHTNESS_STATE_SERVICE",
           "meta_config": {
             "entry": [
-              {
-                "key": "OPENHAB_BINDING_CONFIG",
-                "value": "${OPENHAB_BINDING_DEVICE_ID}"
-              },
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
                 "value": "color"
@@ -102,8 +76,9 @@
     "entry": [
       {
         "key": "OPENHAB_THING_CLASS",
-        "value": "modelId:LLC020"
-      }
+        "value": "modelId:LST004"
+      },
+      {}
     ]
   }
 }

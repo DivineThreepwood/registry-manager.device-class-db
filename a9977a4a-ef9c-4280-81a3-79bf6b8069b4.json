@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "Philips Hue GU10"
+          "Philips Hue GU10 Gen1"
         ]
       }
     ]
@@ -31,7 +31,9 @@
     }
   },
   "company": "Philips",
-  "shape": {},
+  "shape": {
+    "bounding_box": {}
+  },
   "unit_template_config": [
     {
       "id": "Philips_KV01-18Y_COLORABLE_LIGHT_0",

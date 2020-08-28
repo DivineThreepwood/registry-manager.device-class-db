@@ -11,13 +11,22 @@
     ]
   },
   "product_number": "LCT007",
-  "description": {},
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Ambient light with the socket E27 of product generation 2"
+      }
+    ]
+  },
   "binding_config": {
     "binding_id": "OPENHAB",
     "meta_config": {}
   },
   "company": "Philips",
-  "shape": {},
+  "shape": {
+    "bounding_box": {}
+  },
   "unit_template_config": [
     {
       "id": "f71b1a5a-d163-4053-87ab-0e9b70c3ece4_COLORABLE_LIGHT_0",

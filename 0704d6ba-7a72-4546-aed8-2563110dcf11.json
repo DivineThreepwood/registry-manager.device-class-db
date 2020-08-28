@@ -1,16 +1,16 @@
 {
-  "id": "7e8a99af-a9f2-4f67-9ef7-377e085401e4",
+  "id": "0704d6ba-7a72-4546-aed8-2563110dcf11",
   "label": {
     "entry": [
       {
         "key": "en",
         "value": [
-          "HueGo Gen1"
+          "HueGo Gen2"
         ]
       }
     ]
   },
-  "product_number": "71450-60-PH",
+  "product_number": "LCT026",
   "description": {
     "entry": [
       {
@@ -102,7 +102,7 @@
     "entry": [
       {
         "key": "OPENHAB_THING_CLASS",
-        "value": "modelId:LLC020"
+        "value": "modelId:LCT026"
       }
     ]
   }

@@ -1,21 +1,21 @@
 {
-  "id": "7e8a99af-a9f2-4f67-9ef7-377e085401e4",
+  "id": "944c5fab-7414-46a1-997b-2ab90303b6a6",
   "label": {
     "entry": [
       {
         "key": "en",
         "value": [
-          "HueGo Gen1"
+          "Hue Dimmer Switch Gen1"
         ]
       }
     ]
   },
-  "product_number": "71450-60-PH",
+  "product_number": "RWL021",
   "description": {
     "entry": [
       {
         "key": "en",
-        "value": "Portable light of Philips"
+        "value": "Hue Dimmer Switch Gen1"
       }
     ]
   },
@@ -36,60 +36,70 @@
   },
   "unit_template_config": [
     {
-      "id": "Philips_71450-60-PH_COLORABLE_LIGHT_0",
+      "id": "944c5fab-7414-46a1-997b-2ab90303b6a6_BUTTON_0",
       "label": {
         "entry": [
           {
             "key": "en",
             "value": [
-              "Philips_71450-60-PH_COLORABLE_LIGHT_0"
+              "BUTTON_0"
             ]
           }
         ]
       },
-      "unit_type": "COLORABLE_LIGHT",
+      "unit_type": "BUTTON",
       "service_template_config": [
         {
-          "service_type": "BRIGHTNESS_STATE_SERVICE",
+          "service_type": "BUTTON_STATE_SERVICE",
           "meta_config": {
             "entry": [
               {
-                "key": "OPENHAB_BINDING_CONFIG",
-                "value": "${OPENHAB_BINDING_DEVICE_ID}"
-              },
-              {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "color"
+                "value": "dimmer_switch"
               }
             ]
           }
-        },
-        {
-          "service_type": "COLOR_STATE_SERVICE",
-          "meta_config": {
-            "entry": [
-              {
-                "key": "OPENHAB_BINDING_CONFIG",
-                "value": "${OPENHAB_BINDING_DEVICE_ID}"
-              },
-              {
-                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "color"
-              }
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "944c5fab-7414-46a1-997b-2ab90303b6a6_BATTERY_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "BATTERY_0"
             ]
           }
-        },
+        ]
+      },
+      "unit_type": "BATTERY",
+      "service_template_config": [
         {
-          "service_type": "POWER_STATE_SERVICE",
+          "service_type": "BATTERY_STATE_SERVICE",
           "meta_config": {
             "entry": [
               {
+                "key": "OPENHAB_BINDING_ICON",
+                "value": "energy"
+              },
+              {
+                "key": "OPENHAB_SERVICE_LABEL_DESCRIPTOR",
+                "value": "${LABEL} Batterie [%d %%]"
+              },
+              {
                 "key": "OPENHAB_BINDING_CONFIG",
-                "value": "${OPENHAB_BINDING_DEVICE_ID}"
+                "value": "${OPENHAB_BINDING_DEVICE_ID}:command\u003dbattery"
+              },
+              {
+                "key": "UNIT_VISIBLE_IN_GUI",
+                "value": "false"
               },
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "color"
+                "value": "battery_level"
               }
             ]
           }
@@ -102,7 +112,7 @@
     "entry": [
       {
         "key": "OPENHAB_THING_CLASS",
-        "value": "modelId:LLC020"
+        "value": "modelId:RWL021"
       }
     ]
   }
