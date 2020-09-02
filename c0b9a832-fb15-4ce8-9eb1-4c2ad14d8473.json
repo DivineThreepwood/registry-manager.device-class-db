@@ -1,0 +1,122 @@
+{
+  "id": "c0b9a832-fb15-4ce8-9eb1-4c2ad14d8473",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Door / Window Sensor 7"
+        ]
+      },
+      {
+        "key": "de",
+        "value": [
+          "Tür / Fenster Sensor 7"
+        ]
+      }
+    ]
+  },
+  "description": {},
+  "binding_config": {
+    "binding_id": "OPENHAB",
+    "meta_config": {}
+  },
+  "company": "Aeotec",
+  "shape": {
+    "bounding_box": {}
+  },
+  "unit_template_config": [
+    {
+      "id": "c0b9a832-fb15-4ce8-9eb1-4c2ad14d8473_REED_CONTACT_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "REED_CONTACT_0"
+            ]
+          }
+        ]
+      },
+      "unit_type": "REED_CONTACT",
+      "service_template_config": [
+        {
+          "service_type": "CONTACT_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "sensor_door"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "c0b9a832-fb15-4ce8-9eb1-4c2ad14d8473_BATTERY_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "BATTERY_0"
+            ]
+          }
+        ]
+      },
+      "unit_type": "BATTERY",
+      "service_template_config": [
+        {
+          "service_type": "BATTERY_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "battery-level"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "c0b9a832-fb15-4ce8-9eb1-4c2ad14d8473_TAMPER_DETECTOR_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "TAMPER_DETECTOR_0"
+            ]
+          }
+        ]
+      },
+      "unit_type": "TAMPER_DETECTOR",
+      "service_template_config": [
+        {
+          "service_type": "TAMPER_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "alarm_burglar"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_THING_CLASS",
+        "value": "modelId:ZWA008"
+      }
+    ]
+  }
+}
