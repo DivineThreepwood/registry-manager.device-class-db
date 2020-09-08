@@ -1,53 +1,41 @@
 {
-  "id": "b9ce8af4-9f10-4c19-bbba-9411398586bd",
+  "id": "72c87ee0-2e0b-4535-b05e-c5d86fafcc13",
   "label": {
     "entry": [
       {
         "key": "en",
         "value": [
-          "Philips Hue White Ambiance GU10"
+          "Philips Hue Bloom"
         ]
       }
     ]
   },
-  "product_number": "LTW013",
-  "description": {
-    "entry": [
-      {
-        "key": "en",
-        "value": "Ambient light with the socket GU10 (White Ambiance)."
-      }
-    ]
-  },
+  "product_number": "LLC011",
+  "description": {},
   "binding_config": {
     "binding_id": "OPENHAB",
-    "meta_config": {
-      "entry": [
-        {
-          "key": "OPENHAB_BINDING_TYPE",
-          "value": "hue"
-        }
-      ]
-    }
+    "meta_config": {}
   },
   "company": "Philips",
   "shape": {
-    "bounding_box": {}
+    "bounding_box": {
+      "left_front_bottom": {}
+    }
   },
   "unit_template_config": [
     {
-      "id": "b9ce8af4-9f10-4c19-bbba-9411398586bd_DIMMABLE_LIGHT_0",
+      "id": "72c87ee0-2e0b-4535-b05e-c5d86fafcc13_COLORABLE_LIGHT_0",
       "label": {
         "entry": [
           {
             "key": "en",
             "value": [
-              "DIMMABLE_LIGHT_0"
+              "COLORABLE_LIGHT_0"
             ]
           }
         ]
       },
-      "unit_type": "DIMMABLE_LIGHT",
+      "unit_type": "COLORABLE_LIGHT",
       "service_template_config": [
         {
           "service_type": "POWER_STATE_SERVICE",
@@ -55,7 +43,18 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "brightness"
+                "value": "color"
+              }
+            ]
+          }
+        },
+        {
+          "service_type": "COLOR_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "color"
               }
             ]
           }
@@ -66,7 +65,7 @@
             "entry": [
               {
                 "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
-                "value": "brightness"
+                "value": "color"
               }
             ]
           }
@@ -79,7 +78,7 @@
     "entry": [
       {
         "key": "OPENHAB_THING_CLASS",
-        "value": "modelId:LTW013"
+        "value": "modelId:LLC011"
       }
     ]
   }

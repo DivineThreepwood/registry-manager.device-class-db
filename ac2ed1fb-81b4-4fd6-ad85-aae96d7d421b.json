@@ -11,13 +11,22 @@
     ]
   },
   "product_number": "LCT015",
-  "description": {},
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Ambient light with the socket E27 of product generation 4"
+      }
+    ]
+  },
   "binding_config": {
     "binding_id": "OPENHAB",
     "meta_config": {}
   },
   "company": "Philips",
-  "shape": {},
+  "shape": {
+    "bounding_box": {}
+  },
   "unit_template_config": [
     {
       "id": "ac2ed1fb-81b4-4fd6-ad85-aae96d7d421b_COLORABLE_LIGHT_0",
