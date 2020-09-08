@@ -1,34 +1,27 @@
 {
-  "id": "b9ce8af4-9f10-4c19-bbba-9411398586bd",
+  "id": "807e787f-0b37-43c9-9def-31189ea9a3bc",
   "label": {
     "entry": [
       {
         "key": "en",
         "value": [
-          "Philips Hue White Ambiance GU10"
+          "Philips Hue White Ambiance E27"
         ]
       }
     ]
   },
-  "product_number": "LTW013",
+  "product_number": "LTW010",
   "description": {
     "entry": [
       {
         "key": "en",
-        "value": "Ambient light with the socket GU10 (White Ambiance)."
+        "value": "Ambient light with the socket E27 (White Ambiance)."
       }
     ]
   },
   "binding_config": {
     "binding_id": "OPENHAB",
-    "meta_config": {
-      "entry": [
-        {
-          "key": "OPENHAB_BINDING_TYPE",
-          "value": "hue"
-        }
-      ]
-    }
+    "meta_config": {}
   },
   "company": "Philips",
   "shape": {
@@ -36,7 +29,7 @@
   },
   "unit_template_config": [
     {
-      "id": "b9ce8af4-9f10-4c19-bbba-9411398586bd_DIMMABLE_LIGHT_0",
+      "id": "807e787f-0b37-43c9-9def-31189ea9a3bc_DIMMABLE_LIGHT_0",
       "label": {
         "entry": [
           {
@@ -79,7 +72,7 @@
     "entry": [
       {
         "key": "OPENHAB_THING_CLASS",
-        "value": "modelId:LTW013"
+        "value": "modelId:LTW010"
       }
     ]
   }

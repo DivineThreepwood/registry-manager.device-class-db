@@ -1,0 +1,65 @@
+{
+  "id": "83bbd1fd-8607-4804-ad1a-580ba415239c",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Innr Smart Plug SP 120"
+        ]
+      }
+    ]
+  },
+  "product_number": "SP 120",
+  "description": {},
+  "binding_config": {
+    "binding_id": "OPENHAB",
+    "meta_config": {
+      "entry": [
+        {}
+      ]
+    }
+  },
+  "company": "Innr",
+  "shape": {
+    "bounding_box": {}
+  },
+  "unit_template_config": [
+    {
+      "id": "83bbd1fd-8607-4804-ad1a-580ba415239c_POWER_SWITCH_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "POWER_SWITCH_0"
+            ]
+          }
+        ]
+      },
+      "unit_type": "POWER_SWITCH",
+      "service_template_config": [
+        {
+          "service_type": "POWER_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "switch"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_THING_CLASS",
+        "value": "modelId:SP_120"
+      }
+    ]
+  }
+}
