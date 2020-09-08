@@ -1,0 +1,84 @@
+{
+  "id": "36edd2d3-1000-487d-99f2-ab9152285399",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Philips Hue Filament Bulb Gen 1"
+        ]
+      }
+    ]
+  },
+  "product_number": "LWO001",
+  "description": {},
+  "binding_config": {
+    "binding_id": "OPENHAB",
+    "meta_config": {
+      "entry": [
+        {
+          "key": "OPENHAB_BINDING_TYPE",
+          "value": "hue"
+        }
+      ]
+    }
+  },
+  "company": "Philips",
+  "shape": {
+    "bounding_box": {
+      "left_front_bottom": {},
+      "width": 0.0,
+      "depth": 0.0,
+      "height": 0.0
+    }
+  },
+  "unit_template_config": [
+    {
+      "id": "36edd2d3-1000-487d-99f2-ab9152285399_DIMMABLE_LIGHT_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "DIMMABLE_LIGHT_0"
+            ]
+          }
+        ]
+      },
+      "unit_type": "DIMMABLE_LIGHT",
+      "service_template_config": [
+        {
+          "service_type": "POWER_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "brightness"
+              }
+            ]
+          }
+        },
+        {
+          "service_type": "BRIGHTNESS_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "brightness"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_THING_CLASS",
+        "value": "modelId:LWO001"
+      }
+    ]
+  }
+}
