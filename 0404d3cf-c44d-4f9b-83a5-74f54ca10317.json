@@ -1,0 +1,161 @@
+{
+  "id": "0404d3cf-c44d-4f9b-83a5-74f54ca10317",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Door/Window Sensor 2"
+        ]
+      }
+    ]
+  },
+  "description": {},
+  "binding_config": {
+    "meta_config": {
+      "entry": [
+        {
+          "key": "OPENHAB_BINDING_TYPE",
+          "value": "zwave"
+        }
+      ]
+    }
+  },
+  "company": "Fibaro",
+  "shape": {
+    "bounding_box": {}
+  },
+  "unit_template_config": [
+    {
+      "id": "0404d3cf-c44d-4f9b-83a5-74f54ca10317_REED_CONTACT_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "REED_CONTACT_0"
+            ]
+          }
+        ]
+      },
+      "unit_type": "REED_CONTACT",
+      "service_template_config": [
+        {
+          "service_type": "CONTACT_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "sensor_door"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "0404d3cf-c44d-4f9b-83a5-74f54ca10317_BATTERY_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "BATTERY_0"
+            ]
+          }
+        ]
+      },
+      "unit_type": "BATTERY",
+      "service_template_config": [
+        {
+          "service_type": "BATTERY_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "battery-level"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "0404d3cf-c44d-4f9b-83a5-74f54ca10317_TEMPERATURE_SENSOR_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "TEMPERATURE_SENSOR_0"
+            ]
+          }
+        ]
+      },
+      "unit_type": "TEMPERATURE_SENSOR",
+      "service_template_config": [
+        {
+          "service_type": "TEMPERATURE_ALARM_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "alarm_heat"
+              }
+            ]
+          }
+        },
+        {
+          "service_type": "TEMPERATURE_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "sensor_temperature"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "0404d3cf-c44d-4f9b-83a5-74f54ca10317_TAMPER_DETECTOR_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "TAMPER_DETECTOR_0"
+            ]
+          }
+        ]
+      },
+      "unit_type": "TAMPER_DETECTOR",
+      "service_template_config": [
+        {
+          "service_type": "TAMPER_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "alarm_tamper"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_THING_CLASS",
+        "value": "zwave_devicetype:1794"
+      }
+    ]
+  }
+}
