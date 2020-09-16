@@ -16,6 +16,7 @@
       }
     ]
   },
+  "product_number": "",
   "description": {},
   "binding_config": {
     "binding_id": "OPENHAB",
