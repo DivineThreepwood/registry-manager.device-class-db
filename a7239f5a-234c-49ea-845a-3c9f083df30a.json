@@ -25,7 +25,9 @@
   },
   "company": "Reitz Group",
   "shape": {
-    "bounding_box": {}
+    "bounding_box": {
+      "left_front_bottom": {}
+    }
   },
   "unit_template_config": [
     {
@@ -69,7 +71,7 @@
     "entry": [
       {
         "key": "OPENHAB_THING_CLASS",
-        "value": "16385"
+        "value": "zwave_devicetype:16385"
       }
     ]
   }

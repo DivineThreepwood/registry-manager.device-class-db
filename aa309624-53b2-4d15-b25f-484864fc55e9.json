@@ -111,7 +111,7 @@
     "entry": [
       {
         "key": "OPENHAB_THING_CLASS",
-        "value": "modelId:LCT010,LCT014"
+        "value": "modelId:LCT010"
       }
     ]
   }
