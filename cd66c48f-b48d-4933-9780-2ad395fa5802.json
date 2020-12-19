@@ -1,0 +1,87 @@
+{
+  "id": "cd66c48f-b48d-4933-9780-2ad395fa5802",
+  "label": {
+    "entry": [
+      {
+        "key": "de",
+        "value": [
+          "Smarter WLAN-Stecker Slim Edition"
+        ]
+      },
+      {
+        "key": "en",
+        "value": [
+          "Smart Wi-Fi plug slim edition"
+        ]
+      }
+    ]
+  },
+  "product_number": "KP105(EU)",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Power plug by TP-Link."
+      },
+      {
+        "key": "de",
+        "value": "Stecker TP-Link."
+      }
+    ]
+  },
+  "binding_config": {
+    "binding_id": "OPENHAB",
+    "meta_config": {
+      "entry": [
+        {
+          "key": "OPENHAB_BINDING_TYPE",
+          "value": "tplinksmarthome"
+        }
+      ]
+    }
+  },
+  "company": "TP-Link",
+  "shape": {
+    "bounding_box": {
+      "left_front_bottom": {}
+    }
+  },
+  "unit_template_config": [
+    {
+      "id": "cd66c48f-b48d-4933-9780-2ad395fa5802_POWER_SWITCH_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "POWER_SWITCH_0"
+            ]
+          }
+        ]
+      },
+      "unit_type": "POWER_SWITCH",
+      "service_template_config": [
+        {
+          "service_type": "POWER_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "switch"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_THING_CLASS",
+        "value": "model:KP105(EU)"
+      }
+    ]
+  }
+}
