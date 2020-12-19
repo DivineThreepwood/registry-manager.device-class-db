@@ -1,0 +1,87 @@
+{
+  "id": "3de6d6ae-1cc2-4ce6-8968-496a5357d708",
+  "label": {
+    "entry": [
+      {
+        "key": "de",
+        "value": [
+          "Smarter WLAN-Stecker"
+        ]
+      },
+      {
+        "key": "en",
+        "value": [
+          "Smart Wi-Fi plug"
+        ]
+      }
+    ]
+  },
+  "product_number": "HS100(EU)",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Power plug by TP-Link."
+      },
+      {
+        "key": "de",
+        "value": "Stecker TP-Link."
+      }
+    ]
+  },
+  "binding_config": {
+    "binding_id": "OPENHAB",
+    "meta_config": {
+      "entry": [
+        {
+          "key": "OPENHAB_BINDING_TYPE",
+          "value": "tplinksmarthome"
+        }
+      ]
+    }
+  },
+  "company": "TP-Link",
+  "shape": {
+    "bounding_box": {
+      "left_front_bottom": {}
+    }
+  },
+  "unit_template_config": [
+    {
+      "id": "3de6d6ae-1cc2-4ce6-8968-496a5357d708_POWER_SWITCH_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "POWER_SWITCH_0"
+            ]
+          }
+        ]
+      },
+      "unit_type": "POWER_SWITCH",
+      "service_template_config": [
+        {
+          "service_type": "POWER_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "switch"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_THING_CLASS",
+        "value": "model:HS100(EU)"
+      }
+    ]
+  }
+}

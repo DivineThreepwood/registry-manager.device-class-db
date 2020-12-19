@@ -1,0 +1,115 @@
+{
+  "id": "663e4679-b44b-4fa0-9373-1cd8f0547701",
+  "label": {
+    "entry": [
+      {
+        "key": "de",
+        "value": [
+          "Smarter WLAN-Stecker mit Energiemessung"
+        ]
+      },
+      {
+        "key": "en",
+        "value": [
+          "Smart Wi-Fi plug with energy monitoring"
+        ]
+      }
+    ]
+  },
+  "product_number": "HS110(EU)",
+  "description": {
+    "entry": [
+      {
+        "key": "en",
+        "value": "Power plug with power consumption meter by TP-Link."
+      },
+      {
+        "key": "de",
+        "value": "Stecker mit Energieverbrauchsmessung von TP-Link."
+      }
+    ]
+  },
+  "binding_config": {
+    "binding_id": "OPENHAB",
+    "meta_config": {
+      "entry": [
+        {
+          "key": "OPENHAB_BINDING_TYPE",
+          "value": "tplinksmarthome"
+        }
+      ]
+    }
+  },
+  "company": "TP-Link",
+  "shape": {
+    "bounding_box": {
+      "left_front_bottom": {}
+    }
+  },
+  "unit_template_config": [
+    {
+      "id": "663e4679-b44b-4fa0-9373-1cd8f0547701_POWER_SWITCH_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "POWER_SWITCH_0"
+            ]
+          }
+        ]
+      },
+      "unit_type": "POWER_SWITCH",
+      "service_template_config": [
+        {
+          "service_type": "POWER_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "switch"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "663e4679-b44b-4fa0-9373-1cd8f0547701_POWER_CONSUMPTION_SENSOR_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "POWER_CONSUMPTION_SENSOR_0"
+            ]
+          }
+        ]
+      },
+      "unit_type": "POWER_CONSUMPTION_SENSOR",
+      "service_template_config": [
+        {
+          "service_type": "POWER_CONSUMPTION_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "power"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_THING_CLASS",
+        "value": "model:HS110(EU)"
+      }
+    ]
+  }
+}
