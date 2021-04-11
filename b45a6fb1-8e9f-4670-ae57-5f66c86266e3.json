@@ -89,5 +89,12 @@
       "meta_config": {}
     }
   ],
-  "meta_config": {}
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_THING_CLASS",
+        "value": "zwave_devicetype:771"
+      }
+    ]
+  }
 }
