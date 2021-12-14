@@ -1,0 +1,49 @@
+{
+  "id": "b5665370-94a0-40ed-8f15-56230e63e4f2",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Hue Being Ceiling"
+        ]
+      }
+    ]
+  },
+  "product_number": "3261031P6",
+  "description": {},
+  "binding_config": {
+    "binding_id": "OPENHAB",
+    "meta_config": {}
+  },
+  "company": "Philips",
+  "shape": {
+    "bounding_box": {}
+  },
+  "unit_template_config": [
+    {
+      "id": "b5665370-94a0-40ed-8f15-56230e63e4f2_DIMMABLE_LIGHT_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "DIMMABLE_LIGHT_0"
+            ]
+          }
+        ]
+      },
+      "unit_type": "DIMMABLE_LIGHT",
+      "service_template_config": [
+        {
+          "service_type": "POWER_STATE_SERVICE"
+        },
+        {
+          "service_type": "BRIGHTNESS_STATE_SERVICE"
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {}
+}
