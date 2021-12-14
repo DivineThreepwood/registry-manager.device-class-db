@@ -5,7 +5,7 @@
       {
         "key": "en",
         "value": [
-          "Hue Being Ceiling"
+          "Philips Hue Being Ceiling"
         ]
       }
     ]
@@ -18,7 +18,17 @@
   },
   "company": "Philips",
   "shape": {
-    "bounding_box": {}
+    "bounding_box": {
+      "left_front_bottom": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0,
+        "frame_id": ""
+      },
+      "width": 0.0,
+      "depth": 0.0,
+      "height": 0.0
+    }
   },
   "unit_template_config": [
     {

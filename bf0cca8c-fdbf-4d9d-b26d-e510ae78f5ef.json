@@ -1,16 +1,16 @@
 {
-  "id": "e52cd401-6aa3-4fde-ac48-459a7f48ed41",
+  "id": "bf0cca8c-fdbf-4d9d-b26d-e510ae78f5ef",
   "label": {
     "entry": [
       {
         "key": "en",
         "value": [
-          "Philips Hue Lightstrip Plus"
+          "Philips Hue Lightstrip Plus V2"
         ]
       }
     ]
   },
-  "product_number": "71901-55-PH",
+  "product_number": "LCL001",
   "description": {},
   "binding_config": {
     "binding_id": "OPENHAB",
@@ -39,7 +39,7 @@
   },
   "unit_template_config": [
     {
-      "id": "Philips_71901-55-PH_COLORABLE_LIGHT_0",
+      "id": "bf0cca8c-fdbf-4d9d-b26d-e510ae78f5ef_COLORABLE_LIGHT_0",
       "label": {
         "entry": [
           {
@@ -105,7 +105,7 @@
     "entry": [
       {
         "key": "OPENHAB_THING_CLASS",
-        "value": "modelId:LST002"
+        "value": "modelId:LCL001"
       }
     ]
   }
