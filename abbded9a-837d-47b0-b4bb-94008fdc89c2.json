@@ -1,0 +1,83 @@
+{
+  "id": "abbded9a-837d-47b0-b4bb-94008fdc89c2",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Philips Hue Color E27 Gen6"
+        ]
+      }
+    ]
+  },
+  "product_number": "LCA006",
+  "description": {},
+  "binding_config": {
+    "binding_id": "OPENHAB",
+    "meta_config": {}
+  },
+  "company": "Philips",
+  "shape": {
+    "bounding_box": {}
+  },
+  "unit_template_config": [
+    {
+      "id": "abbded9a-837d-47b0-b4bb-94008fdc89c2_COLORABLE_LIGHT_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "COLORABLE_LIGHT_0"
+            ]
+          }
+        ]
+      },
+      "unit_type": "COLORABLE_LIGHT",
+      "service_template_config": [
+        {
+          "service_type": "POWER_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "color"
+              }
+            ]
+          }
+        },
+        {
+          "service_type": "COLOR_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "color"
+              }
+            ]
+          }
+        },
+        {
+          "service_type": "BRIGHTNESS_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "color"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_THING_CLASS",
+        "value": "modelId:LCA006"
+      }
+    ]
+  }
+}
