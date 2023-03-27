@@ -1,0 +1,133 @@
+{
+  "id": "8eccfb46-7e3a-4f3e-b442-c9c13140e4d1",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Philips Hue Motion Sensor Gen 2"
+        ]
+      }
+    ]
+  },
+  "product_number": "SML003",
+  "description": {},
+  "binding_config": {
+    "binding_id": "OPENHAB",
+    "meta_config": {
+      "entry": [
+        {
+          "key": "OPENHAB_BINDING_TYPE",
+          "value": "hue"
+        }
+      ]
+    }
+  },
+  "company": "Philips",
+  "shape": {
+    "bounding_box": {
+      "left_front_bottom": {},
+      "width": 0.0,
+      "depth": 0.0,
+      "height": 0.0
+    }
+  },
+  "unit_template_config": [
+    {
+      "id": "8eccfb46-7e3a-4f3e-b442-c9c13140e4d1_MOTION_DETECTOR_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "MOTION_DETECTOR_0"
+            ]
+          }
+        ]
+      },
+      "unit_type": "MOTION_DETECTOR",
+      "service_template_config": [
+        {
+          "service_type": "MOTION_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "presence"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "8eccfb46-7e3a-4f3e-b442-c9c13140e4d1_TEMPERATURE_SENSOR_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "TEMPERATURE_SENSOR_0"
+            ]
+          }
+        ]
+      },
+      "unit_type": "TEMPERATURE_SENSOR",
+      "service_template_config": [
+        {
+          "service_type": "TEMPERATURE_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "temperature"
+              }
+            ]
+          }
+        },
+        {
+          "service_type": "TEMPERATURE_ALARM_STATE_SERVICE",
+          "meta_config": {}
+        }
+      ],
+      "meta_config": {}
+    },
+    {
+      "id": "8eccfb46-7e3a-4f3e-b442-c9c13140e4d1_LIGHT_SENSOR_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "LIGHT_SENSOR_0"
+            ]
+          }
+        ]
+      },
+      "unit_type": "LIGHT_SENSOR",
+      "service_template_config": [
+        {
+          "service_type": "ILLUMINANCE_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "illuminance"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_THING_CLASS",
+        "value": "modelId:SML003"
+      }
+    ]
+  }
+}
