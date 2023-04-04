@@ -1,0 +1,84 @@
+{
+  "id": "1c7b5773-7200-4a77-99f6-07fd5e8337f7",
+  "label": {
+    "entry": [
+      {
+        "key": "en",
+        "value": [
+          "Philips Hue Edison ST64 1"
+        ]
+      }
+    ]
+  },
+  "product_number": "LTV001",
+  "description": {},
+  "binding_config": {
+    "binding_id": "OPENHAB",
+    "meta_config": {
+      "entry": [
+        {
+          "key": "OPENHAB_BINDING_TYPE",
+          "value": "hue"
+        }
+      ]
+    }
+  },
+  "company": "Philips",
+  "shape": {
+    "bounding_box": {
+      "left_front_bottom": {},
+      "width": 0.0,
+      "depth": 0.0,
+      "height": 0.0
+    }
+  },
+  "unit_template_config": [
+    {
+      "id": "1c7b5773-7200-4a77-99f6-07fd5e8337f7_DIMMABLE_LIGHT_0",
+      "label": {
+        "entry": [
+          {
+            "key": "en",
+            "value": [
+              "DIMMABLE_LIGHT_0"
+            ]
+          }
+        ]
+      },
+      "unit_type": "DIMMABLE_LIGHT",
+      "service_template_config": [
+        {
+          "service_type": "POWER_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "brightness"
+              }
+            ]
+          }
+        },
+        {
+          "service_type": "BRIGHTNESS_STATE_SERVICE",
+          "meta_config": {
+            "entry": [
+              {
+                "key": "OPENHAB_THING_CHANNEL_TYPE_UID",
+                "value": "brightness"
+              }
+            ]
+          }
+        }
+      ],
+      "meta_config": {}
+    }
+  ],
+  "meta_config": {
+    "entry": [
+      {
+        "key": "OPENHAB_THING_CLASS",
+        "value": "modelId:LTV001"
+      }
+    ]
+  }
+}
