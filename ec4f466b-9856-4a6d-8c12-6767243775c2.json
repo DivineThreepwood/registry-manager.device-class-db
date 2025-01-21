@@ -18,7 +18,9 @@
   },
   "company": "Philips",
   "shape": {
-    "bounding_box": {}
+    "bounding_box": {
+      "left_front_bottom": {}
+    }
   },
   "unit_template_config": [
     {
@@ -77,6 +79,10 @@
       {
         "key": "OPENHAB_THING_CLASS",
         "value": "modelId:LCA001"
+      },
+      {
+        "key": "HASS_DEVICE_MODEL",
+        "value": "Hue color lamp (LCA001)"
       }
     ]
   }
